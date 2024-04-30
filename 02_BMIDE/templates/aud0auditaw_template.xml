@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Thu Jun 03 01:56:30 AM 2021" TcVersion="tc12000.0.0">
+    <Add>
+   <Condition description="This condition always evaluates to false for &quot;Fnd0AuditLog&quot; objects." expression="u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Fnd0AuditLog&quot;) = false" name="Aud00AuditLogCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awp0Copy" conditionName="Aud00AuditLogCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awp0Cut" conditionName="Aud00AuditLogCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awp0StartEdit" conditionName="Aud00AuditLogCmdCond"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

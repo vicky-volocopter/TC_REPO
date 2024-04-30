@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:56 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="ja_JP" status="Approved">基本相場ストレージ</key>
+   <key id="BusinessObject{::}BaseQuote" locale="ja_JP" status="Approved">基本相場</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="ja_JP" status="Approved">入札パッケージマスタ</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="ja_JP" status="Approved">入札パッケージコンテンツ</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="ja_JP" status="Approved">入札パッケージ行アイテム</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="ja_JP" status="Approved">入札パッケージマスタ</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="ja_JP" status="Approved">入札パッケージリビジョンマスタ</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="ja_JP" status="Approved">入札パッケージリビジョン</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="ja_JP" status="Approved">入札パッケージバージョンマスタ</key>
+   <key id="BusinessObject{::}BidPackage" locale="ja_JP" status="Approved">入札パッケージ</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="ja_JP" status="Approved">コマーシャルパートマスタ</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="ja_JP" status="Approved">コマーシャルパートリビジョンマスタ</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="ja_JP" status="Approved">コマーシャルパートリビジョン</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="ja_JP" status="Approved">コマーシャルパートマスタ</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="ja_JP" status="Approved">コマーシャルパートバージョンマスタ</key>
+   <key id="BusinessObject{::}CommercialPart" locale="ja_JP" status="Approved">コマーシャルパート</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="ja_JP" status="Approved">ディストリビュータ情報</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="ja_JP" status="Approved">代理店ストレージ</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="ja_JP" status="Approved">行アイテムコンフィグレーションコンテキスト</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="ja_JP" status="Approved">製造業者情報</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="ja_JP" status="Approved">ベンダーパートマスタ</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="ja_JP" status="Approved">ベンダーパートリビジョンマスタ</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="ja_JP" status="Approved">ベンダーパートリビジョン</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="ja_JP" status="Approved">マニュファクチャラパートマスタ</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="ja_JP" status="Approved">マニュファクチャラパートバージョンマスタ</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="ja_JP" status="Approved">ベンダパート</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="ja_JP" status="Approved">マニュファクチャラストレージ</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="ja_JP" status="Approved">ロケーションから提供</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="ja_JP" status="Approved">見積りストレージ</key>
+   <key id="BusinessObject{::}Quote" locale="ja_JP" status="Approved">相場</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="ja_JP" status="Approved">サプライヤ情報</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="ja_JP" status="Approved">サプライヤストレージ</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="ja_JP" status="Approved">品質ドキュメント</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="ja_JP" status="Approved">見積り</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="ja_JP" status="Approved">ベンダIDコンテキスト</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="ja_JP" status="Approved">パートベンダー</key>
+   <key id="BusinessObject{::}VMRepresents" locale="ja_JP" status="Approved">ベンダー代表</key>
+   <key id="BusinessObject{::}Vendor Master" locale="ja_JP" status="Approved">ベンダマスタ</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="ja_JP" status="Approved">ベンダ識別子</key>
+   <key id="BusinessObject{::}VendorMaster" locale="ja_JP" status="Approved">ベンダマスタ</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="ja_JP" status="Approved">ベンダリビジョンマスタ</key>
+   <key id="BusinessObject{::}VendorRevision" locale="ja_JP" status="Approved">ベンダリビジョン</key>
+   <key id="BusinessObject{::}VendorRole" locale="ja_JP" status="Approved">ベンダーロール</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="ja_JP" status="Approved">ベンダバージョンマスタ</key>
+   <key id="BusinessObject{::}Vendor" locale="ja_JP" status="Approved">ベンダ</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="ja_JP" status="Approved">ベンダ</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="ja_JP" status="Approved">ベンダ</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="ja_JP" status="Approved">入札パッケージ行アイテム</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="ja_JP" status="Approved">コンフィグレーションコンテキスト</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="ja_JP" status="Approved">カスタム行アイテム属性</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="ja_JP" status="Approved">名前</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="ja_JP" status="Approved">パート</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="ja_JP" status="Approved">数量</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="ja_JP" status="Approved">入札パッケージコンテンツ</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="ja_JP" status="Approved">行アイテム </key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="ja_JP" status="Approved">必要な目的</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="ja_JP" status="Approved">要求日</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="ja_JP" status="Approved">入札パッケージタイプ</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="ja_JP" status="Approved">デザインが必要</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="ja_JP" status="Approved">製造または購入</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="ja_JP" status="Approved">ベンダーパートリレーション</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="ja_JP" status="Approved">ベンダーパート</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="ja_JP" status="Approved">ベンダー</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="ja_JP" status="Approved">ベンダーパート</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="ja_JP" status="Approved">ベンダー</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="ja_JP" status="Approved">DUNS番号</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="ja_JP" status="Approved">ビュータイプ</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="ja_JP" status="Approved">デザインが必要</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="ja_JP" status="Approved">ベンダーパート番号</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="ja_JP" status="Approved">製造または購入</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="ja_JP" status="Approved">ベンダーパート番号</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="ja_JP" status="Approved">ベンダーパート番号</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="ja_JP" status="Approved">コマーシャルパート</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="ja_JP" status="Approved">ベンダーのパート名</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="ja_JP" status="Approved">ベンダーID</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="ja_JP" status="Approved">ベンダーのロケーション</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="ja_JP" status="Approved">ベンダ名</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="ja_JP" status="Approved">ベンダーパート番号</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="ja_JP" status="Approved">ベンダー</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="ja_JP" status="Approved">会社の所在地</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="ja_JP" status="Approved">ベンダロケーション</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="ja_JP" status="Approved">ベンダ</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="ja_JP" status="Approved">通貨</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="ja_JP" status="Approved">数量</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="ja_JP" status="Approved">ツーリングコスト</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="ja_JP" status="Approved">単価</key>
+   <key id="Property{::}Quote{::}currency" locale="ja_JP" status="Approved">通貨</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="ja_JP" status="Approved">数量</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="ja_JP" status="Approved">ツーリングコスト</key>
+   <key id="Property{::}Quote{::}unit_price" locale="ja_JP" status="Approved">単価</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="ja_JP" status="Approved">証明書のステータス</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="ja_JP" status="Approved">証明書のステータス</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="ja_JP" status="Approved">ベンダーステータス</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="ja_JP" status="Approved">優先ステータス</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="ja_JP" status="Approved">パート</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="ja_JP" status="Approved">優先ステータス</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="ja_JP" status="Approved">コメント:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="ja_JP" status="Approved">ベンダーロール情報</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="ja_JP" status="Approved">ベンダーロール</key>
+   <key id="Property{::}VendorRole{::}description" locale="ja_JP" status="Approved">説明</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="ja_JP" status="Approved">ベンダーロール情報</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="ja_JP" status="Approved">ベンダーロール名</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="ja_JP" status="Approved">コマーシャルパート</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="ja_JP" status="Approved">連絡先</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="ja_JP" status="Approved">電子メール</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="ja_JP" status="Approved">住所</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="ja_JP" status="Approved">電話番号</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="ja_JP" status="Approved">グループ</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="ja_JP" status="Approved">ベンダーパート</key>
+   <key id="Property{::}Vendor{::}web_site" locale="ja_JP" status="Approved">ウェブサイト</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="ja_JP" status="Approved">パートのすべてのベンダー代表が構成マネージャに表示されるように指定します。この条件は、ベンダーパート選択ルールのオプションとして使用され、表示されるベンダーパートのリストをフィルタするために使用されます。</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="ja_JP" status="Approved">パートの優先ベンダー代表のみが構成マネージャに表示されるように指定します。この条件は、ベンダーパート選択ルールのオプションとして使用され、表示されるベンダーパートのリストをフィルタするために使用されます。</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="ja_JP" status="Approved">バックアップ</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="ja_JP" status="Approved">優先</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="ja_JP" status="Approved">代理店ロール</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="ja_JP" status="Approved">マニュファクチャラロール</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="ja_JP" status="Approved">サプライヤロール</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="ja_JP" status="Approved">バックアップ</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="ja_JP" status="Approved">優先</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="ja_JP" status="Approved">代理店</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="ja_JP" status="Approved">製造業者</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="ja_JP" status="Approved">サプライヤ</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="ja_JP" status="Approved">ベンダーパートリレーション</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="ja_JP" status="Approved">ベンダー代表</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="ja_JP" status="Approved">ベンダーパート</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="ja_JP" status="Approved">ベンダーパートリレーション</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="ja_JP" status="Approved">ベンダー代表</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="ja_JP" status="Approved">交換行</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="ja_JP" status="Approved">サプライヤ応答</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="ja_JP" status="Approved">ベンダ交換マスタストレージ</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="ja_JP" status="Approved">ベンダ交換マスタ</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="ja_JP" status="Approved">ベンダ交換リビジョンマスタストレージ</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="ja_JP" status="Approved">ベンダ交換リビジョンマスタ</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="ja_JP" status="Approved">ベンダ交換リビジョン</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="ja_JP" status="Approved">ベンダ交換</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="ja_JP" status="Approved">交換オブジェクト</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="ja_JP" status="Approved">最終受信日</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="ja_JP" status="Approved">送信済みオブジェクト</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="ja_JP" status="Approved">受信済みオブジェクト</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="ja_JP" status="Approved">応答日</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="ja_JP" status="Approved">レビューコメント</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="ja_JP" status="Approved">レビューステータス</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="ja_JP" status="Approved">交換オブジェクト</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="ja_JP" status="Approved">終了日</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="ja_JP" status="Approved">交換行</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="ja_JP" status="Approved">ポスト日</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="ja_JP" status="Approved">応答行</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="ja_JP" status="Approved">ステータス理由</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="ja_JP" status="Approved">ステータス</key>
+</Add>
+</TcBusinessDataLocalization>

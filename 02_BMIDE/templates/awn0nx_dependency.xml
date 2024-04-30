@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="NX for Active Workspace" enableOpsDataDeploy="false" guid="4E5E31864D7C986B13708F325714961E" isDescriptionMandatory="true" name="awn0nx" optional="true" prefixes="Awn0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="nx0tcin_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+</TcBusinessDataIncludes>

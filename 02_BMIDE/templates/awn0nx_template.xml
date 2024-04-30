@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Thu Jun 03 01:56:10 AM 2021" TcVersion="tc12000.0.0">
+    <Add>
+   <Functionality description="Component for the template - awn0nx" displayName="NX for Active Workspace" enabledForVerificationRules="false" name="Awn0nx"/>
+
+   <Library createRelease="Awp05.0.0" description="Library for Active Workspace Nx Integration Framework" isThirdParty="false" name="awn0nx" namespace="" serviceLibrary="false">
+     <DependentOn name="base_utils"/>
+     <DependentOn name="cxpom"/>
+     <DependentOn name="extensionframework"/>
+     <DependentOn name="fclasses"/>
+     <DependentOn name="metaframework"/>
+     <DependentOn name="pom"/>
+     <DependentOn name="tc"/>
+     <DependentOn name="tccore"/>
+     <DependentOn name="textsrv"/>
+     <DependentOn name="awb0occmgmt"/>
+     <DependentOn name="bom"/>
+   </Library>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp05.0.0" description="This operation will return TRUE if Export To NX is supported." id="int#awn0::awn0nx::Awb0ConditionalElement::awn0IsExportToNXSupported#bool,*" name="awn0::awn0nx::Awb0ConditionalElement::awn0IsExportToNXSupported" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+     <OperationParameter const="false" defaultValue="" description="This is the verdict if Export To NX is supported for element or not." freeOutputMemory="false" inputOutput="Output" name="verdict">
+       <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <BusinessObjectInterface createRelease="Awp05.0.0" description="Interface Name for Business Object Awb0ConditionalElement" libraryName="awn0nx" name="Awb0ConditionalElement" namespace="awn0::awn0nx" primaryInterface="false" typeName="Awb0ConditionalElement"/>
+   <Operation canOverride="true" component="" createRelease="Awp05.0.0" dependencies="" description="This operation will return TRUE if Export To NX is supported." exceptionCondition="" id="awn0IsExportToNXSupported#bool,*" interface="awn0::awn0nx::Awb0ConditionalElement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="awn0IsExportToNXSupported" opTemplate="int#awn0::awn0nx::Awb0ConditionalElement::awn0IsExportToNXSupported#bool,*" returnDescription="" useCase="">
+     <ParameterInfo description="This is the verdict if Export To NX is supported for element or not." parameterName="verdict"/>
+   </Operation>
+   <TcPropertyAttach typeName="ItemRevision">
+      <TcProperty arrayLength="0" description="Returns true if the Item Revision has a drawing attached to it. Else false." isArray="false" propMaxStringLength="128" propName="awn0HasDrawing" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcPropertyAttach>
+   <TcOperationAttach description="" extendableElementName="ItemRevision" extendableElementType="Type" operationName="PROP_ask_value_string" propertyName="awn0HasDrawing">
+      <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+      <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+      <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+      <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+   </TcOperationAttach>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="awn0nxProperties" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="awn0nxRelease" typeName="ItemRevision" value="false"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="awn0nxProperties" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="awn0nxRelease" typeName="ItemRevision" value="false"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="awn0nxUGPartProperty" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="awn0ugmasterCreationDate" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasAltrepMetadata" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasAnyIntpartReferences" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasBrokenLinks" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasComponents" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasConstraints" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasDrawing" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasGeometryOverrides" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasInterpartExpression" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasMultipleArrangements" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasNonmasterComponent" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasOffcenterComponent" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasPartsList" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasPosDepWaveLink" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasPosIndepWaveLink" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasPositionOverrides" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasProductInterface" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasRefComponents" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasRestructuredComps" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasSupressedComponents" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0HasUDF" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0nxProperties" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0nxRelease" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0nxUGPartProperty" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="awn0ugmasterCreationDate" typeName="ItemRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasAltrepMetadata" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasAnyIntpartReferences" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasBrokenLinks" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasComponents" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasConstraints" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasDrawing" typeName="ItemRevision" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasGeometryOverrides" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasInterpartExpression" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasMultipleArrangements" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasNonmasterComponent" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasOffcenterComponent" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasPartsList" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasPosDepWaveLink" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasPosIndepWaveLink" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasPositionOverrides" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasProductInterface" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasRefComponents" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasRestructuredComps" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasSupressedComponents" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0HasUDF" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0nxProperties" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0nxRelease" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0nxUGPartProperty" typeName="ItemRevision" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="awn0ugmasterCreationDate" typeName="ItemRevision" value="Read"/>
+   <TcPropertyConstantAttach constantName="Visible" propertyName="awn0nxProperties" typeName="ItemRevision" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" propertyName="awn0nxRelease" typeName="ItemRevision" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" propertyName="awn0nxUGPartProperty" typeName="ItemRevision" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" propertyName="awn0ugmasterCreationDate" typeName="ItemRevision" value="false"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has altrep metadata" destPropertyName="awn0HasAltrepMetadata" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_altrep_metadata" sourcePropertyName="nx0has_altrep_metadata" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has any interpart references" destPropertyName="awn0HasAnyIntpartReferences" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_any_interpart_references" sourcePropertyName="nx0has_any_interpart_references" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has Broken Links" destPropertyName="awn0HasBrokenLinks" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_broken_links" sourcePropertyName="nx0has_broken_links" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has any components" destPropertyName="awn0HasComponents" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_components" sourcePropertyName="nx0has_components" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has constraints" destPropertyName="awn0HasConstraints" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_constraints" sourcePropertyName="nx0has_constraints" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has geometry overrides" destPropertyName="awn0HasGeometryOverrides" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_geometry_overrides" sourcePropertyName="nx0has_geometry_overrides" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has interpart expressions" destPropertyName="awn0HasInterpartExpression" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_interpart_expression" sourcePropertyName="nx0has_interpart_expression" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has multiple arrangements" destPropertyName="awn0HasMultipleArrangements" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_multiple_arrangements" sourcePropertyName="nx0has_multiple_arrangements" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has nonmaster component" destPropertyName="awn0HasNonmasterComponent" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_nonmaster_component" sourcePropertyName="nx0has_nonmaster_component" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has Off-center Components" destPropertyName="awn0HasOffcenterComponent" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_offcenter_components" sourcePropertyName="nx0has_offcenter_components" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has parts list" destPropertyName="awn0HasPartsList" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_parts_list" sourcePropertyName="nx0has_parts_list" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has position dependent wave links" destPropertyName="awn0HasPosDepWaveLink" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_pos_dep_wave_link" sourcePropertyName="nx0has_pos_dep_wave_link" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has position independent wave links" destPropertyName="awn0HasPosIndepWaveLink" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_pos_indep_wave_link" sourcePropertyName="nx0has_pos_indep_wave_link" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has position overrides" destPropertyName="awn0HasPositionOverrides" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_position_overrides" sourcePropertyName="nx0has_position_overrides" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has product interfaces" destPropertyName="awn0HasProductInterface" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_product_interface" sourcePropertyName="nx0has_product_interface" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has reference components" destPropertyName="awn0HasRefComponents" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_ref_components" sourcePropertyName="nx0has_ref_components" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has restructured components" destPropertyName="awn0HasRestructuredComps" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_restructured_components" sourcePropertyName="nx0has_restructured_components" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has suppressed components" destPropertyName="awn0HasSupressedComponents" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_supressed_components" sourcePropertyName="nx0has_supressed_components" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="UGMASTER dataset has UDFs." destPropertyName="awn0HasUDF" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).nx0has_udf" sourcePropertyName="nx0has_udf" sourceTypeName="UGMASTER"/>
+   <TcCompoundPropertyRule description="NX Properties" destPropertyName="awn0nxProperties" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).REF(ref_list,UGPartAttributesForm).REF(data_file,UGPartAttributes).fnd0flags1" sourcePropertyName="fnd0flags1" sourceTypeName="UGPartAttributes"/>
+   <TcCompoundPropertyRule description="NX Release" destPropertyName="awn0nxRelease" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).REF(ref_list,UGPartAttributesForm).REF(data_file,UGPartAttributes).fnd0release" sourcePropertyName="fnd0release" sourceTypeName="UGPartAttributes"/>
+   <TcCompoundPropertyRule description="NX Property for UG Part" destPropertyName="awn0nxUGPartProperty" destTypeName="ItemRevision" isReadOnly="false" pathToSource="GRM(IMAN_specification,UGPART).REF(ref_list,NX0ApplicationInfo).REF(data_file,NX0ApplicationInfoStorage).nx0flags" sourcePropertyName="nx0flags" sourceTypeName="NX0ApplicationInfoStorage"/>
+   <TcCompoundPropertyRule description="UGMASTER creation date" destPropertyName="awn0ugmasterCreationDate" destTypeName="ItemRevision" isReadOnly="true" pathToSource="GRM(IMAN_specification,UGMASTER).creation_date" sourcePropertyName="creation_date" sourceTypeName="UGMASTER"/>
+   <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libawn0nx" name="getawn0HasDrawing">
+      <TcExtensionValidity parameter="PROPERTY:ItemRevision:awn0HasDrawing:PROP_ask_value_string:4"/>
+   </TcExtension>
+   <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="ItemRevision" extendableElementType="Type" extensionName="getawn0HasDrawing" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_string" propertyName="awn0HasDrawing"/>
+
+   <Condition description="This determines if Export To NX command should be displayed for selected object." expression="o.awn0IsExportToNXSupported()" name="Awn0ExportToNXCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="Awb0ConditionalElement"/>
+   </Condition>
+   <Condition description="Checks if the selected object is valid for add operation in NX." expression="u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;AWC_NX_AddComponentSupportedTypes&quot;,o)=true" name="Awn0NXAddComponentHostedSupported" secured="false">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Checks if the selected object is supported for Set Default folder operation in NX." expression="u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Folder&quot;)" name="Awn0NXSetDefaultFolderSupported" secured="false">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Checks if the given type is supported for Open In Nx" expression="u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;AWC_NX_OpenSupportedTypes&quot;,o)=true" name="Awn0OpenInNxSupported" secured="false">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Checks if the selected object is valid to open in NX Relation Browser." expression="u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;AWC_NX_OpenRequirementLinksSupportedTypes&quot;,o)=true" name="Awn0OpenRelationBrowser" secured="false">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Checks if the selected object is valid for Opening in Requirement Links." expression="u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;AWC_NX_OpenRequirementLinksSupportedTypes&quot;,o)=true" name="Awn0OpenRequirementLinks" secured="false">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <Condition description="This condition is used to determine if the instances of Dataset business object are not of type defined in the preference AWC_NX_OpenSupportedTypes." expression="u.fnd0ConditionHelper.fnd0isValuePresentInPref(&quot;AWC_NX_OpenSupportedTypes&quot;,o.object_type)=false" name="Awn0ViewFileCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="Dataset"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Command commandId="Awn0ExportToNX" description="Export To NX command" displayName="Export To NX" icon="" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Export To NX"/>
+   <Command commandId="Awn0NXAddComponentHosted" description="UI Command for NX Add Command" displayName="Add" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Add"/>
+   <Command commandId="Awn0NXOpenHosted" description="UI Command for Open in NX" displayName="Open In NX" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Send to NX"/>
+   <Command commandId="Awn0NXOpenHostedCellCommand" description="NX Open Hosted Cell Command" displayName="NX Open Hosted Cell Command" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Open In Nx"/>
+   <Command commandId="Awn0NXOpenRelationBrowser" description="UI Command for Open In NX Relation Browser" displayName="Open In NX Relation Browser" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Open In NX Relation Browser"/>
+   <Command commandId="Awn0NXOpenRequirementLinksHosted" description="UI Command for Open in Requirement Links" displayName="Open in Requirement Links" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Open in Requirement Links"/>
+   <Command commandId="Awn0NXSetDefaultFolderHosted" description="UI Command for Set NX Default Folder" displayName="Set NX Default Folder" icon="Awp0OpenInNX" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Set NX Default Folder"/>
+   <Command commandId="Awn0OpenNxTcXml" description="Handler for Opening NXTCXML files" displayName="Open in NX" icon="Awp0OpenNXTCXML" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Open in NX"/>
+   <CommandCollection commandCollectionId="Awn0NXGroup" description="Command group consisting of all the NX Commands." displayName="NX Command Group" mnemonic="" renderingHint=""/>
+   <CommandAttach anchorId="Awn0NXOpenHosted" childCommandId="Awn0NXAddComponentHosted" commandCollectionId="Awn0NXGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Awn0NXOpenHosted" commandCollectionId="Awn0NXGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awn0NXAddComponentHosted" childCommandId="Awn0NXOpenRelationBrowser" commandCollectionId="Awn0NXGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awn0NXOpenRelationBrowser" childCommandId="Awn0NXOpenRequirementLinksHosted" commandCollectionId="Awn0NXGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awn0NXOpenRequirementLinksHosted" childCommandId="Awn0NXSetDefaultFolderHosted" commandCollectionId="Awn0NXGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awp0OpenGroup" childCommandId="Awn0NXGroup" commandCollectionId="Awp0GlobalStableCommands_oneStep" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Awp0OpenVVI" childCommandId="Awn0OpenNxTcXml" commandCollectionId="Awp0OpenGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awp0ShowObjectCell" childCommandId="Awn0NXOpenHostedCellCommand" commandCollectionId="Awp0GlobalCommands_cell" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0ExportToNX" conditionName="Awn0ExportToNXCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0NXAddComponentHosted" conditionName="Awn0NXAddComponentHostedSupported"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0NXOpenHosted" conditionName="Awn0OpenInNxSupported"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0NXOpenRelationBrowser" conditionName="Awn0OpenRelationBrowser"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0NXOpenRequirementLinksHosted" conditionName="Awn0OpenRequirementLinks"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0NXSetDefaultFolderHosted" conditionName="Awn0NXSetDefaultFolderSupported"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awn0OpenNxTcXml" conditionName="Awn0OpenInNxSupported"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Awp0ViewFile" conditionName="Awn0ViewFileCmdCond"/>
+
+   <Library createRelease="Awp05.0.0" description="SOA Library for Active Workspace Nx Integration Framework" isThirdParty="false" name="Awn0SoaNX" namespace="Awn0::Soa::NX" serviceLibrary="true"/>
+   <ServiceInterface createRelease="Awp05.0.0" dependencies="" description="DataManagement service contains operations that expose the Data Management functionality in Active Workspace (AW)." libraryName="Awn0SoaNX" name="DataManagement" namespace="Awn0::Soa::NX" serviceLibraryRef=""/>
+   <Struct createRelease="Awp05.0.0" description="Contains the top &lt;b&gt;Awb0Element&lt;/b&gt; element of the assembly structure to be exported to NX and the map of request preferences." isPublished="false" name="ExportConfiguredAssyToNXInput" namespace="Awn0::Soa::Internal::NX::_2020_05::DataManagement" scope="Awn0::Soa::NX::DataManagement">
+     <StructElement description="Top &lt;b&gt;Awb0Element&lt;/b&gt; element of assembly structure to be exported to NX." name="elementToExport">
+       <DataTypeRefParam dataType="Teamcenter::RuntimeBusinessObject"/>
+     </StructElement>
+     <StructElement description="Map (string, list of string) of preference names and values pairs. Preference names are case sensitive. Supported preference names are: &lt;br /&gt;&amp;ldquo;exportNonMasters&amp;rdquo;: If true, exports NX non-master named references associated with UGMASTER or UGPART datasets. The non-master named reference are named references (&lt;b&gt;Dataset&lt;/b&gt;) with relations IMAN_manifestation, IMAN_specification, IMAN_UG_altrep, IMAN_simulation or IMAN_UG_scenario. If false, the non-masters are not exported.&lt;br /&gt;&amp;ldquo;exportAssociatedFiles&amp;rdquo;: If true, exports all the named references associated with UGMASTER &lt;b&gt;Dataset&lt;/b&gt;; otherwise, associated files are not exported." name="requestPref">
+       <DataTypeRefParam dataType="Awn0::Soa::Internal::NX::_2020_05::DataManagement::RequestPreference"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="Awp05.0.0" description="Contains the mapping of preference names and values pairs for export operation." isPublished="false" name="RequestPreference" namespace="Awn0::Soa::Internal::NX::_2020_05::DataManagement" scope="Awn0::Soa::NX::DataManagement">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </DataTypeRefParam>
+   </Typedef>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp05.0.0" description="The operation exports an assembly configured with revision rule specified in input to native NX." id="Teamcenter::Soa::Server::ServiceData#Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNX#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" name="Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNX" returnConst="false" returnDescription="Only errors are returned as partial errors. The following partial errors may be return:&lt;br /&gt;213002&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Attempt to allocate memory failed.&lt;br /&gt;213003&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Unable to create instance of Dispatcher Request.&lt;br /&gt;443001    An internal error has occurred in the Active Workspace NX Integration Framework module.&lt;br /&gt;443002&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;objectString&amp;gt; was not exported due to a system error.&lt;br /&gt;443003&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;No UGMASTER attached to &amp;lt;objectString&amp;gt;. Select a valid NX assembly.&lt;br /&gt;443004&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;No Files found associated with UGMASTER. Select a valid NX assembly.&lt;br /&gt;443005&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;objectString&amp;gt; is not in sync with UGMASTER." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The &lt;i&gt;ExportConfiguredAssyToNXInput&lt;/i&gt; structure contains the top &lt;b&gt;Awb0Element&lt;/b&gt; element of assembly structure to be exported to NX and map of request preferences for the export operation." freeOutputMemory="false" inputOutput="Input" name="input">
+       <OperationParameterDataTypeRef dataType="Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp05.0.0" description="The operation exports an assembly configured with revision rule specified in input to native NX&lt;br /&gt;asynchronously. The operation will create Fnd0Message object with the status of export operation." id="void#Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNXAsync#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" name="Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNXAsync" returnConst="false" returnDescription="void &amp;ndash; as it does not interact directly with the client, it does not return any data. The success or errors will be conveyed via Fnd0Message object to respective subscriber." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The &lt;i&gt;ExportConfiguredAssyToNXInput&lt;/i&gt; structure contains the top &lt;b&gt;Awb0Element&lt;/b&gt; element of assembly structure to be exported to NX and map of request preferences for the export operation." freeOutputMemory="false" inputOutput="Input" name="input">
+       <OperationParameterDataTypeRef dataType="Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <Operation canOverride="false" component="Awn0nx" createRelease="Awp05.0.0" dependencies="" description="The operation exports an assembly configured with revision rule specified in input to native NX." exceptionCondition="" id="exportConfiguredAssyToNX#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" interface="Awn0::Soa::NX::DataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportConfiguredAssyToNX" opTemplate="Teamcenter::Soa::Server::ServiceData#Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNX#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" returnDescription="Only errors are returned as partial errors. The following partial errors may be return:&lt;br /&gt;213002&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Attempt to allocate memory failed.&lt;br /&gt;213003&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Unable to create instance of Dispatcher Request.&lt;br /&gt;443001    An internal error has occurred in the Active Workspace NX Integration Framework module.&lt;br /&gt;443002&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;objectString&amp;gt; was not exported due to a system error.&lt;br /&gt;443003&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;No UGMASTER attached to &amp;lt;objectString&amp;gt;. Select a valid NX assembly.&lt;br /&gt;443004&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;No Files found associated with UGMASTER. Select a valid NX assembly.&lt;br /&gt;443005&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;objectString&amp;gt; is not in sync with UGMASTER." useCase="">
+     <ParameterInfo description="The &lt;i&gt;ExportConfiguredAssyToNXInput&lt;/i&gt; structure contains the top &lt;b&gt;Awb0Element&lt;/b&gt; element of assembly structure to be exported to NX and map of request preferences for the export operation." parameterName="input"/>
+   </Operation>
+   <Operation canOverride="false" component="Awb0ActiveWorkspaceBOM" createRelease="Awp05.0.0" dependencies="" description="The operation exports an assembly configured with revision rule specified in input to native NX&lt;br /&gt;asynchronously. The operation will create Fnd0Message object with the status of export operation." exceptionCondition="" id="exportConfiguredAssyToNXAsync#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" interface="Awn0::Soa::NX::DataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportConfiguredAssyToNXAsync" opTemplate="void#Awn0::Soa::NX::DataManagement::exportConfiguredAssyToNXAsync#const,Awn0::Soa::Internal::NX::_2020_05::DataManagement::ExportConfiguredAssyToNXInput,&amp;" returnDescription="void &amp;ndash; as it does not interact directly with the client, it does not return any data. The success or errors will be conveyed via Fnd0Message object to respective subscriber." useCase="">
+     <ParameterInfo description="The &lt;i&gt;ExportConfiguredAssyToNXInput&lt;/i&gt; structure contains the top &lt;b&gt;Awb0Element&lt;/b&gt; element of assembly structure to be exported to NX and map of request preferences for the export operation." parameterName="input"/>
+   </Operation>
+</Add>
+    <Change>
+   <TcLOV description="LOV for various Teamcenter Applications that may trigger Messages from Teamcenter" lovType="ListOfValuesString" name="Fnd0SourceApplicationType" usage="Exhaustive">
+     <TcLOVValue conditionName="isTrue" description="Subscription Manager" value="SUB_MAN"/>
+     <TcLOVValue conditionName="isTrue" description="Schedule Manager" value="SCHED_MAN"/>
+     <TcLOVValue conditionName="isTrue" description="Workflow" value="EPM_WORKFLOW"/>
+     <TcLOVValue conditionName="isTrue" description="Async Print" value="PRINT"/>
+     <TcLOVValue conditionName="isTrue" description="Social Collaboration" value="SOCIAL_COLLABORATION"/>
+     <TcLOVValue conditionName="isTrue" description="Document Management" value="DOCMGMT"/>
+     <TcLOVValue conditionName="isTrue" description="Requirement Manager" value="REQ_MAN"/>
+     <TcLOVValue conditionName="isTrue" description="Active Content Experience" value="ACE"/>
+     <TcLOVValue conditionName="isTrue" description="Compare" value="COMPARE"/>
+     <TcLOVValue conditionName="isTrue" description="Asynchronous Reports" value="REPORTS"/>
+     <TcLOVValue conditionName="isTrue" description="Changes Saved" value="CLONE_CONTENT_SUCCESSFUL"/>
+     <TcLOVValue conditionName="isTrue" description="Changes Not Saved" value="CLONE_CONTENT_FAILED"/>
+     <TcLOVValue conditionName="isTrue" description="Multisite Transfer" value="MULTISITE"/>
+     <TcLOVValue conditionName="isTrue" description="NX Export" value="NX_EXPORT"/>
+   </TcLOV>
+</Change>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:56 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="zh_CN" status="Approved">基本报价存储</key>
+   <key id="BusinessObject{::}BaseQuote" locale="zh_CN" status="Approved">基本报价</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="zh_CN" status="Approved">标书主属性表</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="zh_CN" status="Approved">标书内容</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="zh_CN" status="Approved">标书行条目</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="zh_CN" status="Approved">标书主属性表</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="zh_CN" status="Approved">标书版本主属性表</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="zh_CN" status="Approved">标书版本</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="zh_CN" status="Approved">标书版本主属性表</key>
+   <key id="BusinessObject{::}BidPackage" locale="zh_CN" status="Approved">标书</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="zh_CN" status="Approved">商用零件主属性表</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="zh_CN" status="Approved">商用零件版本主属性表</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="zh_CN" status="Approved">商用零件版本</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="zh_CN" status="Approved">商用零件主属性表</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="zh_CN" status="Approved">商用零件版本主属性表</key>
+   <key id="BusinessObject{::}CommercialPart" locale="zh_CN" status="Approved">商用零件</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="zh_CN" status="Approved">分销商信息</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="zh_CN" status="Approved">分销商存储</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="zh_CN" status="Approved">行条目配置关联</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="zh_CN" status="Approved">制造商信息</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="zh_CN" status="Approved">提供商零件主属性表</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="zh_CN" status="Approved">提供商零件版本主属性表</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="zh_CN" status="Approved">提供商零件版本</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="zh_CN" status="Approved">制造商零件主属性表</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="zh_CN" status="Approved">制造商零件版本主属性表</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="zh_CN" status="Approved">提供商零件</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="zh_CN" status="Approved">制造商存储</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="zh_CN" status="Approved">提供的位置</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="zh_CN" status="Approved">报价存储</key>
+   <key id="BusinessObject{::}Quote" locale="zh_CN" status="Approved">报价</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="zh_CN" status="Approved">供应商信息</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="zh_CN" status="Approved">供应商存储</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="zh_CN" status="Approved">质量文档</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="zh_CN" status="Approved">报价</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="zh_CN" status="Approved">提供商 ID 关联</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="zh_CN" status="Approved">零件提供商</key>
+   <key id="BusinessObject{::}VMRepresents" locale="zh_CN" status="Approved">提供商表示</key>
+   <key id="BusinessObject{::}Vendor Master" locale="zh_CN" status="Approved">提供商主属性表</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="zh_CN" status="Approved">提供商标识符</key>
+   <key id="BusinessObject{::}VendorMaster" locale="zh_CN" status="Approved">提供商主属性表</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="zh_CN" status="Approved">提供商版本主属性表</key>
+   <key id="BusinessObject{::}VendorRevision" locale="zh_CN" status="Approved">提供商版本</key>
+   <key id="BusinessObject{::}VendorRole" locale="zh_CN" status="Approved">提供商角色</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="zh_CN" status="Approved">提供商版本主属性表</key>
+   <key id="BusinessObject{::}Vendor" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="zh_CN" status="Approved">标书行条目</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="zh_CN" status="Approved">配置关联</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="zh_CN" status="Approved">定制行条目属性</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="zh_CN" status="Approved">名称</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="zh_CN" status="Approved">零件</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="zh_CN" status="Approved">数量</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="zh_CN" status="Approved">标书内容</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="zh_CN" status="Approved">行条目</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="zh_CN" status="Approved">必需的目的</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="zh_CN" status="Approved">请求日期</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="zh_CN" status="Approved">标书类型</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="zh_CN" status="Approved">需要设计</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="zh_CN" status="Approved">自制或外购</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="zh_CN" status="Approved">提供商零件关系</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="zh_CN" status="Approved">提供商零件</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="zh_CN" status="Approved">提供商零件</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="zh_CN" status="Approved">DUNS 编号</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="zh_CN" status="Approved">视图类型</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="zh_CN" status="Approved">需要设计</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="zh_CN" status="Approved">提供商零件号</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="zh_CN" status="Approved">自制或外购</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="zh_CN" status="Approved">提供商零件号</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="zh_CN" status="Approved">提供商零件号</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="zh_CN" status="Approved">商用零件</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="zh_CN" status="Approved">提供商零件名称</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="zh_CN" status="Approved">提供商 ID</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="zh_CN" status="Approved">提供商位置</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="zh_CN" status="Approved">提供商名称</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="zh_CN" status="Approved">提供商零件号</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="zh_CN" status="Approved">公司位置</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="zh_CN" status="Approved">提供商位置</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="zh_CN" status="Approved">提供商</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="zh_CN" status="Approved">货币</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="zh_CN" status="Approved">数量</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="zh_CN" status="Approved">工装成本</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="zh_CN" status="Approved">单价</key>
+   <key id="Property{::}Quote{::}currency" locale="zh_CN" status="Approved">货币</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="zh_CN" status="Approved">数量</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="zh_CN" status="Approved">工装成本</key>
+   <key id="Property{::}Quote{::}unit_price" locale="zh_CN" status="Approved">单价</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="zh_CN" status="Approved">认证状态</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="zh_CN" status="Approved">认证状态</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="zh_CN" status="Approved">提供商状态</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="zh_CN" status="Approved">首选状态</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="zh_CN" status="Approved">零件</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="zh_CN" status="Approved">首选状态</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="zh_CN" status="Approved">注释：</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="zh_CN" status="Approved">提供商角色信息</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="zh_CN" status="Approved">提供商角色</key>
+   <key id="Property{::}VendorRole{::}description" locale="zh_CN" status="Approved">描述</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="zh_CN" status="Approved">提供商角色信息</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="zh_CN" status="Approved">提供商角色名称</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="zh_CN" status="Approved">商用零件</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="zh_CN" status="Approved">联系人</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="zh_CN" status="Approved">电子邮件</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="zh_CN" status="Approved">地址</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="zh_CN" status="Approved">电话</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="zh_CN" status="Approved">组</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="zh_CN" status="Approved">提供商零件</key>
+   <key id="Property{::}Vendor{::}web_site" locale="zh_CN" status="Approved">网站</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="zh_CN" status="Approved">指定要在结构管理器中显示的零件的所有提供商表示。此条件用作提供商零件选择规则的选项，并用于过滤显示的提供商零件列表。</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="zh_CN" status="Approved">指定要在结构管理器中只显示零件的首选提供商表示。此条件用作提供商零件选择规则的选项，并用于过滤显示的提供商零件列表。</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="zh_CN" status="Approved">备份</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="zh_CN" status="Approved">首选件</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="zh_CN" status="Approved">分销商角色</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="zh_CN" status="Approved">制造商角色</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="zh_CN" status="Approved">供应商角色</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="zh_CN" status="Approved">备份</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="zh_CN" status="Approved">首选件</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="zh_CN" status="Approved">分销商</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="zh_CN" status="Approved">制造商</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="zh_CN" status="Approved">供应商</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="zh_CN" status="Approved">提供商零件关系</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="zh_CN" status="Approved">提供商表示</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="zh_CN" status="Approved">提供商零件</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="zh_CN" status="Approved">提供商零件关系</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="zh_CN" status="Approved">提供商表示</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="zh_CN" status="Approved">交换行</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="zh_CN" status="Approved">供应商响应</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="zh_CN" status="Approved">提供商交换主属性表存储</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="zh_CN" status="Approved">提供商交换主属性表</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="zh_CN" status="Approved">提供商交换版本主属性表存储</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="zh_CN" status="Approved">提供商交换版本主属性表</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="zh_CN" status="Approved">提供商交换版本</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="zh_CN" status="Approved">提供商交换</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="zh_CN" status="Approved">交换对象</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="zh_CN" status="Approved">上次接收日期</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="zh_CN" status="Approved">已发送的对象</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="zh_CN" status="Approved">已接收的对象</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="zh_CN" status="Approved">回复日期</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="zh_CN" status="Approved">审核注释</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="zh_CN" status="Approved">审核状态</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="zh_CN" status="Approved">交换对象</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="zh_CN" status="Approved">结束日期</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="zh_CN" status="Approved">交换行</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="zh_CN" status="Approved">发布日期</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="zh_CN" status="Approved">回复行</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="zh_CN" status="Approved">状态原因</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="zh_CN" status="Approved">状态</key>
+</Add>
+</TcBusinessDataLocalization>

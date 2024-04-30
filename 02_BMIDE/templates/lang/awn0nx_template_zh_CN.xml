@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="zh_CN" status="Approved">NX 导出</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="zh_CN" status="Approved">NX 导出</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="zh_CN" status="Approved">具有备选表示元数据</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="zh_CN" status="Approved">具有任意零件间引用</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="zh_CN" status="Approved">具有中断链接</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="zh_CN" status="Approved">具有任意组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="zh_CN" status="Approved">具有约束</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="zh_CN" status="Approved">具有图纸</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="zh_CN" status="Approved">具有几何体替代</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="zh_CN" status="Approved">具有零件间表达式</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="zh_CN" status="Approved">具有布置</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="zh_CN" status="Approved">具有非主组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="zh_CN" status="Approved">具有非中心组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="zh_CN" status="Approved">具有零件明细表</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="zh_CN" status="Approved">具有位置相关 Wave 链接</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="zh_CN" status="Approved">具有位置无关 Wave 链接</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="zh_CN" status="Approved">具有位置替代</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="zh_CN" status="Approved">具有产品接口</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="zh_CN" status="Approved">具有引用组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="zh_CN" status="Approved">具有重新构建的组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="zh_CN" status="Approved">具有受抑制组件</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="zh_CN" status="Approved">具有用户定义的特征</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="zh_CN" status="Approved">NX 属性</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="zh_CN" status="Approved">NX 发行版</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="zh_CN" status="Approved">NX 部件属性</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="zh_CN" status="Approved">UGMASTER 创建日期</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="zh_CN" status="Approved">导出至 NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="zh_CN" status="Approved">添加</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="zh_CN" status="Approved">在 NX 中打开</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="zh_CN" status="Approved">在 NX 关系浏览器中打开</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="zh_CN" status="Approved">在 NX 需求链接中打开</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="zh_CN" status="Approved">设为 NX 默认文件夹</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="zh_CN" status="Approved">在 NX 中打开</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="zh_CN" status="Approved">此条件决定是否为选定对象显示“导出至 NX”命令。</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="zh_CN" status="Approved">检查所选对象是否在 NX 中对“添加”操作有效。</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="zh_CN" status="Approved">检查所选对象是否在 NX 中受“设置默认文件夹”操作支持。</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="zh_CN" status="Approved">检查给定类型是否对“在 NX 中打开”操作有效</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="zh_CN" status="Approved">检查所选对象是否对“在 NX 关系浏览器中打开”操作有效。</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="zh_CN" status="Approved">检查所选对象是否对“在 NX 需求链接中打开”操作有效。</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="zh_CN" status="Approved">NX Open 托管单元格命令</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="zh_CN" status="Approved">此条件用于确定数据集业务对象的实例是否不属于在 AWC_NX_OpenSupportedTypes 首选项中定义的类型。</key>
+</Add>
+</TcBusinessDataLocalization>

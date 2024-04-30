@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="ko_KR" status="Approved">그래프 생성 규칙</key>
+   <key id="BusinessObject{::}Rv1XML" locale="ko_KR" status="Approved">관계 구성 파일</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ko_KR" status="Approved">관계 뷰어 명령 컬렉션</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ko_KR" status="Approved">관계 뷰어 관계</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="ko_KR" status="Approved">규칙 매개변수</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="ko_KR" status="Approved">조회</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="ko_KR" status="Approved">풍선</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="ko_KR" status="Approved">아래에서 위로</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="ko_KR" status="Approved">앞으로 가져오기</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="ko_KR" status="Approved">맨앞으로 가져오기</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="ko_KR" status="Approved">순환</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="ko_KR" status="Approved">부모로 변환</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="ko_KR" status="Approved">선택한 항목에 대한 부모 생성</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="ko_KR" status="Approved">사용자 정의 증분적 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="ko_KR" status="Approved">사용자 정의 증분적 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="ko_KR" status="Approved">사용자 정의 직각 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="ko_KR" status="Approved">왼쪽-직각</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="ko_KR" status="Approved">선택한 그래프 아이템 삭제</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="ko_KR" status="Approved">작성 종료</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="ko_KR" status="Approved">확장 관계 수준 1</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="ko_KR" status="Approved">확장</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="ko_KR" status="Approved">확장</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="ko_KR" status="Approved">확장 관계 수준 1</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="ko_KR" status="Approved">확장</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="ko_KR" status="Approved">확장</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="ko_KR" status="Approved">모든 자식 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="ko_KR" status="Approved">모든 수신 관계 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="ko_KR" status="Approved">모든 발신 관계 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="ko_KR" status="Approved">증분적</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="ko_KR" status="Approved">왼쪽에서 오른쪽으로</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="ko_KR" status="Approved">유기적</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="ko_KR" status="Approved">직각</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="ko_KR" status="Approved">수신 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="ko_KR" status="Approved">발신 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="ko_KR" status="Approved">노드 애니메이션 숨기기</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="ko_KR" status="Approved">수신 표시</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="ko_KR" status="Approved">발신 표시</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="ko_KR" status="Approved">관계 제어</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="ko_KR" status="Approved">오른쪽에서 왼쪽으로</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="ko_KR" status="Approved">뒤로 보내기</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="ko_KR" status="Approved">맨뒤로 보내기</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="ko_KR" status="Approved">모든 자식 표시</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="ko_KR" status="Approved">모든 수신 관계 표시</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="ko_KR" status="Approved">모든 발신 관계 표시</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="ko_KR" status="Approved">수신 표시</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="ko_KR" status="Approved">수준 2</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="ko_KR" status="Approved">수준 3</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="ko_KR" status="Approved">수준 4</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="ko_KR" status="Approved">수준 5</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="ko_KR" status="Approved">관계</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="ko_KR" status="Approved">발신 표시</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="ko_KR" status="Approved">수준 2</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="ko_KR" status="Approved">수준 3</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="ko_KR" status="Approved">수준 4</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="ko_KR" status="Approved">수준 5</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="ko_KR" status="Approved">작성 시작</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="ko_KR" status="Approved">맨 위에서 맨 아래 테이블</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="ko_KR" status="Approved">확장</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="ko_KR" status="Approved">위에서 아래로</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="ko_KR" status="Approved">트리</key>
+</Add>
+</TcBusinessDataLocalization>

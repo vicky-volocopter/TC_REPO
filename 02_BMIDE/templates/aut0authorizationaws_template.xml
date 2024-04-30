@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Thu Jun 03 01:56:53 AM 2021" TcVersion="tc12000.0.0">
+    <Add>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+
+   <Library createRelease="Awp03.4.0" description="Aut0SoaSecurity" isThirdParty="false" name="Aut0SoaSecurity" namespace="Aut0::Soa::Security" serviceLibrary="true"/>
+   <ServiceInterface createRelease="Awp03.4.0" dependencies="" description="Contains Active Workspace licensing services" libraryName="Aut0SoaSecurity" name="AwLicensing" namespace="Aut0::Soa::Security" serviceLibraryRef=""/>
+   <Struct createRelease="Awp03.4.0" description="A strucure that contains information related to Ace Context." isPublished="false" name="ConfigurationContextChoice" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="Internal value of business object." name="internalValue">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Display value of business object." name="displayValue">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="If true, this instance of ConfigurationContextChoice should be set as default choice." name="isDefaultValue">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="Awp03.4.0" description="A structure containing license related information to filter licenses." isPublished="false" name="FilterInfo" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="The type of ADA licenses to be filtered." name="licenseType">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The ID of the license to be filtered." name="licenseId">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="Awp03.4.0" description="Structure that holds the information required to get list of licenses." isPublished="false" name="LicenseInput" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="The list of selected WorkspaceObject objects" name="selectedObjects">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Teamcenter::WorkspaceObject"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The list of licenses (ADA_License) which are already selected to attach with objects." name="selectedLicenses">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The filter criteria based on license type and license ID." name="filterInfo">
+       <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::FilterInfo"/>
+     </StructElement>
+     <StructElement description="The pagination criteria." name="paginationInfo">
+       <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::PaginationInfo"/>
+     </StructElement>
+     <StructElement description="If true, the user is in ActiveWorkspace Content context." name="isAceContext">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="If true only already attached licenses to objects will return in response. If false than attached and available both licenses will return in response." name="isAssigned">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="A list of parameters for future use." name="licenseParamsIn">
+       <DataTypeRefParam dataType="std::vector&lt;std::string&gt;"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="Awp03.4.0" description="A map (string, list of ConfigurationContextChoice) of ACE context atrributes with the list of ACE context atrtributes and possible values." isPublished="false" name="LicenseOptions" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::ConfigurationContextChoice"/>
+       </DataTypeRefParam>
+     </DataTypeRefParam>
+   </Typedef>
+   <Struct createRelease="Awp03.4.0" description="Structure that holds the licenses object." isPublished="false" name="LicenseOutput" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="A list of ADA_License objects which are assigned to the seletectd InputObect. If the InputObject is a single select, ead_paragraph will be include. If the InputObject is a multi-select, ead_paragraph will be blank." name="commonAssignedLicenseList">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="A list of ADA_License objects which are available to attach to the selected InputObject." name="availableLicenseList">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="List of all licenses already selected for attach to selected objects." name="allAssignedLicenseList">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="A list of types of the assignedLicenseList." name="assignedLicenseTypes">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseType"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="A list of types of the availableLicenseList." name="availableLicenseTypes">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseType"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="Awp03.4.0" description="A map (string, list of string) for future use. It will used to return values which passed in licenseParamsIn parameter of LicenseInputs structure." isPublished="false" name="LicenseParamsOut" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::vector&lt;std::string&gt;"/>
+     </DataTypeRefParam>
+   </Typedef>
+   <Struct createRelease="Awp03.4.0" description="A strucure that holds all license related and pagination related information." isPublished="false" name="LicensesWithTypesResponse" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="A list of licenseOutputs objects." name="licensesOutput">
+       <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseOutput"/>
+     </StructElement>
+     <StructElement description="A map (string, list of ConfigurationContextChoice) of ACE context atrributes with the list of ACE context atrtributes and possible values." name="licenseOptions">
+       <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseOptions"/>
+     </StructElement>
+     <StructElement description="The total licenses found." name="totalFound">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="The end index of the ADA_LICENSE returned by the operation. This end index will be used by the client as start index of next iteration." name="endIndex">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="The total number of licenses loaded at a time." name="totalLoaded">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="A map (string, list of string) for future use. It will used to return values which passed in licenseParamsIn parameter of LicenseInputs structure." name="licenseParamsOut">
+       <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseParamsOut"/>
+     </StructElement>
+     <StructElement description="The SOA framework object containing objects that were created, deleted or updated by the Service, plain objects and error information. For this service, all object are returned to the plain objects group. Error information will also be returned." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="Awp03.4.0" description=" structure that holds internal value and display value of ADA_License." isPublished="false" name="LicenseType" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="Internal value of ADA_License." name="internalValue">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Display value of ADA_License." name="displayValue">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="Awp03.4.0" description="A structure containing pagination criteria." isPublished="false" name="PaginationInfo" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+     <StructElement description="The start index to return the licenses. Must be a non-negative value. Otherwise all data will be returned and the data will not  be paginated." name="startIndex">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="The maximum number of licenses to return. Must be a value greater than zero. Otherwise, all data will be returned and the data will not be paginated." name="maxToReturn">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+   </Struct>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp03.4.0" description="This operation retrieves the Licenses attached to the given workspace objects . In case of multiple objects, only the licenses that are attached to all of the objects will be returned . It also retrieves level or structure information in case of ActiveWorkspace Content context. In ActiveWorkspace Content context, if the selected object do not have additional child objects then level or structure information are not be returned." id="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse#Aut0::Soa::Security::AwLicensing::getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" name="Aut0::Soa::Security::AwLicensing::getLicensesWithTypes" returnConst="false" returnDescription="The licenses attached to the given objects and the licenses that are available for attachment to those objects." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="Structure that holds the information required to get list of licenses." freeOutputMemory="false" inputOutput="Input" name="licenseInputs">
+       <OperationParameterDataTypeRef dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="Awp03.4.0" dependencies="" description="This operation retrieves the Licenses attached to the given workspace objects . In case of multiple objects, only the licenses that are attached to all of the objects will be returned . It also retrieves level or structure information in case of ActiveWorkspace Content context. In ActiveWorkspace Content context, if the selected object do not have additional child objects then level or structure information are not be returned." exceptionCondition="" id="getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" interface="Aut0::Soa::Security::AwLicensing" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getLicensesWithTypes" opTemplate="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse#Aut0::Soa::Security::AwLicensing::getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" returnDescription="The licenses attached to the given objects and the licenses that are available for attachment to those objects." useCase="">
+     <ParameterInfo description="Structure that holds the information required to get list of licenses." parameterName="licenseInputs"/>
+   </Operation>
+
+   <OperationInputType artifactName="Aut0ITARLicenseCreI" description="CreateInput object for &quot;Aut0ITARLicense&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Aut0ITARLicenseCreI" typeName="Aut0ITARLicenseCreI">
+     <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Reference to a persistent ITAR License object." fieldType="SimpleProperty" propName="aut0ITARLicense" srcPropName="aut0ITARLicense"/>
+     <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Authorizing Paragraph that authorizes the attachment of this license to a Workspace Object" fieldType="SimpleProperty" propName="aut0AuthorizingParagraph" srcPropName="aut0AuthorizingParagraph"/>
+   </OperationInputType>
+   <OperationInputType artifactName="Aut0ITARLicenseSvAI" description="SaveAsInput object for &quot;Aut0ITARLicense&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Aut0ITARLicenseSvAI" typeName="Aut0ITARLicenseSvAI"/>
+   <TcRuntimeType artifactName="Aut0ITARLicense" description="Aut0ITARLicense is runtime business object that encapsulates ITAR_License. Aut0ITARLicense will be used to view the ead_paragraph entered during attachment of licenses to a workspace object. Aut0ITARLicense is used in Teamcenter Active Workspace." functionality="Aut0Authorization" isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Aut0ITARLicense" typeName="Aut0ITARLicense">
+     <TcProperty arrayLength="0" description="Reference to a persistent ITAR License object." isArray="false" propMaxStringLength="0" propName="aut0ITARLicense" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ITAR_License" referencedTypeConstant=""/>
+     <TcProperty arrayLength="0" description="Authorizing Paragraph that authorizes the attachment of this license to a Workspace Object" isArray="false" propMaxStringLength="80" propName="aut0AuthorizingParagraph" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+   </TcRuntimeType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Aut0ITARLicense" value="Aut0ITARLicenseCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aut0ITARLicense" value="Aut0ITARLicenseSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ITARLicense" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0LastModifiedDate" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ObjectName" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ObjectType" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0OwningUser" typeName="Aut0ITARLicense" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicense" value="Write Only If Null"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ITARLicense" typeName="Aut0ITARLicense" value="Write Only If Null"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0LastModifiedDate" typeName="Aut0ITARLicense" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ObjectName" typeName="Aut0ITARLicense" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ObjectType" typeName="Aut0ITARLicense" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0OwningUser" typeName="Aut0ITARLicense" value="Read"/>
+   <TcPropertyConstantAttach constantName="Required" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicenseCreI" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" propertyName="aut0ITARLicense" typeName="Aut0ITARLicenseCreI" value="true"/>
+   <TcCompoundPropertyRule description="Last Modified Date of the wrapped ITAR License." destPropertyName="aut0LastModifiedDate" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).last_mod_date" sourcePropertyName="last_mod_date" sourceTypeName="ITAR_License"/>
+   <TcCompoundPropertyRule description="Name of the wrapped ITAR License." destPropertyName="aut0ObjectName" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).object_name" sourcePropertyName="object_name" sourceTypeName="ITAR_License"/>
+   <TcCompoundPropertyRule description="Type of the wrapper ITAR License. (In case of children of ITAR)" destPropertyName="aut0ObjectType" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).object_type" sourcePropertyName="object_type" sourceTypeName="ITAR_License"/>
+   <TcCompoundPropertyRule description="Owning User of the wrapped ITAR License." destPropertyName="aut0OwningUser" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).owning_user" sourcePropertyName="owning_user" sourceTypeName="ITAR_License"/>
+   <Functionality description="This component consists code that supports authorization functionalities in Active Workspace." displayName="Aut0Authorization" enabledForVerificationRules="false" name="Aut0Authorization"/>
+
+   <Condition description="Server side command visibility condition for Attach License command. This command should be visible for Teamcenter Version  &gt;=11.2.4. This command should be visible only if selected object is of type WorkspaceObject, Dataset or Form. This command should not be visible if selected object is of type EPMTask or Signoff. This command should be visible if the  logged in user is a member of dba group or is in the ITAR Admin or IP Admin role." expression="((u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;WorkspaceObject&quot;) = true  OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Dataset&quot;) = true OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Form&quot;) = true) AND (u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;EPMTask&quot;) = false AND u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Signoff&quot;) = false)  AND (u.fnd0ConditionHelper.awp0IsPlatformVersionAtLeast(&quot;11.2.4&quot;,&quot;11.2.4&quot;)  = true) ) AND (u.group_name = &quot;dba&quot; OR u.role_name = &quot;ITAR Admin&quot; OR u.role_name = &quot;IP Admin&quot;)" name="Aut0AttachLicensesCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition description="Server side command visibility condition for Assign Projects command. This command should be visible for Teamcenter Version  &lt;=11.2.3. It should be visible only if selected object is of type WorkspaceObject, Dataset or Form. It should not be visible if selected object is of type EPMTask or Signoff. It should be visible if the logged in user is a member of dba group or is in the ITAR Admin or IP Admin role." expression="((u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;WorkspaceObject&quot;) = true  OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Dataset&quot;) = true OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Form&quot;) = true) AND (u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;EPMTask&quot;) = false AND u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Signoff&quot;) = false) ) AND ((u.fnd0ConditionHelper.awp0IsPlatformVersionSupported(&quot;11.2.0&quot;) = true) AND (u.fnd0ConditionHelper.awp0IsPlatformVersionSupported(&quot;11.2.4&quot;) = false))  AND (u.group_name = &quot;dba&quot; OR u.role_name = &quot;ITAR Admin&quot; OR u.role_name = &quot;IP Admin&quot;)" name="Aut0AttachLicensesLegacyCmdCond" secured="false">
+     <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Command commandId="Aut0AttachLicenses" description="Attach or Detach Licenses" displayName="Licenses" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Licenses"/>
+   <Command commandId="Aut0AttachLicensesLegacy" description="Attach or Detach Licenses" displayName="Licenses" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Licenses"/>
+   <ClientScope clientName="AWClient" description="MyProjectList client scope" displayName="My Project List" hostingClientName="" name="Aut0MyProjectList"/>
+   <CommandAttach anchorId="" childCommandId="Aut0AttachLicenses" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Aut0AttachLicenses" childCommandId="Aut0AttachLicensesLegacy" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandCollectionAttach clientScopeId="Aut0MyProjectList" commandCollectionId="Awp0MyProject_display" type="aw_display"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Aut0AttachLicenses" conditionName="Aut0AttachLicensesCmdCond"/>
+   <CommandConditionAttach commandCollectionId="" commandId="Aut0AttachLicensesLegacy" conditionName="Aut0AttachLicensesLegacyCmdCond"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

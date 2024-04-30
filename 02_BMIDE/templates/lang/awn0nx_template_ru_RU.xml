@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ru_RU" status="Approved">Экспорт NX</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ru_RU" status="Approved">Экспорт NX</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="ru_RU" status="Approved">Содержит метаданные Altrep</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="ru_RU" status="Approved">Содержит какие-либо ссылки между деталями</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="ru_RU" status="Approved">Содержит поврежденные ссылки</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="ru_RU" status="Approved">Содержит компонент</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="ru_RU" status="Approved">Содержит ограничения</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="ru_RU" status="Approved">Содержит чертеж</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="ru_RU" status="Approved">Содержит перезапись геометрии</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="ru_RU" status="Approved">Содержит выражения между деталями</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="ru_RU" status="Approved">Содержит размещения</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="ru_RU" status="Approved">Содержит не мастер-компонент</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="ru_RU" status="Approved">Содержит смещенные компоненты</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="ru_RU" status="Approved">Содержит список деталей</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="ru_RU" status="Approved">Содержит связи Wave, зависимые от положения</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="ru_RU" status="Approved">Содержит связи Wave, независимые от положения</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="ru_RU" status="Approved">Содержит перезапись положений</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="ru_RU" status="Approved">Содержит интерфейс изделия</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="ru_RU" status="Approved">Содержит ссылочный компонент</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="ru_RU" status="Approved">Содержит переструктурированные компоненты</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="ru_RU" status="Approved">Содержит подавленный компонент</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="ru_RU" status="Approved">Содержит элемент, заданный пользователем</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="ru_RU" status="Approved">Свойства NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="ru_RU" status="Approved">Версия NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="ru_RU" status="Approved">Свойство деталей NX</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="ru_RU" status="Approved">Дата создания UGMASTER</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="ru_RU" status="Approved">Экспорт в NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="ru_RU" status="Approved">Добавить</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="ru_RU" status="Approved">Открыть в NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="ru_RU" status="Approved">Открыть в браузере отношений NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="ru_RU" status="Approved">Открыть в связанных требованиях в NX</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="ru_RU" status="Approved">Задать папку NX по умолчанию</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="ru_RU" status="Approved">Открыть в NX</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="ru_RU" status="Approved">Определяет, будет ли отображаться команда Экспорт в NX для выбранного объекта.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="ru_RU" status="Approved">Проверяет, если выбранный объект является допустимым для операции "Добавить" в NX.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="ru_RU" status="Approved">Проверяет, поддерживается ли выбранный объект для операции "Задать папку по умолчанию" в NX.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="ru_RU" status="Approved">Проверяет, допустим ли данный тип для операции "Открыть в NX"</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="ru_RU" status="Approved">Проверяет, допустим ли выбранный объект для операции "Открыть в Менеджере отношений NX"</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="ru_RU" status="Approved">Проверяет, допустим ли выбранный объект для операции "Открыть в связанных требованиях в NX"</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="ru_RU" status="Approved">Команда NX Open</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="ru_RU" status="Approved">Данное условие определяет, если экземпляры бизнес-объекта Набор данных не относятся к типу, заданному параметром AWC_NX_OpenSupportedTypes.</key>
+</Add>
+</TcBusinessDataLocalization>

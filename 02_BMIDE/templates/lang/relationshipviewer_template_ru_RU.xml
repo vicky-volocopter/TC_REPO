@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="ru_RU" status="Approved">Правило создания графика</key>
+   <key id="BusinessObject{::}Rv1XML" locale="ru_RU" status="Approved">Файл настроек отношений</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ru_RU" status="Approved">Набор команд для браузера отношений</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ru_RU" status="Approved">Ссылки браузера отношений</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="ru_RU" status="Approved">Параметры правила</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="ru_RU" status="Approved">Запрос</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="ru_RU" status="Approved">Всплывающий</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="ru_RU" status="Approved">Снизу вверх</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="ru_RU" status="Approved">Переместить вперед</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="ru_RU" status="Approved">На передний план</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="ru_RU" status="Approved">Круговой</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="ru_RU" status="Approved">Преобразовать в родительский объект</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="ru_RU" status="Approved">Создать родительский объект для выделенного</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="ru_RU" status="Approved">Настройка инкрементного изменения 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="ru_RU" status="Approved">Настройка инкрементного изменения 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="ru_RU" status="Approved">Настройка ортогональной компоновки 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="ru_RU" status="Approved">Ортогональный</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="ru_RU" status="Approved">Удалить выбранные элементы графика</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="ru_RU" status="Approved">Завершить изменение</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="ru_RU" status="Approved">Развернуть 1й уровень отношений</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="ru_RU" status="Approved">Развернуть</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="ru_RU" status="Approved">Развернуть</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="ru_RU" status="Approved">Развернуть 1й уровень отношений</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="ru_RU" status="Approved">Развернуть</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="ru_RU" status="Approved">Развернуть</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="ru_RU" status="Approved">Скрыть все дочерние</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="ru_RU" status="Approved">Скрыть все входящие связи</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="ru_RU" status="Approved">Скрыть все исходящие связи</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="ru_RU" status="Approved">Инкрементно</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="ru_RU" status="Approved">Слева направо</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="ru_RU" status="Approved">Систематизированный</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="ru_RU" status="Approved">Прямоугольный</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="ru_RU" status="Approved">Скрыть входящие</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="ru_RU" status="Approved">Скрыть исходящие</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="ru_RU" status="Approved">Скрыть узел анимации</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="ru_RU" status="Approved">Отобразить входящие</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="ru_RU" status="Approved">Отобразить исходящие</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="ru_RU" status="Approved">Управление связями</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="ru_RU" status="Approved">Справа налево</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="ru_RU" status="Approved">Назад</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="ru_RU" status="Approved">На задний план</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="ru_RU" status="Approved">Показать всех потомков</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="ru_RU" status="Approved">Показать все входящие связи</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="ru_RU" status="Approved">Показать все исходящие связи</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="ru_RU" status="Approved">Отобразить входящие</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="ru_RU" status="Approved">2 уровня</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="ru_RU" status="Approved">3 уровней</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="ru_RU" status="Approved">4 уровней</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="ru_RU" status="Approved">5 уровней</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="ru_RU" status="Approved">Отношения</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="ru_RU" status="Approved">Отобразить исходящие</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="ru_RU" status="Approved">2 уровня</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="ru_RU" status="Approved">3 уровней</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="ru_RU" status="Approved">4 уровней</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="ru_RU" status="Approved">5 уровней</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="ru_RU" status="Approved">Начать изменение</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="ru_RU" status="Approved">Таблица сверху-вниз</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="ru_RU" status="Approved">Развернуть</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="ru_RU" status="Approved">Сверху вниз</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="ru_RU" status="Approved">Дерево</key>
+</Add>
+</TcBusinessDataLocalization>

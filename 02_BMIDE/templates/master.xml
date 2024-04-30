@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="cla0classification_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="nx0tcin_template.xml"/>
+    <include file="translationservice_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="aud0auditaw_template.xml"/>
+    <include file="aut0authorizationaws_template.xml"/>
+    <include file="csi_template.xml"/>
+    <include file="rb0reportingaw_template.xml"/>
+    <include file="relationshipviewer_template.xml"/>
+    <include file="awn0nx_template.xml"/>
+    <include file="awv0activeworkspacevis_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+	<include file="vc4volocopter_template.xml"/>
+</TcBusinessDataIncludes>

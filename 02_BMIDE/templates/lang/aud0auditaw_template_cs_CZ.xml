@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:30 AM 2021">
+    <Add>
+   <key id="ConditionDescription{::}Aud00AuditLogCmdCond" locale="cs_CZ" status="Approved">Tato podmínka je u objektů Fnd0AuditLog vždy vyhodnocena jako false.</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:55 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="cs_CZ" status="Approved">Úložiště základní nabídky ceny</key>
+   <key id="BusinessObject{::}BaseQuote" locale="cs_CZ" status="Approved">Základní nabídka ceny</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="cs_CZ" status="Approved">Hlavní balík Bid</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="cs_CZ" status="Approved">Obsah balíku Bid</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="cs_CZ" status="Approved">Položka řádku balíku Bid</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="cs_CZ" status="Approved">Hlavní balík Bid</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="cs_CZ" status="Approved">Hlavní revize balíku Bid</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="cs_CZ" status="Approved">Revize balíku Bid</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="cs_CZ" status="Approved">Hlavní verze balíku Bid</key>
+   <key id="BusinessObject{::}BidPackage" locale="cs_CZ" status="Approved">Balík Bid</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="cs_CZ" status="Approved">Hlavní komerční součást</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="cs_CZ" status="Approved">Hlavní revize komerční součásti</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="cs_CZ" status="Approved">Revize komerční součásti</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="cs_CZ" status="Approved">Hlavní komerční součást</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="cs_CZ" status="Approved">Hlavní verze komerční součásti</key>
+   <key id="BusinessObject{::}CommercialPart" locale="cs_CZ" status="Approved">Komerční součást</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="cs_CZ" status="Approved">Informace distributora</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="cs_CZ" status="Approved">Sklad distributora</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="cs_CZ" status="Approved">Kontext konfigurace položky řádku</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="cs_CZ" status="Approved">Informace výrobce</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="cs_CZ" status="Approved">Hlavní součást prodejce</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="cs_CZ" status="Approved">Hlavní revize součásti prodejce</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="cs_CZ" status="Approved">Revize součásti prodejce</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="cs_CZ" status="Approved">Hlavní součást výrobce</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="cs_CZ" status="Approved">Hlavní verze součásti výrobce</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="cs_CZ" status="Approved">Součást prodejce</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="cs_CZ" status="Approved">Sklad výrobce</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="cs_CZ" status="Approved">Poskytnuto z umístění</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="cs_CZ" status="Approved">Úložiště nabídky ceny</key>
+   <key id="BusinessObject{::}Quote" locale="cs_CZ" status="Approved">Nabídka ceny</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="cs_CZ" status="Approved">Informace dodavatele</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="cs_CZ" status="Approved">Sklad dodavatele</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="cs_CZ" status="Approved">Dokumenty kvality</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="cs_CZ" status="Approved">Uvozovky</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="cs_CZ" status="Approved">Kontext ID prodejce</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="cs_CZ" status="Approved">Prodejci součásti</key>
+   <key id="BusinessObject{::}VMRepresents" locale="cs_CZ" status="Approved">Reprezentace prodejce</key>
+   <key id="BusinessObject{::}Vendor Master" locale="cs_CZ" status="Approved">Hlavní prodejce</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="cs_CZ" status="Approved">Identifikátor prodejce</key>
+   <key id="BusinessObject{::}VendorMaster" locale="cs_CZ" status="Approved">Hlavní prodejce</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="cs_CZ" status="Approved">Hlavní revize prodejce</key>
+   <key id="BusinessObject{::}VendorRevision" locale="cs_CZ" status="Approved">Revize prodejce</key>
+   <key id="BusinessObject{::}VendorRole" locale="cs_CZ" status="Approved">Role prodejce</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="cs_CZ" status="Approved">Hlavní verze prodejce</key>
+   <key id="BusinessObject{::}Vendor" locale="cs_CZ" status="Approved">Prodejce</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="cs_CZ" status="Approved">Prodejce</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="cs_CZ" status="Approved">Prodejce</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="cs_CZ" status="Approved">Položka řádku balíku Bid</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="cs_CZ" status="Approved">Kontext konfigurace</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="cs_CZ" status="Approved">Vlastní atributy položek řádků</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="cs_CZ" status="Approved">Název</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="cs_CZ" status="Approved">Součást</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="cs_CZ" status="Approved">Množství</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="cs_CZ" status="Approved">Obsah balíku Bid</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="cs_CZ" status="Approved">Položky řádku</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="cs_CZ" status="Approved">Vyžadovaný účel</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="cs_CZ" status="Approved">Vyžádané datum</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="cs_CZ" status="Approved">Typ balíku Bid</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="cs_CZ" status="Approved">Je nutný návrh</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="cs_CZ" status="Approved">Vyráběný nebo kupovaný</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="cs_CZ" status="Approved">Relace součástí prodejce</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="cs_CZ" status="Approved">Součásti prodejce</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="cs_CZ" status="Approved">Prodejci</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="cs_CZ" status="Approved">Součásti prodejce</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="cs_CZ" status="Approved">Prodejci</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="cs_CZ" status="Approved">Číslo DUNS</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="cs_CZ" status="Approved">Typ pohledu</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="cs_CZ" status="Approved">Je nutný návrh</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="cs_CZ" status="Approved">Číslo součásti prodejce</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="cs_CZ" status="Approved">Vyráběný nebo Kupovaný</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="cs_CZ" status="Approved">Číslo součásti prodejce</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="cs_CZ" status="Approved">Číslo součásti prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="cs_CZ" status="Approved">Komerční součásti</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="cs_CZ" status="Approved">Název součásti prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="cs_CZ" status="Approved">ID prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="cs_CZ" status="Approved">Umístění prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="cs_CZ" status="Approved">Název prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="cs_CZ" status="Approved">Číslo součásti prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="cs_CZ" status="Approved">Prodejci</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="cs_CZ" status="Approved">Adresa společnosti</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="cs_CZ" status="Approved">Umístění prodejce</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="cs_CZ" status="Approved">Prodejce</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="cs_CZ" status="Approved">Měna</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="cs_CZ" status="Approved">Množství</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="cs_CZ" status="Approved">Náklady na nástroje</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="cs_CZ" status="Approved">Cena jednotky</key>
+   <key id="Property{::}Quote{::}currency" locale="cs_CZ" status="Approved">Měna</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="cs_CZ" status="Approved">Množství</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="cs_CZ" status="Approved">Náklady na nástroje</key>
+   <key id="Property{::}Quote{::}unit_price" locale="cs_CZ" status="Approved">Cena jednotky</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="cs_CZ" status="Approved">Status certifikátu</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="cs_CZ" status="Approved">Status certifikátu</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="cs_CZ" status="Approved">Status prodejce</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="cs_CZ" status="Approved">Preferovaný status</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="cs_CZ" status="Approved">Součást</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="cs_CZ" status="Approved">Preferovaný status</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="cs_CZ" status="Approved">Komentáře:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="cs_CZ" status="Approved">Informace o roli prodejce</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="cs_CZ" status="Approved">Role prodejců</key>
+   <key id="Property{::}VendorRole{::}description" locale="cs_CZ" status="Approved">Popis</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="cs_CZ" status="Approved">Informace o roli prodejce</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="cs_CZ" status="Approved">Název role prodejce</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="cs_CZ" status="Approved">Komerční součásti</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="cs_CZ" status="Approved">Kontakt</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="cs_CZ" status="Approved">E-mail</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="cs_CZ" status="Approved">Adresa</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="cs_CZ" status="Approved">Telefon</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="cs_CZ" status="Approved">Skupina</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="cs_CZ" status="Approved">Součásti prodejce</key>
+   <key id="Property{::}Vendor{::}web_site" locale="cs_CZ" status="Approved">Webové stránky</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="cs_CZ" status="Approved">Určuje, že všechny reprezentace prodejce součásti budou zobrazeny ve správci struktury. Tato podmínka je použita jako možnost pro pravidlo výběru součásti prodejce a k filtrování seznamu zobrazených součástí prodejce.</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="cs_CZ" status="Approved">Určuje, že pouze preferované reprezentace prodejce součásti budou zobrazeny ve správci struktury. Tato podmínka je použita jako možnost pro pravidlo výběru součásti prodejce a k filtrování seznamu zobrazených součástí prodejce.</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="cs_CZ" status="Approved">Záloha</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="cs_CZ" status="Approved">Preferovaný</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="cs_CZ" status="Approved">Role distributora</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="cs_CZ" status="Approved">Role výrobce</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="cs_CZ" status="Approved">Role dodavatele</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="cs_CZ" status="Approved">Záloha</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="cs_CZ" status="Approved">Preferovaný</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="cs_CZ" status="Approved">Distributor</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="cs_CZ" status="Approved">Výrobce</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="cs_CZ" status="Approved">Dodavatel</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="cs_CZ" status="Approved">Relace součásti dodavatele</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="cs_CZ" status="Approved">Reprezentace dodavatele</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="cs_CZ" status="Approved">Součásti dodavatele</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="cs_CZ" status="Approved">Relace součásti dodavatele</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="cs_CZ" status="Approved">Reprezentace dodavatele</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="cs_CZ" status="Approved">Řádek výměny</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="cs_CZ" status="Approved">Odezva dodavatelů</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní výměny prodejců</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="cs_CZ" status="Approved">Hlavní výměna prodejců</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize výměny prodejců</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize výměny prodejců</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="cs_CZ" status="Approved">Revize výměny prodejců</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="cs_CZ" status="Approved">Výměna prodejců</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="cs_CZ" status="Approved">Objekt výměny</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="cs_CZ" status="Approved">Poslední přijaté datum</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="cs_CZ" status="Approved">Odeslaný objekt</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="cs_CZ" status="Approved">Přijaté objekty</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="cs_CZ" status="Approved">Datum odpovědi</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="cs_CZ" status="Approved">Komentáře ke kontrole</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="cs_CZ" status="Approved">Status kontroly</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="cs_CZ" status="Approved">Objekt výměny</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="cs_CZ" status="Approved">Datum uzavření</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="cs_CZ" status="Approved">Řádky výměny</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="cs_CZ" status="Approved">Datum odeslání</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="cs_CZ" status="Approved">Řádky odpovědi</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="cs_CZ" status="Approved">Důvod statusu</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="cs_CZ" status="Approved">Status</key>
+</Add>
+</TcBusinessDataLocalization>

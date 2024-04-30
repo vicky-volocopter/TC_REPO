@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="Audit" enableOpsDataDeploy="false" guid="3Q5E2ST4R267WD0HMZ0V9LOV9YKF9218" isDescriptionMandatory="true" name="aud0auditaw" optional="true" prefixes="Aud0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+</TcBusinessDataIncludes>

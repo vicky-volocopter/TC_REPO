@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="cs_CZ" status="Approved">Pravidlo generování grafu</key>
+   <key id="BusinessObject{::}Rv1XML" locale="cs_CZ" status="Approved">Soubor konfigurace relací</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="cs_CZ" status="Approved">Kolekce příkazů prohlížeče relací</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="cs_CZ" status="Approved">Relace prohlížeče relací</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="cs_CZ" status="Approved">Parametry pravidel</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="cs_CZ" status="Approved">Dotaz</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="cs_CZ" status="Approved">Bublina</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="cs_CZ" status="Approved">Zdola nahoru</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="cs_CZ" status="Approved">Přenést vpřed</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="cs_CZ" status="Approved">Přenést dopředu</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="cs_CZ" status="Approved">Kruhový</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="cs_CZ" status="Approved">Převést na nadřazenou položku</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="cs_CZ" status="Approved">Vytvořit nadřazenou položku pro výběr</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="cs_CZ" status="Approved">Vlastní přírůstkové 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="cs_CZ" status="Approved">Vlastní přírůstkové 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="cs_CZ" status="Approved">Vlastní ortografické 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="cs_CZ" status="Approved">Levý orto</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="cs_CZ" status="Approved">Odstranit vybrané položky grafu</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="cs_CZ" status="Approved">Ukončit autorské funkce</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="cs_CZ" status="Approved">Rozbalit relace o 1 úroveň</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="cs_CZ" status="Approved">Rozbalit</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="cs_CZ" status="Approved">Rozbalit</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="cs_CZ" status="Approved">Rozbalit relace o 1 úroveň</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="cs_CZ" status="Approved">Rozbalit</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="cs_CZ" status="Approved">Rozbalit</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="cs_CZ" status="Approved">Skrýt všechny podřazené položky</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="cs_CZ" status="Approved">Skrýt všechny příchozí relace</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="cs_CZ" status="Approved">Skrýt všechny odchozí relace</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="cs_CZ" status="Approved">Přírůstkové</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="cs_CZ" status="Approved">Zleva doprava</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="cs_CZ" status="Approved">Organický</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="cs_CZ" status="Approved">Ortografický</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="cs_CZ" status="Approved">Skrýt příchozí</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="cs_CZ" status="Approved">Skrýt odchozí</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="cs_CZ" status="Approved">Skrýt animaci uzlů</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="cs_CZ" status="Approved">Zobrazit příchozí</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="cs_CZ" status="Approved">Zobrazit odchozí</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="cs_CZ" status="Approved">Ovladače relací</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="cs_CZ" status="Approved">Zprava doleva</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="cs_CZ" status="Approved">Přenést dál</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="cs_CZ" status="Approved">Přenést dozadu</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="cs_CZ" status="Approved">Zobrazit všechny podřazené položky</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="cs_CZ" status="Approved">Zobrazit všechny příchozí relace</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="cs_CZ" status="Approved">Zobrazit všechny odchozí relace</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="cs_CZ" status="Approved">Zobrazit příchozí</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="cs_CZ" status="Approved">2 úrovně</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="cs_CZ" status="Approved">3 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="cs_CZ" status="Approved">4 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="cs_CZ" status="Approved">5 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="cs_CZ" status="Approved">Relace</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="cs_CZ" status="Approved">Zobrazit odchozí</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="cs_CZ" status="Approved">2 úrovně</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="cs_CZ" status="Approved">3 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="cs_CZ" status="Approved">4 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="cs_CZ" status="Approved">5 úrovní</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="cs_CZ" status="Approved">Spustit autorské funkce</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="cs_CZ" status="Approved">Tabulka shora dolů</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="cs_CZ" status="Approved">Rozbalit</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="cs_CZ" status="Approved">Shora dolů</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="cs_CZ" status="Approved">Strom</key>
+</Add>
+</TcBusinessDataLocalization>

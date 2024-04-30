@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:56 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="ru_RU" status="Approved">Хранение базовых коммерческих предложений</key>
+   <key id="BusinessObject{::}BaseQuote" locale="ru_RU" status="Approved">Базовое коммерческое предложение</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="ru_RU" status="Approved">Мастер-форма тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="ru_RU" status="Approved">Содержание тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="ru_RU" status="Approved">Позиция тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="ru_RU" status="Approved">Мастер-форма тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="ru_RU" status="Approved">Ревизия тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии тендерного пакета</key>
+   <key id="BusinessObject{::}BidPackage" locale="ru_RU" status="Approved">Тендерный пакет</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="ru_RU" status="Approved">Мастер-форма покупного изделия</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии покупного изделия</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="ru_RU" status="Approved">Ревизия покупного изделия</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="ru_RU" status="Approved">Мастер-форма покупного изделия</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии покупного изделия</key>
+   <key id="BusinessObject{::}CommercialPart" locale="ru_RU" status="Approved">Покупное изделие</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="ru_RU" status="Approved">Информация о дистрибьюторе</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="ru_RU" status="Approved">Хранение дистрибьютора</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="ru_RU" status="Approved">Контекст конфигурации состава тендерного пакета</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="ru_RU" status="Approved">Информация о производителе</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="ru_RU" status="Approved">Мастер-форма изделия поставщика</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии изделия поставщика</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="ru_RU" status="Approved">Ревизия изделия поставщика</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="ru_RU" status="Approved">Мастер-деталь производителя</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии детали производителя</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="ru_RU" status="Approved">Изделие поставщика</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="ru_RU" status="Approved">Хранение производителя</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="ru_RU" status="Approved">Предоставлено из расположений</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="ru_RU" status="Approved">Хранение коммерческих предложений</key>
+   <key id="BusinessObject{::}Quote" locale="ru_RU" status="Approved">Коммерческое предложение</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="ru_RU" status="Approved">Информация о поставщике</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="ru_RU" status="Approved">Хранение поставщика</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="ru_RU" status="Approved">Документы качества</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="ru_RU" status="Approved">Коммерческие предложения</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="ru_RU" status="Approved">Контекст идентификатора поставщика</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="ru_RU" status="Approved">Поставщики детали</key>
+   <key id="BusinessObject{::}VMRepresents" locale="ru_RU" status="Approved">Представление поставщика </key>
+   <key id="BusinessObject{::}Vendor Master" locale="ru_RU" status="Approved">Мастер-форма поставщика</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="ru_RU" status="Approved">Идентификатор поставщика</key>
+   <key id="BusinessObject{::}VendorMaster" locale="ru_RU" status="Approved">Мастер-форма поставщика</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии поставщика</key>
+   <key id="BusinessObject{::}VendorRevision" locale="ru_RU" status="Approved">Ревизия поставщика</key>
+   <key id="BusinessObject{::}VendorRole" locale="ru_RU" status="Approved">Роль производителя</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии поставщика</key>
+   <key id="BusinessObject{::}Vendor" locale="ru_RU" status="Approved">Поставщик</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="ru_RU" status="Approved">Поставщик</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="ru_RU" status="Approved">Поставщик</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="ru_RU" status="Approved">Позиция тендерного пакета</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="ru_RU" status="Approved">Контекст конфигурации</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="ru_RU" status="Approved">Настроить атрибуты состава тендерного пакета</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="ru_RU" status="Approved">Имя</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="ru_RU" status="Approved">Деталь</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="ru_RU" status="Approved">Количество</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="ru_RU" status="Approved">Содержание тендерного пакета</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="ru_RU" status="Approved">Состав тендерного пакета</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="ru_RU" status="Approved">Требуемая цель</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="ru_RU" status="Approved">Запрашиваемая дата</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="ru_RU" status="Approved">Тип тендерного пакета</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="ru_RU" status="Approved">Требуется разработка</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="ru_RU" status="Approved">Сделать или купить</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="ru_RU" status="Approved">Отношения изделия поставщика</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="ru_RU" status="Approved">Изделия поставщика</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="ru_RU" status="Approved">Поставщики</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="ru_RU" status="Approved">Изделия поставщика</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="ru_RU" status="Approved">Поставщики</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="ru_RU" status="Approved">Номер DUNS</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="ru_RU" status="Approved">Тип вида</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="ru_RU" status="Approved">Требуется разработка</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="ru_RU" status="Approved">Номер изделия поставщика</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="ru_RU" status="Approved">Сделать или купить</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="ru_RU" status="Approved">Номер изделия поставщика</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="ru_RU" status="Approved">Номер изделия поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="ru_RU" status="Approved">Покупные изделия</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="ru_RU" status="Approved">Имя изделия поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="ru_RU" status="Approved">Идентификатор поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="ru_RU" status="Approved">Расположения поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="ru_RU" status="Approved">Имя поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="ru_RU" status="Approved">Номер изделия поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="ru_RU" status="Approved">Поставщики</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="ru_RU" status="Approved">Расположение компании</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="ru_RU" status="Approved">Расположение поставщика</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="ru_RU" status="Approved">Поставщик</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="ru_RU" status="Approved">Валюта</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="ru_RU" status="Approved">Количество</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="ru_RU" status="Approved">Стоимость оснастки</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="ru_RU" status="Approved">Цена единицы</key>
+   <key id="Property{::}Quote{::}currency" locale="ru_RU" status="Approved">Валюта</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="ru_RU" status="Approved">Количество</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="ru_RU" status="Approved">Стоимость оснастки</key>
+   <key id="Property{::}Quote{::}unit_price" locale="ru_RU" status="Approved">Цена единицы</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="ru_RU" status="Approved">Сертификат статуса</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="ru_RU" status="Approved">Сертификат статуса</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="ru_RU" status="Approved">Статус поставщика</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="ru_RU" status="Approved">Предпочтительный статус</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="ru_RU" status="Approved">Деталь</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="ru_RU" status="Approved">Предпочтительный статус</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="ru_RU" status="Approved">Комментарии:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="ru_RU" status="Approved">Информация о роли поставщика</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="ru_RU" status="Approved">Роли поставщика</key>
+   <key id="Property{::}VendorRole{::}description" locale="ru_RU" status="Approved">Описание</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="ru_RU" status="Approved">Информация о роли поставщика</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="ru_RU" status="Approved">Имя роли производителя</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="ru_RU" status="Approved">Покупные изделия</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="ru_RU" status="Approved">Контакт</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="ru_RU" status="Approved">Эл. почта</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="ru_RU" status="Approved">Адрес</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="ru_RU" status="Approved">Телефон</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="ru_RU" status="Approved">Группа</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="ru_RU" status="Approved">Изделия поставщика</key>
+   <key id="Property{::}Vendor{::}web_site" locale="ru_RU" status="Approved">Веб-сайт</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="ru_RU" status="Approved">Все представления поставщика для изделия будут отображаться в Менеджере структуры. Это условие используется в качестве параметра для правила выбора изделия поставщика, а также применяется в качестве фильтра к списку отображаемых изделий поставщика.</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="ru_RU" status="Approved">Только предпочтительные представления поставщика для изделия будут отображаться в Менеджере структуры. Это условие используется в качестве параметра для правила выбора изделия поставщика, а также применяется в качестве фильтра к списку отображаемых изделий поставщика.</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="ru_RU" status="Approved">Резервное</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="ru_RU" status="Approved">Предпочтительное</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="ru_RU" status="Approved">Роль дистрибьютора</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="ru_RU" status="Approved">Роль производителя</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="ru_RU" status="Approved">Роль поставщика</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="ru_RU" status="Approved">Резервное</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="ru_RU" status="Approved">Предпочтительное</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="ru_RU" status="Approved">Дистрибьютор</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="ru_RU" status="Approved">Производитель</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="ru_RU" status="Approved">Поставщик</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="ru_RU" status="Approved">Отношение изделия поставщика</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="ru_RU" status="Approved">Представление поставщика </key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="ru_RU" status="Approved">Изделия поставщика</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="ru_RU" status="Approved">Отношение изделия поставщика</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="ru_RU" status="Approved">Представление поставщика </key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="ru_RU" status="Approved">Строка для данных обмена</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="ru_RU" status="Approved">Ответ поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения обмена данными поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="ru_RU" status="Approved">Мастер-форма обмена данными поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии обмена данными поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии обмена данными поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="ru_RU" status="Approved">Ревизия обмена данными поставщика</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="ru_RU" status="Approved">Обмена данными поставщика</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="ru_RU" status="Approved">Объект обмена данными</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="ru_RU" status="Approved">Дата последнего получения</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="ru_RU" status="Approved">Отправленный объект</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="ru_RU" status="Approved">Полученные объекты</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="ru_RU" status="Approved">Дата ответа</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="ru_RU" status="Approved">Комментарии к проверке</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="ru_RU" status="Approved">Статус проверки</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="ru_RU" status="Approved">Объект обмена данными</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="ru_RU" status="Approved">Дата закрытия</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="ru_RU" status="Approved">Строки для данных обмена</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="ru_RU" status="Approved">Дата выпуска</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="ru_RU" status="Approved">Строки ответов</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="ru_RU" status="Approved">Причина состояния</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="ru_RU" status="Approved">Состояние</key>
+</Add>
+</TcBusinessDataLocalization>

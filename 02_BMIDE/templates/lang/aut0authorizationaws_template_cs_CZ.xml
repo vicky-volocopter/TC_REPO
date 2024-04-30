@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="cs_CZ" status="Approved">Licence</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="cs_CZ" status="Approved">Licence</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti na straně serveru pro příkaz Licence. Tento příkaz by měl být viditelný ve verzi Teamcenteru &lt;=11.2.3. Měl by být viditelný pouze v případě, že je vybraný objekt typu WorkspaceObject, Dataset nebo Form. Neměl by být viditelný, pokud je vybraný objekt typu EPMTask nebo Signoff. Měl by být viditelný, pokud je přihlášený uživatel člen skupiny dba nebo má roli Správce ITAR nebo Správce IP.</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti na straně serveru pro příkaz Licence. Tento příkaz by měl být viditelný ve verzi Teamcenteru &lt;=11.3. Měl by být viditelný pouze v případě, že je vybraný objekt typu WorkspaceObject, Dataset nebo Form. Neměl by být viditelný, pokud je vybraný objekt typu EPMTask nebo Signoff. Měl by být viditelný, pokud je přihlášený uživatel člen skupiny dba nebo má roli Správce ITAR nebo Správce IP.</key>
+</Add>
+</TcBusinessDataLocalization>

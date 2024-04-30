@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "DEV_MAIN" branch
+  push:
+    branches: [ "DEV_MAIN" ]
+  pull_request:
+    branches: [ "QA" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+              - name: Cascading Merge
+  # You may pin to the exact commit or the version.
+  # uses: mheap/cascading-merge-action@f698ed7bfb8db048ba5d28b864fce2a61372bffb
+  uses: mheap/cascading-merge-action@v1.0.0
+  with:
+    # The GITHUB_TOKEN to use
+    token: # default is ${{ github.token }}
+    # The branches to merge, one per line. The branches at the top will be merged into lower branches
+    branches: 
+          

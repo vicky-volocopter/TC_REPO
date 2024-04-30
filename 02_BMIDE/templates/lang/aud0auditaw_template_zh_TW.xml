@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:30 AM 2021">
+    <Add>
+   <key id="ConditionDescription{::}Aud00AuditLogCmdCond" locale="zh_TW" status="Approved">此條件總是將 "Fnd0AuditLog" 物件評估為 false。</key>
+</Add>
+</TcBusinessDataLocalization>

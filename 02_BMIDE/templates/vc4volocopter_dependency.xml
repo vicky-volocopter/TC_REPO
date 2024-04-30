@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="Volocopter" enableOpsDataDeploy="true" guid="E446CAA2AC0E5AB4354150D90AAA9448" isDescriptionMandatory="false" name="vc4volocopter" optional="true" prefixes="VC4" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="nx0tcin_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+    <include file="csi_template.xml"/>
+</TcBusinessDataIncludes>
