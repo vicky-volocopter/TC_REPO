@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="pl_PL" status="Approved">Licencje</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="pl_PL" status="Approved">Licencje</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="pl_PL" status="Approved">Warunek widoczności polecenia po stronie serwera dla polecenia Licencje. To polecenie powinno być widoczne w oprogramowaniu Teamcenter w wersji nie wyższej niż 11.2.3. Powinno być widoczne wyłącznie wtedy, gdy typem wybranego elementu jest Element przestrzeni roboczej, Zestaw danych lub Formularz. Nie powinno być widoczne, gdy typem wybranego elementu jest Zadanie EPM lub Zatwierdzenie. Polecenie powinno być widoczne, jeśli zalogowany użytkownik jest członkiem grupy administratorów bazy danych, jest administratorem ITAR lub pełni rolę administratora IP.</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="pl_PL" status="Approved">Warunek widoczności polecenia po stronie serwera dla polecenia Licencje. To polecenie powinno być widoczne w oprogramowaniu Teamcenter w wersji 11.3 lub nowszej. Powinno być widoczne wyłącznie wtedy, gdy typem wybranego elementu jest Element przestrzeni roboczej, Zestaw danych lub Formularz. Nie powinno być widoczne, gdy typem wybranego elementu jest Zadanie EPM lub Zatwierdzenie. Polecenie powinno być widoczne, jeśli zalogowany użytkownik jest członkiem grupy administratorów bazy danych, jest administratorem ITAR lub pełni rolę administratora IP.</key>
+</Add>
+</TcBusinessDataLocalization>

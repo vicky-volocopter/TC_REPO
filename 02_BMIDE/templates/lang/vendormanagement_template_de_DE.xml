@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:55 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="de_DE" status="Approved">Basisangebotsspeicherung</key>
+   <key id="BusinessObject{::}BaseQuote" locale="de_DE" status="Approved">Basisangebot</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="de_DE" status="Approved">Angebotspaket-Master</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="de_DE" status="Approved">Angebotspaketinhalt</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="de_DE" status="Approved">Angebotspaketelement</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="de_DE" status="Approved">Angebotspaket-Master</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="de_DE" status="Approved">Angebotspaketänderungsstand-Master</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="de_DE" status="Approved">Angebotspaketänderungsstand</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="de_DE" status="Approved">Angebotspaketversions-Master</key>
+   <key id="BusinessObject{::}BidPackage" locale="de_DE" status="Approved">Angebotspaket</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="de_DE" status="Approved">Handelsteile-Master</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="de_DE" status="Approved">Handelsteileänderungsstand-Master</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="de_DE" status="Approved">Handelsteileänderungsstand</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="de_DE" status="Approved">Handelsteile-Master</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="de_DE" status="Approved">Handelsteileversions-Master</key>
+   <key id="BusinessObject{::}CommercialPart" locale="de_DE" status="Approved">Handelsteil</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="de_DE" status="Approved">Distributorinformationen</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="de_DE" status="Approved">Distributorlagerung</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="de_DE" status="Approved">Eintragselement-Konfigurationskontext</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="de_DE" status="Approved">Herstellerinformationen</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="de_DE" status="Approved">Lieferantenteile-Master</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="de_DE" status="Approved">Lieferantenteileänderungsstand-Master</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="de_DE" status="Approved">Lieferantenteileänderungsstand</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="de_DE" status="Approved">Herstellerteile-Master</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="de_DE" status="Approved">Herstellerteileversions-Master</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="de_DE" status="Approved">Anbieterteil</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="de_DE" status="Approved">Herstellerlagerung</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="de_DE" status="Approved">Angabe aus Positionen</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="de_DE" status="Approved">Angebotsspeicherung</key>
+   <key id="BusinessObject{::}Quote" locale="de_DE" status="Approved">Angebot</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="de_DE" status="Approved">Lieferanteninformationen</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="de_DE" status="Approved">Lieferantenlagerung</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="de_DE" status="Approved">Qualitätsdokumente</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="de_DE" status="Approved">Angebote</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="de_DE" status="Approved">Anbieter-ID-Kontext</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="de_DE" status="Approved">Teileanbieter</key>
+   <key id="BusinessObject{::}VMRepresents" locale="de_DE" status="Approved">Anbieterrepräsentation</key>
+   <key id="BusinessObject{::}Vendor Master" locale="de_DE" status="Approved">Anbieter-Master</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="de_DE" status="Approved">Anbieter-ID</key>
+   <key id="BusinessObject{::}VendorMaster" locale="de_DE" status="Approved">Anbieter-Master</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="de_DE" status="Approved">Anbieteränderungsstand-Master</key>
+   <key id="BusinessObject{::}VendorRevision" locale="de_DE" status="Approved">Anbieteränderungsstand</key>
+   <key id="BusinessObject{::}VendorRole" locale="de_DE" status="Approved">Anbieterrolle</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="de_DE" status="Approved">Anbieterversions-Master</key>
+   <key id="BusinessObject{::}Vendor" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="de_DE" status="Approved">Angebotspaketelement</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="de_DE" status="Approved">Konfigurationskontext</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="de_DE" status="Approved">Benutzerdefinierte Eintragselementattribute</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="de_DE" status="Approved">Name</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="de_DE" status="Approved">Teil</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="de_DE" status="Approved">Menge</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="de_DE" status="Approved">Angebotspaketinhalt</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="de_DE" status="Approved">Eintragselemente</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="de_DE" status="Approved">Erforderlicher Zweck</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="de_DE" status="Approved">Anforderungsdatum</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="de_DE" status="Approved">Angebotspakettyp</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="de_DE" status="Approved">Konstruktion erforderlich</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="de_DE" status="Approved">Herstellen oder Zukaufen</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="de_DE" status="Approved">Anbieterteilebeziehungen</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="de_DE" status="Approved">Anbieterteile</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="de_DE" status="Approved">Anbieterteile</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="de_DE" status="Approved">DUNS-Nummer</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="de_DE" status="Approved">Ansichtstyp</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="de_DE" status="Approved">Konstruktion erforderlich</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="de_DE" status="Approved">Anbieterteilenummer</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="de_DE" status="Approved">Herstellen oder Zukaufen</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="de_DE" status="Approved">Anbieterteilenummer</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="de_DE" status="Approved">Anbieterteilenummer</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="de_DE" status="Approved">Kommerzielle Teile</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="de_DE" status="Approved">Anbieterteilename</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="de_DE" status="Approved">Anbieter-ID</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="de_DE" status="Approved">Anbieterorte</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="de_DE" status="Approved">Anbietername</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="de_DE" status="Approved">Anbieterteilenummer</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="de_DE" status="Approved">Unternehmensstandort</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="de_DE" status="Approved">Anbieterspeicherort</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="de_DE" status="Approved">Anbieter</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="de_DE" status="Approved">Währung</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="de_DE" status="Approved">Menge</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="de_DE" status="Approved">Werkzeugkosten</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="de_DE" status="Approved">Einheitenpreis</key>
+   <key id="Property{::}Quote{::}currency" locale="de_DE" status="Approved">Währung</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="de_DE" status="Approved">Menge</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="de_DE" status="Approved">Werkzeugkosten</key>
+   <key id="Property{::}Quote{::}unit_price" locale="de_DE" status="Approved">Einheitenpreis</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="de_DE" status="Approved">Zertifizierungsstatus</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="de_DE" status="Approved">Zertifizierungsstatus</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="de_DE" status="Approved">Anbieterstatus</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="de_DE" status="Approved">Bevorzugter Status</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="de_DE" status="Approved">Teil</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="de_DE" status="Approved">Bevorzugter Status</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="de_DE" status="Approved">Kommentare:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="de_DE" status="Approved">Anbieterrolleninformationen</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="de_DE" status="Approved">Anbieterrollen</key>
+   <key id="Property{::}VendorRole{::}description" locale="de_DE" status="Approved">Beschreibung</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="de_DE" status="Approved">Anbieterrolleninformationen</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="de_DE" status="Approved">Anbieterrollenname</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="de_DE" status="Approved">Kommerzielle Teile</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="de_DE" status="Approved">Kontakt</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="de_DE" status="Approved">E-Mail</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="de_DE" status="Approved">Adresse</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="de_DE" status="Approved">Telefon</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="de_DE" status="Approved">Gruppe</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="de_DE" status="Approved">Anbieterteile</key>
+   <key id="Property{::}Vendor{::}web_site" locale="de_DE" status="Approved">Website</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="de_DE" status="Approved">Legt fest, dass alle Anbieterrepräsentationen eines Teils im Struktur-Management angezeigt werden. Diese Bedingung wird als Option für die Anbieterteileauswahlregel und zum Filtern der Liste angezeigter Anbieterteile verwendet.</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="de_DE" status="Approved">Legt fest, dass nur bevorzugte Anbieterrepräsentationen eines Teils im Struktur-Management angezeigt werden. Diese Bedingung wird als Option für die Anbieterteileauswahlregel und zum Filtern der Liste angezeigter Anbieterteile verwendet.</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="de_DE" status="Approved">Datensicherung</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="de_DE" status="Approved">Bevorzugt</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="de_DE" status="Approved">Distributorenrolle</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="de_DE" status="Approved">Herstellerrolle</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="de_DE" status="Approved">Lieferantenrolle</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="de_DE" status="Approved">Datensicherung</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="de_DE" status="Approved">Bevorzugt</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="de_DE" status="Approved">Distributor</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="de_DE" status="Approved">Hersteller</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="de_DE" status="Approved">Lieferant</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="de_DE" status="Approved">Anbieterteilebeziehung</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="de_DE" status="Approved">Anbieterrepräsentation</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="de_DE" status="Approved">Anbieterteile</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="de_DE" status="Approved">Anbieterteilebeziehung</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="de_DE" status="Approved">Anbieterrepräsentation</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="de_DE" status="Approved">Eintrag austauschen</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="de_DE" status="Approved">Lieferantenantwort</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="de_DE" status="Approved">Lieferantenaustausch-Master-Speicher</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="de_DE" status="Approved">Lieferantenaustausch-Master</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="de_DE" status="Approved">Lieferantenaustausch-Änderungsstand-Master-Speicher</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="de_DE" status="Approved">Lieferantenaustausch-Änderungsstand-Master</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="de_DE" status="Approved">Lieferantenaustausch-Änderungsstand</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="de_DE" status="Approved">Lieferantenaustausch</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="de_DE" status="Approved">Austauschobjekt</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="de_DE" status="Approved">Letztes Empfangsdatum</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="de_DE" status="Approved">Gesendetes Objekt</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="de_DE" status="Approved">Empfangene Objekte</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="de_DE" status="Approved">Antwortdatum</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="de_DE" status="Approved">Prüfungskommentare</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="de_DE" status="Approved">Prüfstatus</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="de_DE" status="Approved">Austauschobjekt</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="de_DE" status="Approved">Enddatum</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="de_DE" status="Approved">Austauscheinträge</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="de_DE" status="Approved">Versanddatum</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="de_DE" status="Approved">Antworteinträge</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="de_DE" status="Approved">Statusgrund</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="de_DE" status="Approved">Status</key>
+</Add>
+</TcBusinessDataLocalization>

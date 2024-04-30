@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:56 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="ko_KR" status="Approved">기본 견적 저장소</key>
+   <key id="BusinessObject{::}BaseQuote" locale="ko_KR" status="Approved">기본 견적</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="ko_KR" status="Approved">입찰 패키지 마스터</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="ko_KR" status="Approved">입찰 패키지 내용</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="ko_KR" status="Approved">입찰 패키지 행 아이템</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="ko_KR" status="Approved">입찰 패키지 마스터</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="ko_KR" status="Approved">입찰 패키지 리비전 마스터</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="ko_KR" status="Approved">입찰 패키지 리비전</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="ko_KR" status="Approved">입찰 패키지 버전 마스터</key>
+   <key id="BusinessObject{::}BidPackage" locale="ko_KR" status="Approved">입찰 패키지</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="ko_KR" status="Approved">상업용 파트 마스터</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="ko_KR" status="Approved">상업용 파트 리비전 마스터</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="ko_KR" status="Approved">상업용 파트 리비전</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="ko_KR" status="Approved">상업용 파트 마스터</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="ko_KR" status="Approved">상업용 파트 버전 마스터</key>
+   <key id="BusinessObject{::}CommercialPart" locale="ko_KR" status="Approved">상업용 파트</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="ko_KR" status="Approved">배포업체 정보</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="ko_KR" status="Approved">배포업체 저장소</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="ko_KR" status="Approved">행 아이템 구성 컨텍스트</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="ko_KR" status="Approved">제조업체 정보</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="ko_KR" status="Approved">판매업체 파트 마스터</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="ko_KR" status="Approved">판매업체 파트 리비전 마스터</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="ko_KR" status="Approved">판매업체 파트 리비전</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="ko_KR" status="Approved">제조업체 파트 마스터</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="ko_KR" status="Approved">제조업체 파트 버전 마스터</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="ko_KR" status="Approved">판매업체 파트</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="ko_KR" status="Approved">제조업체 저장소</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="ko_KR" status="Approved">제공 위치</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="ko_KR" status="Approved">견적 저장소</key>
+   <key id="BusinessObject{::}Quote" locale="ko_KR" status="Approved">견적</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="ko_KR" status="Approved">공급업체 정보</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="ko_KR" status="Approved">공급업체 저장소</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="ko_KR" status="Approved">품질 문서</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="ko_KR" status="Approved">견적</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="ko_KR" status="Approved">판매업체 ID 컨텍스트</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="ko_KR" status="Approved">파트 판매업체</key>
+   <key id="BusinessObject{::}VMRepresents" locale="ko_KR" status="Approved">판매업체 대표</key>
+   <key id="BusinessObject{::}Vendor Master" locale="ko_KR" status="Approved">판매업체 마스터</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="ko_KR" status="Approved">판매업체 식별자</key>
+   <key id="BusinessObject{::}VendorMaster" locale="ko_KR" status="Approved">판매업체 마스터</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="ko_KR" status="Approved">판매업체 리비전 마스터</key>
+   <key id="BusinessObject{::}VendorRevision" locale="ko_KR" status="Approved">판매업체 리비전</key>
+   <key id="BusinessObject{::}VendorRole" locale="ko_KR" status="Approved">판매업체 역할</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="ko_KR" status="Approved">판매업체 버전 마스터</key>
+   <key id="BusinessObject{::}Vendor" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="ko_KR" status="Approved">입찰 패키지 행 아이템</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="ko_KR" status="Approved">구성 컨텍스트</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="ko_KR" status="Approved">사용자 정의 행 아이템 속성</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="ko_KR" status="Approved">이름</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="ko_KR" status="Approved">파트</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="ko_KR" status="Approved">수량</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="ko_KR" status="Approved">입찰 패키지 내용</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="ko_KR" status="Approved">행 아이템</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="ko_KR" status="Approved">필수 목적</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="ko_KR" status="Approved">요청 날짜</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="ko_KR" status="Approved">입찰 패키지 유형</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="ko_KR" status="Approved">설계 필요</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="ko_KR" status="Approved">제조 또는 구매</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="ko_KR" status="Approved">판매업체 파트 관계</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="ko_KR" status="Approved">판매업체 파트</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="ko_KR" status="Approved">판매업체 파트</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="ko_KR" status="Approved">DUNS 번호</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="ko_KR" status="Approved">뷰 유형</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="ko_KR" status="Approved">설계 필요</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="ko_KR" status="Approved">판매업체 파트 번호</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="ko_KR" status="Approved">제조 또는 구매</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="ko_KR" status="Approved">판매업체 파트 번호</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="ko_KR" status="Approved">판매업체 파트 번호</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="ko_KR" status="Approved">상업용 파트</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="ko_KR" status="Approved">판매업체 파트 이름</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="ko_KR" status="Approved">판매업체 ID</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="ko_KR" status="Approved">판매업체 위치</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="ko_KR" status="Approved">판매업체 이름</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="ko_KR" status="Approved">판매업체 파트 번호</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="ko_KR" status="Approved">회사 위치</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="ko_KR" status="Approved">판매업체 위치</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="ko_KR" status="Approved">판매업체</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="ko_KR" status="Approved">화폐</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="ko_KR" status="Approved">수량</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="ko_KR" status="Approved">가공 비용</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="ko_KR" status="Approved">단위 가격</key>
+   <key id="Property{::}Quote{::}currency" locale="ko_KR" status="Approved">화폐</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="ko_KR" status="Approved">수량</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="ko_KR" status="Approved">가공 비용</key>
+   <key id="Property{::}Quote{::}unit_price" locale="ko_KR" status="Approved">단위 가격</key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="ko_KR" status="Approved">인증 상태</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="ko_KR" status="Approved">인증 상태</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="ko_KR" status="Approved">판매업체 상태</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="ko_KR" status="Approved">기본 상태</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="ko_KR" status="Approved">파트</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="ko_KR" status="Approved">기본 상태</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="ko_KR" status="Approved">주석:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="ko_KR" status="Approved">판매업체 역할 정보</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="ko_KR" status="Approved">판매업체 역할</key>
+   <key id="Property{::}VendorRole{::}description" locale="ko_KR" status="Approved">설명</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="ko_KR" status="Approved">판매업체 역할 정보</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="ko_KR" status="Approved">판매업체 역할 이름</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="ko_KR" status="Approved">상업용 파트</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="ko_KR" status="Approved">연락처</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="ko_KR" status="Approved">전자 메일</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="ko_KR" status="Approved">주소</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="ko_KR" status="Approved">전화</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="ko_KR" status="Approved">그룹</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="ko_KR" status="Approved">판매업체 파트</key>
+   <key id="Property{::}Vendor{::}web_site" locale="ko_KR" status="Approved">웹 사이트</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="ko_KR" status="Approved">파트의 모든 판매업체 대표가 Structure Manager에 표시되도록 지정합니다. 이 조건은 판매업체 파트 선택 규칙에 대한 옵션으로 사용되며, 표시된 판매업체 파트의 리스트를 필터링하는 데 사용됩니다.</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="ko_KR" status="Approved">파트의 기본 판매업체 대표만 Structure Manager에 표시되도록 지정합니다. 이 조건은 판매업체 파트 선택 규칙에 대한 옵션으로 사용되며, 표시된 판매업체 파트의 리스트를 필터링하는 데 사용됩니다.</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="ko_KR" status="Approved">백업</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="ko_KR" status="Approved">기본</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="ko_KR" status="Approved">배포업체 역할</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="ko_KR" status="Approved">제조업체 역할</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="ko_KR" status="Approved">공급업체 역할</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="ko_KR" status="Approved">백업</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="ko_KR" status="Approved">기본</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="ko_KR" status="Approved">배포업체</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="ko_KR" status="Approved">제조업체</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="ko_KR" status="Approved">공급업체</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="ko_KR" status="Approved">판매업체 파트 관계</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="ko_KR" status="Approved">판매업체 대표</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="ko_KR" status="Approved">판매업체 파트</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="ko_KR" status="Approved">판매업체 파트 관계</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="ko_KR" status="Approved">판매업체 대표</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="ko_KR" status="Approved">교환 행</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="ko_KR" status="Approved">공급업체 응답</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="ko_KR" status="Approved">판매업체 교환 마스터 저장소</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="ko_KR" status="Approved">판매업체 교환 마스터</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="ko_KR" status="Approved">판매업체 교환 리비전 마스터 저장소</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="ko_KR" status="Approved">판매업체 교환 리비전 마스터</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="ko_KR" status="Approved">판매업체 교환 리비전</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="ko_KR" status="Approved">판매업체 교환</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="ko_KR" status="Approved">교환 개체</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="ko_KR" status="Approved">최종 수신 날짜</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="ko_KR" status="Approved">보낸 개체</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="ko_KR" status="Approved">받은 개체</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="ko_KR" status="Approved">응답일</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="ko_KR" status="Approved">주석 검토</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="ko_KR" status="Approved">상태 검토</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="ko_KR" status="Approved">교환 개체</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="ko_KR" status="Approved">종료일</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="ko_KR" status="Approved">교환 행</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="ko_KR" status="Approved">게시일</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="ko_KR" status="Approved">응답 행</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="ko_KR" status="Approved">상태 이유</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="ko_KR" status="Approved">상태</key>
+</Add>
+</TcBusinessDataLocalization>

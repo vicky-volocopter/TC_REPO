@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="ja_JP" status="Approved">グラフ生成ルール</key>
+   <key id="BusinessObject{::}Rv1XML" locale="ja_JP" status="Approved">リレーションコンフィグレーションファイル</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ja_JP" status="Approved">リレーションビューアコマンドコレクション</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="ja_JP" status="Approved">リレーションビューアリレーション</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="ja_JP" status="Approved">ルールパラメータ</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="ja_JP" status="Approved">問合せ</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="ja_JP" status="Approved">バルーン</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="ja_JP" status="Approved">下から上</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="ja_JP" status="Approved">前方に移動</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="ja_JP" status="Approved">最前面へ移動</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="ja_JP" status="Approved">円形</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="ja_JP" status="Approved">親に変換</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="ja_JP" status="Approved">選択した内容に対して親を作成</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="ja_JP" status="Approved">カスタムインクリメンタル1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="ja_JP" status="Approved">カスタムインクリメンタル2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="ja_JP" status="Approved">カスタム直交1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="ja_JP" status="Approved">左-直交</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="ja_JP" status="Approved">選択されたグラフアイテムを削除</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="ja_JP" status="Approved">オーサリング終了</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="ja_JP" status="Approved">リレーション1レベルを展開</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="ja_JP" status="Approved">展開</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="ja_JP" status="Approved">展開</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="ja_JP" status="Approved">リレーション1レベルを展開</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="ja_JP" status="Approved">展開</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="ja_JP" status="Approved">展開</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="ja_JP" status="Approved">すべての子を非表示</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="ja_JP" status="Approved">すべての入力リレーションを非表示</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="ja_JP" status="Approved">すべての出力リレーションを非表示</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="ja_JP" status="Approved">段階的</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="ja_JP" status="Approved">左から右</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="ja_JP" status="Approved">オーガニック</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="ja_JP" status="Approved">直交</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="ja_JP" status="Approved">入力を隠す</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="ja_JP" status="Approved">出力を隠す</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="ja_JP" status="Approved">ノードアニメーションを非表示にする</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="ja_JP" status="Approved">入力を表示</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="ja_JP" status="Approved">出力を表示</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="ja_JP" status="Approved">リレーション制御</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="ja_JP" status="Approved">右から左</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="ja_JP" status="Approved">背面へ移動</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="ja_JP" status="Approved">最背面へ移動</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="ja_JP" status="Approved">すべての子を表示</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="ja_JP" status="Approved">すべての入力リレーションを表示</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="ja_JP" status="Approved">すべての出力リレーションを表示</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="ja_JP" status="Approved">入力を表示</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="ja_JP" status="Approved">2レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="ja_JP" status="Approved">3レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="ja_JP" status="Approved">4レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="ja_JP" status="Approved">5レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="ja_JP" status="Approved">リレーション</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="ja_JP" status="Approved">出力を表示</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="ja_JP" status="Approved">2レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="ja_JP" status="Approved">3レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="ja_JP" status="Approved">4レベル</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="ja_JP" status="Approved">5レベル</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="ja_JP" status="Approved">オーサリング開始</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="ja_JP" status="Approved">テーブル 上から下</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="ja_JP" status="Approved">展開</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="ja_JP" status="Approved">上から下</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="ja_JP" status="Approved">ツリー</key>
+</Add>
+</TcBusinessDataLocalization>

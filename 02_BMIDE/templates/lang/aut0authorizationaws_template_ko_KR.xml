@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="ko_KR" status="Approved">라이센스</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="ko_KR" status="Approved">라이센스</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="ko_KR" status="Approved">라이선스 명령에 대한 서버 측 명령 가시성 조건. 이 명령은 Teamcenter 버전 11.2.3 이하에서 보여야 합니다. 선택한 개체가 WorkspaceObject, Dataset 또는 Form 유형인 경우에만 보여야 합니다. 선택한 개체가 EPMTask 또는 Signoff 유형인 경우에는 보이지 않아야 합니다. 이것은 로그인한 사용자가 dba 그룹의 구성원이거나 ITAR 관리자 또는 IP 관리자 역할을 가진 경우 보여야 합니다.</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="ko_KR" status="Approved">라이선스 명령에 대한 서버 측 명령 가시성 조건. 이 명령은 Teamcenter 버전 11.3 이상에서 보여야 합니다. 선택한 개체가 WorkspaceObject, Dataset 또는 Form 유형인 경우에만 보여야 합니다. 선택한 개체가 EPMTask 또는 Signoff 유형인 경우에는 보이지 않아야 합니다. 이것은 로그인한 사용자가 dba 그룹의 구성원이거나 ITAR 관리자 또는 IP 관리자 역할을 가진 경우 보여야 합니다.</key>
+</Add>
+</TcBusinessDataLocalization>

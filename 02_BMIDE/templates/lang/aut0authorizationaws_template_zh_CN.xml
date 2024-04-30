@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="zh_CN" status="Approved">许可证</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="zh_CN" status="Approved">许可证</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="zh_CN" status="Approved">“许可证”命令的服务器端命令可见性条件。此命令应对 11.2.3 及更早版本的 Teamcenter 可见。仅当选定对象属于工作区对象、数据集或表单类型时，此命令才可见。当选定对象属于 EPMTask 或签发类型时，此命令不应可见。当登录用户是 dba 组成员或是 ITAR 管理员/IP 管理员角色时，此命令应可见。</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="zh_CN" status="Approved">“许可证”命令的服务器端命令可见性条件。此命令应对 11.3 及更新版本的 Teamcenter 可见。仅当选定对象属于工作区对象、数据集或表单类型时，此命令才可见。当选定对象属于 EPMTask 或签发类型时，此命令不应可见。当登录用户是 dba 组成员或是 ITAR 管理员/IP 管理员角色时，此命令应可见。</key>
+</Add>
+</TcBusinessDataLocalization>

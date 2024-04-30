@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="zh_CN" status="Approved">图形生成规则</key>
+   <key id="BusinessObject{::}Rv1XML" locale="zh_CN" status="Approved">关系配置文件</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="zh_CN" status="Approved">关系查看器命令集</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="zh_CN" status="Approved">关系查看器关系</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="zh_CN" status="Approved">规则参数</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="zh_CN" status="Approved">查询</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="zh_CN" status="Approved">气球</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="zh_CN" status="Approved">从下到上</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="zh_CN" status="Approved">前置</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="zh_CN" status="Approved">置于最前</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="zh_CN" status="Approved">循环</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="zh_CN" status="Approved">转换为父项</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="zh_CN" status="Approved">为选定对象创建父项</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="zh_CN" status="Approved">定制增量 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="zh_CN" status="Approved">定制增量 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="zh_CN" status="Approved">定制正投影 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="zh_CN" status="Approved">左正投影视图</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="zh_CN" status="Approved">删除选定的图形项</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="zh_CN" status="Approved">结束编创</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="zh_CN" status="Approved">展开关系 1 级</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="zh_CN" status="Approved">展开</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="zh_CN" status="Approved">展开</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="zh_CN" status="Approved">展开关系 1 级</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="zh_CN" status="Approved">展开</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="zh_CN" status="Approved">展开</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="zh_CN" status="Approved">隐藏所有子项</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="zh_CN" status="Approved">隐藏所有传入关系</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="zh_CN" status="Approved">隐藏所有传出关系</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="zh_CN" status="Approved">增量</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="zh_CN" status="Approved">从左到右</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="zh_CN" status="Approved">组织</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="zh_CN" status="Approved">正投影</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="zh_CN" status="Approved">隐藏传入的</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="zh_CN" status="Approved">隐藏传出的</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="zh_CN" status="Approved">隐藏节点动画</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="zh_CN" status="Approved">显示传入的</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="zh_CN" status="Approved">显示传出的</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="zh_CN" status="Approved">关系控制</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="zh_CN" status="Approved">从右到左</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="zh_CN" status="Approved">后置</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="zh_CN" status="Approved">置于最后</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="zh_CN" status="Approved">显示所有子件</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="zh_CN" status="Approved">显示所有传入关系</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="zh_CN" status="Approved">显示所有传出关系</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="zh_CN" status="Approved">显示传入的</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="zh_CN" status="Approved">2 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="zh_CN" status="Approved">3 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="zh_CN" status="Approved">4 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="zh_CN" status="Approved">5 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="zh_CN" status="Approved">关系</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="zh_CN" status="Approved">显示传出的</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="zh_CN" status="Approved">2 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="zh_CN" status="Approved">3 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="zh_CN" status="Approved">4 级</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="zh_CN" status="Approved">5 级</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="zh_CN" status="Approved">开始编创</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="zh_CN" status="Approved">从上到下表格</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="zh_CN" status="Approved">展开</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="zh_CN" status="Approved">从上到下</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="zh_CN" status="Approved">树</key>
+</Add>
+</TcBusinessDataLocalization>

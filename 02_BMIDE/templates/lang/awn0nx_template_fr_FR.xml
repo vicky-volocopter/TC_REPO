@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="fr_FR" status="Approved">Exporter NX</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="fr_FR" status="Approved">Exporter NX</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="fr_FR" status="Approved">A des Métadonnées Altrep</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="fr_FR" status="Approved">A des Références interpièces quelconques</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="fr_FR" status="Approved">A une Liaison brisée</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="fr_FR" status="Approved">A un Composant quelconque</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="fr_FR" status="Approved">A des Contraintes</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="fr_FR" status="Approved">A un Dessin</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="fr_FR" status="Approved">A un Remplacement de géométrie</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="fr_FR" status="Approved">A une Expression interpièces</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="fr_FR" status="Approved">A des Arrangements</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="fr_FR" status="Approved">A un Composant non master</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="fr_FR" status="Approved">A des Composants excentrés</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="fr_FR" status="Approved">A une Liste de pièces</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="fr_FR" status="Approved">A une Liaison Wave dépendant de la position</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="fr_FR" status="Approved">A une Liaison Wave ne dépendant pas de la position</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="fr_FR" status="Approved">A un Remplacement de position</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="fr_FR" status="Approved">A une Interface produit</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="fr_FR" status="Approved">A un Composant de référence</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="fr_FR" status="Approved">A des Composants restructurés</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="fr_FR" status="Approved">A un Composant supprimé</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="fr_FR" status="Approved">A une primitive définie par l'utilisateur</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="fr_FR" status="Approved">Propriétés NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="fr_FR" status="Approved">Version NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="fr_FR" status="Approved">Propriété de pièce NX</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="fr_FR" status="Approved">Date de création UGMASTER</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="fr_FR" status="Approved">Exporter vers NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="fr_FR" status="Approved">Ajouter</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="fr_FR" status="Approved">Ouvrir dans NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="fr_FR" status="Approved">Ouvrir dans l'Explorateur de relations NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="fr_FR" status="Approved">Ouvrir dans les Liens d'exigences</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="fr_FR" status="Approved">Définir le dossier par défaut de NX</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="fr_FR" status="Approved">Ouvrir dans NX</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="fr_FR" status="Approved">Détermine si la commande Exporter vers NX doit être affichée pour l'objet sélectionné.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="fr_FR" status="Approved">Vérifie si l'objet sélectionné est valable pour l'opération "Ajouter" dans NX.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="fr_FR" status="Approved">Vérifie si l'objet sélectionné est pris en charge pour l'opération "Définir le dossier par défaut" dans NX.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="fr_FR" status="Approved">Vérifie si le type indiqué est valable pour l'opération "Ouvrir dans NX"</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="fr_FR" status="Approved">Vérifie si l'objet sélectionné est valable pour l'opération "Ouvrir dans l'Explorateur de relations NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="fr_FR" status="Approved">Vérifie si l'objet sélectionné est valable pour l'opération "Ouvrir dans les Liens d'exigences NX".</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="fr_FR" status="Approved">Commande Ouvrir la cellule hébergée NX</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="fr_FR" status="Approved">Cette condition est utilisée pour déterminer si les instances de l'objet de gestion Jeu de données ne sont pas du type défini dans la préférence AWC_NX_OpenSupportedTypes.</key>
+</Add>
+</TcBusinessDataLocalization>

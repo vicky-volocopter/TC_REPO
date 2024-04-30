@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Fri Jul 02 08:36:55 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}NX0ApplicationData" locale="it_IT" status="Approved">Dati di applicazione</key>
+   <key id="BusinessObject{::}NX0BookletDataset" locale="it_IT" status="Approved">Set di dati opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletFolder" locale="it_IT" status="Approved">Cartella opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletItemMasterS" locale="it_IT" status="Approved">Master S item opuscolo </key>
+   <key id="BusinessObject{::}NX0BookletItemMaster" locale="it_IT" status="Approved">Master item opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletItemRevMasterS" locale="it_IT" status="Approved">Master S item revision opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletItemRevisionMaster" locale="it_IT" status="Approved">Master item revision opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletItemRevision" locale="it_IT" status="Approved">Item revision opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletItem" locale="it_IT" status="Approved">Item opuscolo</key>
+   <key id="BusinessObject{::}NX0BookletReference" locale="it_IT" status="Approved">Riferimento opuscolo (obsoleto)</key>
+   <key id="BusinessObject{::}NX0BookletRule" locale="it_IT" status="Approved">Regola opuscolo</key>
+   <key id="BusinessObject{::}NX0CAEMotionMasterS" locale="it_IT" status="Approved">Archivio master astrazioni di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionMaster" locale="it_IT" status="Approved">Master astrazioni di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionRevMasterS" locale="it_IT" status="Approved">Archivio master revisioni di astrazioni di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionRevisionMaster" locale="it_IT" status="Approved">Master revisioni di astrazioni di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionRevision" locale="it_IT" status="Approved">Revisione astrazione di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSimMasterS" locale="it_IT" status="Approved">Archivio master analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSimMaster" locale="it_IT" status="Approved">Master analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSimRevMasterS" locale="it_IT" status="Approved">Archivio master revisioni di analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSimRevisionMaster" locale="it_IT" status="Approved">Master revisioni di analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSimRevision" locale="it_IT" status="Approved">Revisione analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotionSim" locale="it_IT" status="Approved">Analisi di movimento</key>
+   <key id="BusinessObject{::}NX0CAEMotion" locale="it_IT" status="Approved">Astrazione di movimento</key>
+   <key id="BusinessObject{::}NX0DiagramOf" locale="it_IT" status="Approved">Diagramma di</key>
+   <key id="BusinessObject{::}NX0ExternalFileReference" locale="it_IT" status="Approved">Riferimento del file esterno</key>
+   <key id="BusinessObject{::}NX0MCDReference" locale="it_IT" status="Approved">Riferimento di meccatronica</key>
+   <key id="BusinessObject{::}NX0MotionSim" locale="it_IT" status="Approved">Motion Sim</key>
+   <key id="BusinessObject{::}NX0RoutingPipePartData" locale="it_IT" status="Approved">Dati parte di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingRunData" locale="it_IT" status="Approved">Dati di esecuzione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingRunReference" locale="it_IT" status="Approved">Riferimento di esecuzione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecData" locale="it_IT" status="Approved">Dati specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecMasterS" locale="it_IT" status="Approved">Memoria master specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecMaster" locale="it_IT" status="Approved">Master specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecRevMasterS" locale="it_IT" status="Approved">Memoria master revisione specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecRevisionMaster" locale="it_IT" status="Approved">Master revisione specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpecRevision" locale="it_IT" status="Approved">Revisione specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0RoutingSpec" locale="it_IT" status="Approved">Specifiche di tubazione NX Routing</key>
+   <key id="BusinessObject{::}NX0SheetMetalExport" locale="it_IT" status="Approved">Esportazione sviluppo piano</key>
+   <key id="BusinessObject{::}NX0ShipReferenceMasterS" locale="it_IT" status="Approved">Archiviazione master riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0ShipReferenceMaster" locale="it_IT" status="Approved">Master riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0ShipReferenceRevMasterS" locale="it_IT" status="Approved">Archiviazione master revisione riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0ShipReferenceRevisionMaster" locale="it_IT" status="Approved">Master revisione riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0ShipReferenceRevision" locale="it_IT" status="Approved">Revisione riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0ShipReference" locale="it_IT" status="Approved">Riferimento imbarcazione</key>
+   <key id="BusinessObject{::}NX0StrContainerMasterS" locale="it_IT" status="Approved">Archiviazione master contenitore strutturale </key>
+   <key id="BusinessObject{::}NX0StrContainerMaster" locale="it_IT" status="Approved">Master contenitore strutturale </key>
+   <key id="BusinessObject{::}NX0StrContainerRevMasterS" locale="it_IT" status="Approved">Archiviazione master revisione contenitore strutturale </key>
+   <key id="BusinessObject{::}NX0StrContainerRevisionMaster" locale="it_IT" status="Approved">Master revisione contenitore strutturale </key>
+   <key id="BusinessObject{::}NX0StrContainerRevision" locale="it_IT" status="Approved">Revisione contenitore strutturale</key>
+   <key id="BusinessObject{::}NX0StrContainer" locale="it_IT" status="Approved">Contenitore strutturale</key>
+   <key id="BusinessObject{::}NX0StructDetailMasterS" locale="it_IT" status="Approved">Archiviazione master dettaglio strutturale </key>
+   <key id="BusinessObject{::}NX0StructDetailMaster" locale="it_IT" status="Approved">Master dettaglio strutturale </key>
+   <key id="BusinessObject{::}NX0StructDetailRevMasterS" locale="it_IT" status="Approved">Archiviazione master revisione dettaglio strutturale </key>
+   <key id="BusinessObject{::}NX0StructDetailRevisionMaster" locale="it_IT" status="Approved">Master revisione dettaglio strutturale </key>
+   <key id="BusinessObject{::}NX0StructDetailRevision" locale="it_IT" status="Approved">Revisione dettaglio strutturale</key>
+   <key id="BusinessObject{::}NX0StructDetail" locale="it_IT" status="Approved">Dettaglio strutturale</key>
+   <key id="BusinessObject{::}NX0StructSystemMasterS" locale="it_IT" status="Approved">Archiviazione master sistema strutturale </key>
+   <key id="BusinessObject{::}NX0StructSystemMaster" locale="it_IT" status="Approved">Master sistema strutturale </key>
+   <key id="BusinessObject{::}NX0StructSystemRevMasterS" locale="it_IT" status="Approved">Archiviazione master revisione sistema strutturale </key>
+   <key id="BusinessObject{::}NX0StructSystemRevisionMaster" locale="it_IT" status="Approved">Master revisione sistema strutturale </key>
+   <key id="BusinessObject{::}NX0StructSystemRevision" locale="it_IT" status="Approved">Revisione sistema strutturale</key>
+   <key id="BusinessObject{::}NX0StructSystem" locale="it_IT" status="Approved">Sistema strutturale</key>
+   <key id="BusinessObject{::}NX0TDP" locale="it_IT" status="Approved">TDP</key>
+   <key id="BusinessObject{::}NX0WorksetMasterS" locale="it_IT" status="Approved">Archiviazione master gruppo di lavoro</key>
+   <key id="BusinessObject{::}NX0WorksetMaster" locale="it_IT" status="Approved">Master gruppo di lavoro</key>
+   <key id="BusinessObject{::}NX0WorksetRevMasterS" locale="it_IT" status="Approved">Archiviazione master revisione gruppo di lavoro</key>
+   <key id="BusinessObject{::}NX0WorksetRevisionMaster" locale="it_IT" status="Approved">Master revisione gruppo di lavoro</key>
+   <key id="BusinessObject{::}NX0WorksetRevision" locale="it_IT" status="Approved">Revisione gruppo di lavoro</key>
+   <key id="BusinessObject{::}NX0Workset" locale="it_IT" status="Approved">Gruppo di lavoro di NX</key>
+   <key id="Note{::}NX0CloneStableIdMap" locale="it_IT" status="Approved">Mappa ID stabile clonato</key>
+   <key id="Property{::}BOMLine{::}NX0CloneStableIdMap" locale="it_IT" status="Approved">Mappa ID stabile clonato</key>
+   <key id="Property{::}MEViewLine{::}NX0CloneStableIdMap" locale="it_IT" status="Approved">Mappa ID stabile clonato</key>
+   <key id="Property{::}NX0ApplicationData{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}NX0ApplicationData{::}nx0flags" locale="it_IT" status="Approved">flag</key>
+   <key id="Property{::}NX0ApplicationData{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0ApplicationData{::}nx0sync_checksums" locale="it_IT" status="Approved">Checksum</key>
+   <key id="Property{::}NX0BookletDataset{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0CAEMotionRevision{::}nx0flags" locale="it_IT" status="Approved">Informazioni bitmask per parti NX (isPart, isDrawing, ecc.) impostate e utilizzate da NX</key>
+   <key id="Property{::}NX0CAEMotionRevision{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0DiagramOf{::}nx0FocusAreaId" locale="it_IT" status="Approved">ID area a fuoco</key>
+   <key id="Property{::}NX0ExternalFileReference{::}nx0LastModifiedChecksum" locale="it_IT" status="Approved">Ultima modifica checksum</key>
+   <key id="Property{::}NX0MCDReference{::}nx0flags" locale="it_IT" status="Approved">flag</key>
+   <key id="Property{::}NX0MotionSim{::}nx0FLPSize" locale="it_IT" status="Approved">Dimensioni FLP</key>
+   <key id="Property{::}NX0MotionSim{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}NX0MotionSim{::}nx0flags" locale="it_IT" status="Approved">Informazioni bitmask per parti NX (isPart, isDrawing, ecc.) impostate e utilizzate da NX</key>
+   <key id="Property{::}NX0MotionSim{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0RoutingPipePartData{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0RoutingRunData{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NX0RoutingSpecData{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGPartAttributesForm{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}UGPartAttributes{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+
+   <key id="Property{::}BOMLine{::}nx0AllChildren" locale="it_IT" status="Approved">Tutti gli elementi figlio</key>
+   <key id="Property{::}BOMLine{::}nx0IsBvrStructModified" locale="it_IT" status="Approved">Struttura modificata</key>
+
+   <key id="Property{::}CAEGeom{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}CAEMesh{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}CAESolution{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDataset" locale="it_IT" status="Approved">Set di dati NX</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0Auid" locale="it_IT" status="Approved">UID rappresentazione alternativa</key>
+
+
+
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0FileTicket" locale="it_IT" status="Approved">Ticket del file</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0NXFile" locale="it_IT" status="Approved">File NX</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetType" locale="it_IT" status="Approved">Tipo di set di dati</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0BvrSyncInfoLastSyncDate" locale="it_IT" status="Approved">Ultima data di sincronizzazione informazioni BVR</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetRelease" locale="it_IT" status="Approved">Rilascio set di dati NX</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetFlags1" locale="it_IT" status="Approved">Flag set di dati NX</key>
+
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0FLPSize" locale="it_IT" status="Approved">Dimensioni partizione caricamento rapido</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0JTOverrideFileTicket" locale="it_IT" status="Approved">Ticket del file per la geometria di ridefinizione.</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0PSViewTypeName" locale="it_IT" status="Approved">Nome del tipo di vista della struttura di prodotto</key>
+   <key id="Property{::}Fnd0ItemLineLite{::}nx0HasNxDataset" locale="it_IT" status="Approved">Ha set di dati NX</key>
+   <key id="Property{::}BOMWindow{::}nx0PreferredDatasetType" locale="it_IT" status="Approved">Tipo di set di dati preferito</key>
+   <key id="Property{::}NXAFEM{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NXDerived{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NXMotion{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NXRouting{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}NXSimulation{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}POM_object{::}nx0CompareKey" locale="it_IT" status="Approved">Chiave di confronto</key>
+   <key id="Property{::}UGALTREP{::}nx0has_altrep_metadata" locale="it_IT" status="Approved">Ha metadati Altrep</key>
+   <key id="Property{::}UGALTREP{::}nx0has_any_interpart_references" locale="it_IT" status="Approved">Ha riferimenti interparte</key>
+   <key id="Property{::}UGALTREP{::}nx0has_broken_links" locale="it_IT" status="Approved">Ha collegamento interrotto</key>
+   <key id="Property{::}UGALTREP{::}nx0has_components" locale="it_IT" status="Approved">Ha componenti</key>
+   <key id="Property{::}UGALTREP{::}nx0has_constraints" locale="it_IT" status="Approved">Ha vincoli</key>
+   <key id="Property{::}UGALTREP{::}nx0has_geometry_overrides" locale="it_IT" status="Approved">Ha ridefinizione geometria</key>
+   <key id="Property{::}UGALTREP{::}nx0has_interpart_expression" locale="it_IT" status="Approved">Ha espressione interparte</key>
+   <key id="Property{::}UGALTREP{::}nx0has_multiple_arrangements" locale="it_IT" status="Approved">Ha disposizioni</key>
+   <key id="Property{::}UGALTREP{::}nx0has_nonmaster_component" locale="it_IT" status="Approved">Ha componenti non master</key>
+   <key id="Property{::}UGALTREP{::}nx0has_offcenter_components" locale="it_IT" status="Approved">Ha componenti non centrati</key>
+   <key id="Property{::}UGALTREP{::}nx0has_parts_list" locale="it_IT" status="Approved">Ha distinta parti</key>
+   <key id="Property{::}UGALTREP{::}nx0has_pos_dep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave dipendente dalla posizione</key>
+   <key id="Property{::}UGALTREP{::}nx0has_pos_indep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave indipendente dalla posizione</key>
+   <key id="Property{::}UGALTREP{::}nx0has_position_overrides" locale="it_IT" status="Approved">Ha ridefinizione posizione</key>
+   <key id="Property{::}UGALTREP{::}nx0has_product_interface" locale="it_IT" status="Approved">Ha interfaccia prodotto</key>
+   <key id="Property{::}UGALTREP{::}nx0has_ref_components" locale="it_IT" status="Approved">Ha componente di riferimento</key>
+   <key id="Property{::}UGALTREP{::}nx0has_restructured_components" locale="it_IT" status="Approved">Ha componenti ristrutturati</key>
+   <key id="Property{::}UGALTREP{::}nx0has_supressed_components" locale="it_IT" status="Approved">Ha componente soppresso</key>
+   <key id="Property{::}UGALTREP{::}nx0has_udf" locale="it_IT" status="Approved">Ha UDF</key>
+   <key id="Property{::}UGALTREP{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGCAMCLSF{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGCAMPTP{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGCAMShopDoc{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGCAMTemplateData{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGENGINEROLL{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGMASTER{::}nx0HasDrawing" locale="it_IT" status="Approved">Ha disegno</key>
+   <key id="Property{::}UGMASTER{::}nx0has_altrep_metadata" locale="it_IT" status="Approved">Ha metadati Altrep</key>
+   <key id="Property{::}UGMASTER{::}nx0has_any_interpart_references" locale="it_IT" status="Approved">Ha riferimenti interparte</key>
+   <key id="Property{::}UGMASTER{::}nx0has_broken_links" locale="it_IT" status="Approved">Ha collegamento interrotto</key>
+   <key id="Property{::}UGMASTER{::}nx0has_components" locale="it_IT" status="Approved">Ha componenti</key>
+   <key id="Property{::}UGMASTER{::}nx0has_constraints" locale="it_IT" status="Approved">Ha vincoli</key>
+   <key id="Property{::}UGMASTER{::}nx0has_geometry_overrides" locale="it_IT" status="Approved">Ha ridefinizione geometria</key>
+   <key id="Property{::}UGMASTER{::}nx0has_interpart_expression" locale="it_IT" status="Approved">Ha espressione interparte</key>
+   <key id="Property{::}UGMASTER{::}nx0has_multiple_arrangements" locale="it_IT" status="Approved">Ha disposizioni</key>
+   <key id="Property{::}UGMASTER{::}nx0has_nonmaster_component" locale="it_IT" status="Approved">Ha componenti non master</key>
+   <key id="Property{::}UGMASTER{::}nx0has_offcenter_components" locale="it_IT" status="Approved">Ha componenti non centrati</key>
+   <key id="Property{::}UGMASTER{::}nx0has_parts_list" locale="it_IT" status="Approved">Ha distinta parti</key>
+   <key id="Property{::}UGMASTER{::}nx0has_pos_dep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave dipendente dalla posizione</key>
+   <key id="Property{::}UGMASTER{::}nx0has_pos_indep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave indipendente dalla posizione</key>
+   <key id="Property{::}UGMASTER{::}nx0has_position_overrides" locale="it_IT" status="Approved">Ha ridefinizione posizione</key>
+   <key id="Property{::}UGMASTER{::}nx0has_product_interface" locale="it_IT" status="Approved">Ha interfaccia prodotto</key>
+   <key id="Property{::}UGMASTER{::}nx0has_ref_components" locale="it_IT" status="Approved">Ha componente di riferimento</key>
+   <key id="Property{::}UGMASTER{::}nx0has_restructured_components" locale="it_IT" status="Approved">Ha componenti ristrutturati</key>
+   <key id="Property{::}UGMASTER{::}nx0has_supressed_components" locale="it_IT" status="Approved">Ha componente soppresso</key>
+   <key id="Property{::}UGMASTER{::}nx0has_udf" locale="it_IT" status="Approved">Ha UDF</key>
+   <key id="Property{::}UGMASTER{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGPART{::}nx0HasDrawing" locale="it_IT" status="Approved">Ha disegno</key>
+   <key id="Property{::}UGPART{::}nx0has_altrep_metadata" locale="it_IT" status="Approved">Ha metadati Altrep</key>
+   <key id="Property{::}UGPART{::}nx0has_any_interpart_references" locale="it_IT" status="Approved">Ha riferimenti interparte</key>
+   <key id="Property{::}UGPART{::}nx0has_broken_links" locale="it_IT" status="Approved">Ha collegamento interrotto</key>
+   <key id="Property{::}UGPART{::}nx0has_components" locale="it_IT" status="Approved">Ha componenti</key>
+   <key id="Property{::}UGPART{::}nx0has_constraints" locale="it_IT" status="Approved">Ha vincoli</key>
+   <key id="Property{::}UGPART{::}nx0has_geometry_overrides" locale="it_IT" status="Approved">Ha ridefinizione geometria</key>
+   <key id="Property{::}UGPART{::}nx0has_interpart_expression" locale="it_IT" status="Approved">Ha espressione interparte</key>
+   <key id="Property{::}UGPART{::}nx0has_multiple_arrangements" locale="it_IT" status="Approved">Ha disposizioni</key>
+   <key id="Property{::}UGPART{::}nx0has_nonmaster_component" locale="it_IT" status="Approved">Ha componenti non master</key>
+   <key id="Property{::}UGPART{::}nx0has_offcenter_components" locale="it_IT" status="Approved">Ha componenti non centrati</key>
+   <key id="Property{::}UGPART{::}nx0has_parts_list" locale="it_IT" status="Approved">Ha distinta parti</key>
+   <key id="Property{::}UGPART{::}nx0has_pos_dep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave dipendente dalla posizione</key>
+   <key id="Property{::}UGPART{::}nx0has_pos_indep_wave_link" locale="it_IT" status="Approved">Ha collegamento Wave indipendente dalla posizione</key>
+   <key id="Property{::}UGPART{::}nx0has_position_overrides" locale="it_IT" status="Approved">Ha ridefinizione posizione</key>
+   <key id="Property{::}UGPART{::}nx0has_product_interface" locale="it_IT" status="Approved">Ha interfaccia prodotto</key>
+   <key id="Property{::}UGPART{::}nx0has_ref_components" locale="it_IT" status="Approved">Ha componente di riferimento</key>
+   <key id="Property{::}UGPART{::}nx0has_restructured_components" locale="it_IT" status="Approved">Ha componenti ristrutturati</key>
+   <key id="Property{::}UGPART{::}nx0has_supressed_components" locale="it_IT" status="Approved">Ha componente soppresso</key>
+   <key id="Property{::}UGPART{::}nx0has_udf" locale="it_IT" status="Approved">Ha UDF</key>
+   <key id="Property{::}UGPART{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGSCENARIO{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGTIREOFFSET{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+   <key id="Property{::}UGTIRESPINDLE{::}nx0release" locale="it_IT" status="Approved">Informazioni sulla versione di NX</key>
+
+   <key id="BusinessObject{::}NX0ApplicationInfoStorage" locale="it_IT" status="Approved">Archivio informazioni applicazione NX</key>
+   <key id="BusinessObject{::}NX0ApplicationInfo" locale="it_IT" status="Approved">Informazioni applicazione NX</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0Environment" locale="it_IT" status="Approved">Ambiente</key>
+   <key id="Property{::}NX0ApplicationInfoCreI{::}nx0flags" locale="it_IT" status="Approved">Flag</key>
+   <key id="Property{::}NX0ApplicationInfoCreI{::}nx0part_type" locale="it_IT" status="Approved">Tipo di parte</key>
+   <key id="Property{::}NX0ApplicationInfoCreI{::}nx0release" locale="it_IT" status="Approved">Versione di NX</key>
+   <key id="Property{::}NX0ApplicationInfoCreI{::}nx0sync_checksums" locale="it_IT" status="Approved">Checksum</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0FLPSize" locale="it_IT" status="Approved">Dimensioni partizione caricamento rapido</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0flags" locale="it_IT" status="Approved">Flag</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0part_type" locale="it_IT" status="Approved">Tipo di parte</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0release" locale="it_IT" status="Approved">Versione di NX</key>
+   <key id="Property{::}NX0ApplicationInfoStorage{::}nx0sync_checksums" locale="it_IT" status="Approved">Checksum</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0Environment" locale="it_IT" status="Approved">Ambiente</key>
+   <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0flags" locale="it_IT" status="Approved">Flag</key>
+   <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0release" locale="it_IT" status="Approved">Versione di NX</key>
+   <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0sync_checksums" locale="it_IT" status="Approved">Checksum</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0FLPSize" locale="it_IT" status="Approved">Dimensioni partizione caricamento rapido</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0flags" locale="it_IT" status="Approved">Flag</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0PartInfoFlags" locale="it_IT" status="Approved">Flag di informazioni sulla parte</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0part_type" locale="it_IT" status="Approved">Tipo di parte</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0release" locale="it_IT" status="Approved">Versione di NX</key>
+   <key id="Property{::}NX0ApplicationInfo{::}nx0sync_checksums" locale="it_IT" status="Approved">Checksum</key>
+</Add>
+</TcBusinessDataLocalization>

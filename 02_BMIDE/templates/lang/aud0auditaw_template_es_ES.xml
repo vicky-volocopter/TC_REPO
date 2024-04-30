@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:30 AM 2021">
+    <Add>
+   <key id="ConditionDescription{::}Aud00AuditLogCmdCond" locale="es_ES" status="Approved">Se evalúa esta condición siempre en falso en los objetos "Fnd0AuditLog".</key>
+</Add>
+</TcBusinessDataLocalization>

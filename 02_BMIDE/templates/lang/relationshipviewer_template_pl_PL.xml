@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="pl_PL" status="Approved">Reguła tworzenia wykresu</key>
+   <key id="BusinessObject{::}Rv1XML" locale="pl_PL" status="Approved">Plik konfiguracji relacji</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="pl_PL" status="Approved">Kolekcja poleceń przeglądarki relacji</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="pl_PL" status="Approved">Relacje przeglądarki relacji</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="pl_PL" status="Approved">Parametry reguły</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="pl_PL" status="Approved">Zapytanie</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="pl_PL" status="Approved">Symbol pozycji</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="pl_PL" status="Approved">Z dołu do góry</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="pl_PL" status="Approved">Przesuń na przód</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="pl_PL" status="Approved">Przesuń na wierzch</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="pl_PL" status="Approved">Kołowy</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="pl_PL" status="Approved">Przekształć na element nadrzędny</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="pl_PL" status="Approved">Utwórz element nadrzędny dla wybranego elementu</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="pl_PL" status="Approved">Niestandardowy przyrostowy 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="pl_PL" status="Approved">Niestandardowy przyrostowy 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="pl_PL" status="Approved">Niestandardowy prostokątny 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="pl_PL" status="Approved">Lewy ortogonalny</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="pl_PL" status="Approved">Usuń wybrane pozycje na wykresie</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="pl_PL" status="Approved">Zakończ autoryzację</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="pl_PL" status="Approved">Rozwiń relacje, 1 poziom</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="pl_PL" status="Approved">Rozwiń</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="pl_PL" status="Approved">Rozwiń</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="pl_PL" status="Approved">Rozwiń relacje, 1 poziom</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="pl_PL" status="Approved">Rozwiń</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="pl_PL" status="Approved">Rozwiń</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="pl_PL" status="Approved">Ukryj wszystkie elementy potomne</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="pl_PL" status="Approved">Ukryj wszystkie relacje przychodzące</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="pl_PL" status="Approved">Ukryj wszystkie relacje wychodzące</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="pl_PL" status="Approved">Przyrostowy</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="pl_PL" status="Approved">Od lewej do prawej</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="pl_PL" status="Approved">Organiczny</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="pl_PL" status="Approved">Prostokątny</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="pl_PL" status="Approved">Ukryj przychodzące</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="pl_PL" status="Approved">Ukryj wychodzące</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="pl_PL" status="Approved">Ukryj animację węzła</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="pl_PL" status="Approved">Pokaż przychodzące</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="pl_PL" status="Approved">Pokaż wychodzące</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="pl_PL" status="Approved">Sterowanie relacjami</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="pl_PL" status="Approved">Od prawej do lewej</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="pl_PL" status="Approved">Przesuń do tyłu</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="pl_PL" status="Approved">Przesuń pod spód</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="pl_PL" status="Approved">Pokaż wszystkie elementy potomne</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="pl_PL" status="Approved">Pokaż wszystkie relacje przychodzące: </key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="pl_PL" status="Approved">Pokaż wszystkie relacje wychodzące: </key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="pl_PL" status="Approved">Pokaż przychodzące</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="pl_PL" status="Approved">2 poziomy</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="pl_PL" status="Approved">3 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="pl_PL" status="Approved">4 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="pl_PL" status="Approved">5 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="pl_PL" status="Approved">Relacje</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="pl_PL" status="Approved">Pokaż wychodzące</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="pl_PL" status="Approved">2 poziomy</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="pl_PL" status="Approved">3 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="pl_PL" status="Approved">4 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="pl_PL" status="Approved">5 poziomów</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="pl_PL" status="Approved">Rozpocznij autoryzację</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="pl_PL" status="Approved">Tabela z góry na dół</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="pl_PL" status="Approved">Rozwiń</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="pl_PL" status="Approved">Z góry na dół</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="pl_PL" status="Approved">Drzewo</key>
+</Add>
+</TcBusinessDataLocalization>

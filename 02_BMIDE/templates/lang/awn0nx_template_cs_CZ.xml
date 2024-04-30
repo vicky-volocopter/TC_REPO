@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="cs_CZ" status="Approved">Export NX</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="cs_CZ" status="Approved">Export NX</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="cs_CZ" status="Approved">Má Altrep Metadata</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="cs_CZ" status="Approved">Má libovolné reference mezi součástmi</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="cs_CZ" status="Approved">Má přerušení propojení</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="cs_CZ" status="Approved">Má libovolnou komponentu</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="cs_CZ" status="Approved">Má vazby</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="cs_CZ" status="Approved">Má výkres</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="cs_CZ" status="Approved">Má předefinování geometrie</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="cs_CZ" status="Approved">Má výrazy mezi součástmi</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="cs_CZ" status="Approved">Má uspořádání</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="cs_CZ" status="Approved">Má nehlavní komponentu</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="cs_CZ" status="Approved">Má komponenty mimo střed</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="cs_CZ" status="Approved">Má kusovník</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="cs_CZ" status="Approved">Má propojení Wave závislé na pozici</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="cs_CZ" status="Approved">Má propojení Wave nezávislé na pozici</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="cs_CZ" status="Approved">Má předefinování pozice</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="cs_CZ" status="Approved">Má rozhraní výrobku</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="cs_CZ" status="Approved">Má referenční komponentu</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="cs_CZ" status="Approved">Má přepracované komponenty</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="cs_CZ" status="Approved">Má vypnutou komponentu</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="cs_CZ" status="Approved">Má uživatelsky definovaný prvek</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="cs_CZ" status="Approved">Vlastnosti NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="cs_CZ" status="Approved">NX Vydání</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="cs_CZ" status="Approved">Vlastnost součásti NX</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="cs_CZ" status="Approved">Datum vytvoření UGMASTER</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="cs_CZ" status="Approved">Exportovat do NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="cs_CZ" status="Approved">Přidat</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="cs_CZ" status="Approved">Otevřít v NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="cs_CZ" status="Approved">Otevřít v prohlížeči relace NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="cs_CZ" status="Approved">Otevřít v Propojení požadavku</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="cs_CZ" status="Approved">Nastavit výchozí složku NX</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="cs_CZ" status="Approved">Otevřít v NX</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="cs_CZ" status="Approved">Toto určuje, zda bude příkaz Exportovat do NX zobrazen pro vybraný objekt.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="cs_CZ" status="Approved">Zkontroluje, zda je vybraný objekt platný pro operaci "Přidat" v NX.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="cs_CZ" status="Approved">Zkontroluje, zda je vybraný objekt podporován operací "Nastavit výchozí složku" v NX.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="cs_CZ" status="Approved">Zkontroluje, zda je daný typ platný pro operaci "Otevřít v NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="cs_CZ" status="Approved">Zkontroluje, zda je vybraný objekt platný pro operaci "Otevřít v prohlížeči relace NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="cs_CZ" status="Approved">Zkontroluje, zda je vybraný objekt platný pro operaci "Otevřít v NX Propojení požadavku".</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="cs_CZ" status="Approved">Příkaz NX Open Hosted Cell</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="cs_CZ" status="Approved">Pomocí této podmínky se určuje, zda nemají instance objektu procesu datasetu typ definovaný v předvolbě AWC_NX_OpenSupportedTypes.</key>
+</Add>
+</TcBusinessDataLocalization>

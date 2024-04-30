@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Aug 30 06:55:42 AM 2022">
+    <Add>
+   <key id="BusinessObject{::}VC4_Abs_PartMasterS" locale="en_US" status="Approved">Abs Part Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_PartMaster" locale="en_US" status="Approved">Abs Part Master</key>
+   <key id="BusinessObject{::}VC4_Abs_PartRevMasterS" locale="en_US" status="Approved">Abs Part Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_PartRevisionMaster" locale="en_US" status="Approved">Abs Part Revision Master</key>
+   <key id="BusinessObject{::}VC4_Abs_PartRevision" locale="en_US" status="Approved">Abstract Part Revision</key>
+   <key id="BusinessObject{::}VC4_Abs_Part" locale="en_US" status="Approved">Abstract Part</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_DocMasterS" locale="en_US" status="Approved">Abs Prod Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_DocMaster" locale="en_US" status="Approved">Abs Prod Doc Master</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_DocRevMasterS" locale="en_US" status="Approved">Abs Prod Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_DocRevisionMaster" locale="en_US" status="Approved">Abs Prod Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_DocRevision" locale="en_US" status="Approved">Abstract Product Document Revision</key>
+   <key id="BusinessObject{::}VC4_Abs_Prod_Doc" locale="en_US" status="Approved">Abstract Product Document</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_DocMasterS" locale="en_US" status="Approved">Abs QMS Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_DocMaster" locale="en_US" status="Approved">Abs QMS Doc Master</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_DocRevMasterS" locale="en_US" status="Approved">Abs QMS Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_DocRevisionMaster" locale="en_US" status="Approved">Abs QMS Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_DocRevision" locale="en_US" status="Approved">Abstract QMS Document Revision</key>
+   <key id="BusinessObject{::}VC4_Abs_QMS_Doc" locale="en_US" status="Approved">Abstract QMS Document</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_ToolMasterS" locale="en_US" status="Approved">Abs Res Tool Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_ToolMaster" locale="en_US" status="Approved">Abs Res Tool Master</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_ToolRevMasterS" locale="en_US" status="Approved">Abs Res Tool Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_ToolRevisionMaster" locale="en_US" status="Approved">Abs Res Tool Revision Master</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_ToolRevision" locale="en_US" status="Approved">Abstract Resource Tool Revision</key>
+   <key id="BusinessObject{::}VC4_Abs_Res_Tool" locale="en_US" status="Approved">Abstract Resource Tool</key>
+   <key id="BusinessObject{::}VC4_CPL_DocMasterS" locale="en_US" status="Approved">CPL Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_CPL_DocMaster" locale="en_US" status="Approved">CPL Doc Master</key>
+   <key id="BusinessObject{::}VC4_CPL_DocRevMasterS" locale="en_US" status="Approved">CPL Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_CPL_DocRevisionMaster" locale="en_US" status="Approved">CPL Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_CPL_DocRevision" locale="en_US" status="Approved">Compliance Document Revision</key>
+   <key id="BusinessObject{::}VC4_CPL_Doc" locale="en_US" status="Approved">Compliance Document</key>
+   <key id="BusinessObject{::}VC4_CVE" locale="en_US" status="Approved">CVE</key>
+   <key id="BusinessObject{::}VC4_DQA_DocMasterS" locale="en_US" status="Approved">DQA Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_DQA_DocMaster" locale="en_US" status="Approved">DQA Doc Master</key>
+   <key id="BusinessObject{::}VC4_DQA_DocRevMasterS" locale="en_US" status="Approved">DQA Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_DQA_DocRevisionMaster" locale="en_US" status="Approved">DQA Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_DQA_DocRevision" locale="en_US" status="Approved">Development Quality Assurance Revision</key>
+   <key id="BusinessObject{::}VC4_DQA_Doc" locale="en_US" status="Approved">Development Quality Assurance</key>
+   <key id="BusinessObject{::}VC4_ECM_DocMasterS" locale="en_US" status="Approved">ECM Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_ECM_DocMaster" locale="en_US" status="Approved">ECM Doc Master</key>
+   <key id="BusinessObject{::}VC4_ECM_DocRevMasterS" locale="en_US" status="Approved">ECM Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_ECM_DocRevisionMaster" locale="en_US" status="Approved">ECM Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_ECM_DocRevision" locale="en_US" status="Approved">ECM Doc Revision</key>
+   <key id="BusinessObject{::}VC4_ECM_Doc" locale="en_US" status="Approved">Engineering Coordination Memo</key>
+   <key id="BusinessObject{::}VC4_ENG_DocMasterS" locale="en_US" status="Approved">ENG Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_ENG_DocMaster" locale="en_US" status="Approved">ENG Doc Master</key>
+   <key id="BusinessObject{::}VC4_ENG_DocRevMasterS" locale="en_US" status="Approved">ENG Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_ENG_DocRevisionMaster" locale="en_US" status="Approved">ENG Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_ENG_DocRevision" locale="en_US" status="Approved">Engineering Document Revision</key>
+   <key id="BusinessObject{::}VC4_ENG_Doc" locale="en_US" status="Approved">Engineering Document</key>
+   <key id="BusinessObject{::}VC4_ElectricPartMasterS" locale="en_US" status="Approved">Electric Part Master Storage</key>
+   <key id="BusinessObject{::}VC4_ElectricPartMaster" locale="en_US" status="Approved">Electric Part Master</key>
+   <key id="BusinessObject{::}VC4_ElectricPartRevMasterS" locale="en_US" status="Approved">Electric Part Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_ElectricPartRevisionMaster" locale="en_US" status="Approved">Electric Part Revision Master</key>
+   <key id="BusinessObject{::}VC4_ElectricPartRevision" locale="en_US" status="Approved">Electrical Part Revision</key>
+   <key id="BusinessObject{::}VC4_ElectricPart" locale="en_US" status="Approved">Electrical Part</key>
+   <key id="BusinessObject{::}VC4_HardwarePartMasterS" locale="en_US" status="Approved">Hardware Part Master Storage</key>
+   <key id="BusinessObject{::}VC4_HardwarePartMaster" locale="en_US" status="Approved">Hardware Part Master</key>
+   <key id="BusinessObject{::}VC4_HardwarePartRevMasterS" locale="en_US" status="Approved">Hardware Part Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_HardwarePartRevisionMaster" locale="en_US" status="Approved">Hardware Part Revision Master</key>
+   <key id="BusinessObject{::}VC4_HardwarePartRevision" locale="en_US" status="Approved">Hardware Part Revision</key>
+   <key id="BusinessObject{::}VC4_HardwarePart" locale="en_US" status="Approved">Hardware Part</key>
+   <key id="BusinessObject{::}VC4_MAI_DocMasterS" locale="en_US" status="Approved">MAI Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_MAI_DocMaster" locale="en_US" status="Approved">MAI Doc Master</key>
+   <key id="BusinessObject{::}VC4_MAI_DocRevMasterS" locale="en_US" status="Approved">MAI Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_MAI_DocRevisionMaster" locale="en_US" status="Approved">MAI Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_MAI_DocRevision" locale="en_US" status="Approved">Manual / Instruction Document Revision</key>
+   <key id="BusinessObject{::}VC4_MAI_Doc" locale="en_US" status="Approved">Manual / Instruction Document</key>
+   <key id="BusinessObject{::}VC4_QMS_Folder" locale="en_US" status="Approved">QMS Folder</key>
+   <key id="BusinessObject{::}VC4_REQ_DocMasterS" locale="en_US" status="Approved">REQ Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_REQ_DocMaster" locale="en_US" status="Approved">REQ Doc Master</key>
+   <key id="BusinessObject{::}VC4_REQ_DocRevMasterS" locale="en_US" status="Approved">REQ Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_REQ_DocRevisionMaster" locale="en_US" status="Approved">REQ Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_REQ_DocRevision" locale="en_US" status="Approved">Requirement Document Revision</key>
+   <key id="BusinessObject{::}VC4_REQ_Doc" locale="en_US" status="Approved">Requirement Document</key>
+   <key id="BusinessObject{::}VC4_ResourceJigMasterS" locale="en_US" status="Approved">Resource Jig Master Storage</key>
+   <key id="BusinessObject{::}VC4_ResourceJigMaster" locale="en_US" status="Approved">Resource Jig Master</key>
+   <key id="BusinessObject{::}VC4_ResourceJigRevMasterS" locale="en_US" status="Approved">Resource Jig Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_ResourceJigRevisionMaster" locale="en_US" status="Approved">Resource Jig Revision Master</key>
+   <key id="BusinessObject{::}VC4_ResourceJigRevision" locale="en_US" status="Approved">Jig Revision</key>
+   <key id="BusinessObject{::}VC4_ResourceJig" locale="en_US" status="Approved">Jig</key>
+   <key id="BusinessObject{::}VC4_ResourceMoldMasterS" locale="en_US" status="Approved">Resource Mold Master Storage</key>
+   <key id="BusinessObject{::}VC4_ResourceMoldMaster" locale="en_US" status="Approved">Resource Mold Master</key>
+   <key id="BusinessObject{::}VC4_ResourceMoldRevMasterS" locale="en_US" status="Approved">Resource Mold Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_ResourceMoldRevisionMaster" locale="en_US" status="Approved">Resource Mold Revision Master</key>
+   <key id="BusinessObject{::}VC4_ResourceMoldRevision" locale="en_US" status="Approved">Mold Revision</key>
+   <key id="BusinessObject{::}VC4_ResourceMold" locale="en_US" status="Approved">Mold</key>
+   <key id="BusinessObject{::}VC4_Reviewers" locale="en_US" status="Approved">Reviewers</key>
+   <key id="BusinessObject{::}VC4_SPC_DocMasterS" locale="en_US" status="Approved">SPC Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_SPC_DocMaster" locale="en_US" status="Approved">SPC Doc Master</key>
+   <key id="BusinessObject{::}VC4_SPC_DocRevMasterS" locale="en_US" status="Approved">SPC Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_SPC_DocRevisionMaster" locale="en_US" status="Approved">SPC Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_SPC_DocRevision" locale="en_US" status="Approved">Specification Document Revision</key>
+   <key id="BusinessObject{::}VC4_SPC_Doc" locale="en_US" status="Approved">Specification Document</key>
+   <key id="BusinessObject{::}VC4_SoftwarePartMasterS" locale="en_US" status="Approved">Software Part Master Storage</key>
+   <key id="BusinessObject{::}VC4_SoftwarePartMaster" locale="en_US" status="Approved">Software Part Master</key>
+   <key id="BusinessObject{::}VC4_SoftwarePartRevMasterS" locale="en_US" status="Approved">Software Part Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_SoftwarePartRevisionMaster" locale="en_US" status="Approved">Software Part Revision Master</key>
+   <key id="BusinessObject{::}VC4_SoftwarePartRevision" locale="en_US" status="Approved">Software Part Revision</key>
+   <key id="BusinessObject{::}VC4_SoftwarePart" locale="en_US" status="Approved">Software Part</key>
+   <key id="BusinessObject{::}VC4_Step" locale="en_US" status="Approved">Step</key>
+   <key id="BusinessObject{::}VC4_SymbolMasterS" locale="en_US" status="Approved">Symbol Master Storage</key>
+   <key id="BusinessObject{::}VC4_SymbolMaster" locale="en_US" status="Approved">Symbol Master</key>
+   <key id="BusinessObject{::}VC4_SymbolRevMasterS" locale="en_US" status="Approved">Symbol Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_SymbolRevisionMaster" locale="en_US" status="Approved">Symbol Revision Master</key>
+   <key id="BusinessObject{::}VC4_SymbolRevision" locale="en_US" status="Approved">Symbol Revision</key>
+   <key id="BusinessObject{::}VC4_Symbol" locale="en_US" status="Approved">Symbol</key>
+   <key id="BusinessObject{::}VC4_TCM_DocMasterS" locale="en_US" status="Approved">TCM Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_TCM_DocMaster" locale="en_US" status="Approved">TCM Doc Master</key>
+   <key id="BusinessObject{::}VC4_TCM_DocRevMasterS" locale="en_US" status="Approved">TCM Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_TCM_DocRevisionMaster" locale="en_US" status="Approved">TCM Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_TCM_DocRevision" locale="en_US" status="Approved">Technical Coordination Memo Revision</key>
+   <key id="BusinessObject{::}VC4_TCM_Doc" locale="en_US" status="Approved">Technical Coordination Memo</key>
+   <key id="BusinessObject{::}VC4_VMI_DocMasterS" locale="en_US" status="Approved">VMI Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VMI_DocMaster" locale="en_US" status="Approved">VMI Doc Master</key>
+   <key id="BusinessObject{::}VC4_VMI_DocRevMasterS" locale="en_US" status="Approved">VMI Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VMI_DocRevisionMaster" locale="en_US" status="Approved">VMI Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VMI_DocRevision" locale="en_US" status="Approved">VMI Document Revision</key>
+   <key id="BusinessObject{::}VC4_VMI_Doc" locale="en_US" status="Approved">VMI Document</key>
+   <key id="BusinessObject{::}VC4_VML_DocMasterS" locale="en_US" status="Approved">VML Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VML_DocMaster" locale="en_US" status="Approved">VML Doc Master</key>
+   <key id="BusinessObject{::}VC4_VML_DocRevMasterS" locale="en_US" status="Approved">VML Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VML_DocRevisionMaster" locale="en_US" status="Approved">VML Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VML_DocRevision" locale="en_US" status="Approved">VML Document Revision</key>
+   <key id="BusinessObject{::}VC4_VML_Doc" locale="en_US" status="Approved">VML Document</key>
+   <key id="BusinessObject{::}VC4_VMP_DocMasterS" locale="en_US" status="Approved">VMP Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VMP_DocMaster" locale="en_US" status="Approved">VMP Doc Master</key>
+   <key id="BusinessObject{::}VC4_VMP_DocRevMasterS" locale="en_US" status="Approved">VMP Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VMP_DocRevisionMaster" locale="en_US" status="Approved">VMP Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VMP_DocRevision" locale="en_US" status="Approved">VMP Document Revision</key>
+   <key id="BusinessObject{::}VC4_VMP_Doc" locale="en_US" status="Approved">VMP Document</key>
+   <key id="BusinessObject{::}VC4_VPF_DocMasterS" locale="en_US" status="Approved">VPF Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPF_DocMaster" locale="en_US" status="Approved">VPF Doc Master</key>
+   <key id="BusinessObject{::}VC4_VPF_DocRevMasterS" locale="en_US" status="Approved">VPF Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPF_DocRevisionMaster" locale="en_US" status="Approved">VPF Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VPF_DocRevision" locale="en_US" status="Approved">Volocopter Project Form Revision</key>
+   <key id="BusinessObject{::}VC4_VPF_Doc" locale="en_US" status="Approved">Volocopter Project Form</key>
+   <key id="BusinessObject{::}VC4_VPI_DocMasterS" locale="en_US" status="Approved">VPI Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPI_DocMaster" locale="en_US" status="Approved">VPI Doc Master</key>
+   <key id="BusinessObject{::}VC4_VPI_DocRevMasterS" locale="en_US" status="Approved">VPI Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPI_DocRevisionMaster" locale="en_US" status="Approved">VPI Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VPI_DocRevision" locale="en_US" status="Approved">Volocopter Project Instruction Revision</key>
+   <key id="BusinessObject{::}VC4_VPI_Doc" locale="en_US" status="Approved">Volocopter Project Instruction</key>
+   <key id="BusinessObject{::}VC4_VPP_DocMasterS" locale="en_US" status="Approved">VPP Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPP_DocMaster" locale="en_US" status="Approved">VPP Doc Master</key>
+   <key id="BusinessObject{::}VC4_VPP_DocRevMasterS" locale="en_US" status="Approved">VPP Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPP_DocRevisionMaster" locale="en_US" status="Approved">VPP Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VPP_DocRevision" locale="en_US" status="Approved">Volocopter Project Procedure Revision</key>
+   <key id="BusinessObject{::}VC4_VPP_Doc" locale="en_US" status="Approved">Volocopter Project Procedure</key>
+   <key id="BusinessObject{::}VC4_VPS_DocMasterS" locale="en_US" status="Approved">VPS Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPS_DocMaster" locale="en_US" status="Approved">VPS Doc Master</key>
+   <key id="BusinessObject{::}VC4_VPS_DocRevMasterS" locale="en_US" status="Approved">VPS Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VPS_DocRevisionMaster" locale="en_US" status="Approved">VPS Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VPS_DocRevision" locale="en_US" status="Approved">Volocopter Process Specification Revision</key>
+   <key id="BusinessObject{::}VC4_VPS_Doc" locale="en_US" status="Approved">Volocopter Process Specification</key>
+   <key id="BusinessObject{::}VC4_Volo_ProductMasterS" locale="en_US" status="Approved">Volo Product Master Storage</key>
+   <key id="BusinessObject{::}VC4_Volo_ProductMaster" locale="en_US" status="Approved">Volo Product Master</key>
+   <key id="BusinessObject{::}VC4_Volo_ProductRevMasterS" locale="en_US" status="Approved">Volo Product Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_Volo_ProductRevisionMaster" locale="en_US" status="Approved">Volo Product Revision Master</key>
+   <key id="BusinessObject{::}VC4_Volo_ProductRevision" locale="en_US" status="Approved">Volocopter Product Revision</key>
+   <key id="BusinessObject{::}VC4_Volo_Product" locale="en_US" status="Approved">Volocopter Product</key>
+   <key id="BusinessObject{::}VC4_VxH_DocMasterS" locale="en_US" status="Approved">Vx H Doc Master Storage</key>
+   <key id="BusinessObject{::}VC4_VxH_DocMaster" locale="en_US" status="Approved">Vx H Doc Master</key>
+   <key id="BusinessObject{::}VC4_VxH_DocRevMasterS" locale="en_US" status="Approved">Vx H Doc Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_VxH_DocRevisionMaster" locale="en_US" status="Approved">Vx H Doc Revision Master</key>
+   <key id="BusinessObject{::}VC4_VxH_DocRevision" locale="en_US" status="Approved">VxH Document Revision</key>
+   <key id="BusinessObject{::}VC4_VxH_Doc" locale="en_US" status="Approved">VxH Document</key>
+   <key id="BusinessObject{::}VC4_bom_doc_rel" locale="en_US" status="Approved">BOM</key>
+   <key id="BusinessObject{::}VC4_cpl_doc_rel" locale="en_US" status="Approved">CPL</key>
+   <key id="BusinessObject{::}VC4_eng_doc_rel" locale="en_US" status="Approved">ENG</key>
+   <key id="BusinessObject{::}VC4_mai_doc_rel" locale="en_US" status="Approved">MAI</key>
+   <key id="BusinessObject{::}VC4_mirror_part_rel" locale="en_US" status="Approved">Mirror Part</key>
+   <key id="BusinessObject{::}VC4_part_doc_rel" locale="en_US" status="Approved">Documents</key>
+   <key id="BusinessObject{::}VC4_req_doc_rel" locale="en_US" status="Approved">REQ</key>
+   <key id="BusinessObject{::}VC4_spc_doc_rel" locale="en_US" status="Approved">SPC</key>
+   <key id="Property{::}CommercialPart Revision{::}vc4_mass_measured" locale="en_US" status="Approved">Measured Mass [kg]</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_approver_date_na" locale="en_US" status="Approved">Approver Date</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_approver_date" locale="en_US" status="Approved">Approver Date</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_approver_name_na" locale="en_US" status="Approved">Approver Name</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_approver_name" locale="en_US" status="Approved">Approver Name</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_approver_tc_id_na" locale="en_US" status="Approved">Approver TC ID</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_checker_date_na" locale="en_US" status="Approved">Checker Date</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_checker_date" locale="en_US" status="Approved">Checker Date</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_checker_name_na" locale="en_US" status="Approved">Checker Name</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_checker_name" locale="en_US" status="Approved">Checker Name</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_checker_tc_id_na" locale="en_US" status="Approved">Checker TC ID</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_creator_date" locale="en_US" status="Approved">Creator Date</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_creator_name" locale="en_US" status="Approved">Creator Name</key>
+   <key id="Property{::}ItemRevision{::}vc4_spt_creator_tc_id" locale="en_US" status="Approved">Creator TC ID</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vc4_mass_measured" locale="en_US" status="Approved">Measured Mass [kg]</key>
+   <key id="Property{::}Part Revision{::}vc4_rtp_solution_for_cn" locale="en_US" status="Approved">ECN Number</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_document_no" locale="en_US" status="Approved">Document Number</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_drawing_no_shown_part" locale="en_US" status="Approved">Drawing No. Shown Part</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_old_doc_no" locale="en_US" status="Approved">Old Doc ID/NO</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_old_part_no" locale="en_US" status="Approved">Old Part NO</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_productcode" locale="en_US" status="Approved">Product Code (PRD)</key>
+   <key id="Property{::}ProjectObjectRelation{::}vc4_segments_affected" locale="en_US" status="Approved">Segments Affected</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_drawing_no_shown_part" locale="en_US" status="Approved">Drawing No. Shown Part</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_is_configured_ci" locale="en_US" status="Approved">Is Configured? (CI)</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_last_rel_status_name" locale="en_US" status="Approved">Last Release Status Name</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_mirror_part_no" locale="en_US" status="Approved">Mirror Part No.</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_old_part_no" locale="en_US" status="Approved">Old Part NO</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_supplier_id" locale="en_US" status="Approved">Supplier ID</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_supplier_pn" locale="en_US" status="Approved">Supplier P/N</key>
+   <key id="Property{::}VC4_Abs_PartRevision{::}vc4_supplier_rev" locale="en_US" status="Approved">Supplier Revision</key>
+   <key id="Property{::}VC4_Abs_Part{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_Part{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_Part{::}vc4_drawing_no_shown_part" locale="en_US" status="Approved">Drawing No. Shown Part</key>
+   <key id="Property{::}VC4_Abs_Part{::}vc4_old_part_no" locale="en_US" status="Approved">Old Part NO</key>
+   <key id="Property{::}VC4_Abs_Part{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_Abs_Prod_DocRevision{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_Prod_DocRevision{::}vc4_document_no" locale="en_US" status="Approved">Document Number</key>
+   <key id="Property{::}VC4_Abs_Prod_DocRevision{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_Prod_DocRevision{::}vc4_old_doc_no" locale="en_US" status="Approved">Old Doc ID/NO</key>
+   <key id="Property{::}VC4_Abs_Prod_DocRevision{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_Abs_Prod_Doc{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_Prod_Doc{::}vc4_document_no" locale="en_US" status="Approved">Document Number</key>
+   <key id="Property{::}VC4_Abs_Prod_Doc{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_Prod_Doc{::}vc4_old_doc_no" locale="en_US" status="Approved">Old Doc ID/NO</key>
+   <key id="Property{::}VC4_Abs_Prod_Doc{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_Abs_QMS_DocRevision{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_QMS_DocRevision{::}vc4_document_no" locale="en_US" status="Approved">Document Number</key>
+   <key id="Property{::}VC4_Abs_QMS_DocRevision{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_QMS_DocRevision{::}vc4_old_doc_no" locale="en_US" status="Approved">Old Doc ID/NO</key>
+   <key id="Property{::}VC4_Abs_QMS_DocRevision{::}vc4_segments_affected" locale="en_US" status="Approved">Segments Affected</key>
+   <key id="Property{::}VC4_Abs_QMS_Doc{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_QMS_Doc{::}vc4_document_no" locale="en_US" status="Approved">Document Number</key>
+   <key id="Property{::}VC4_Abs_QMS_Doc{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_QMS_Doc{::}vc4_old_doc_no" locale="en_US" status="Approved">Old Doc ID/NO</key>
+   <key id="Property{::}VC4_Abs_QMS_Doc{::}vc4_segments_affected" locale="en_US" status="Approved">Segments Affected</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_classification" locale="en_US" status="Approved">Classification (VC)</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_drawing_no_shown_part" locale="en_US" status="Approved">Drawing No. Shown Part</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_general_tolerance" locale="en_US" status="Approved">General Tolerance</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_is_configured_ci" locale="en_US" status="Approved">Is Configured? (CI)</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_manufacturing_method" locale="en_US" status="Approved">Manufacturing Method</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_mass_calculated" locale="en_US" status="Approved">Calculated Mass [kg]</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_material" locale="en_US" status="Approved">Material</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_serial_number_profile" locale="en_US" status="Approved">Serial Number Profile</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_source" locale="en_US" status="Approved">Make/Buy</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_supplier_id" locale="en_US" status="Approved">Supplier ID</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_supplier_pn" locale="en_US" status="Approved">Supplier P/N</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_supplier_rev" locale="en_US" status="Approved">Supplier Revision</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_surface_protection" locale="en_US" status="Approved">Surface Protection</key>
+   <key id="Property{::}VC4_Abs_Res_ToolRevision{::}vc4_validation_status" locale="en_US" status="Approved">Validation Status</key>
+   <key id="Property{::}VC4_Abs_Res_Tool{::}vc4_doc_type" locale="en_US" status="Approved">DOC</key>
+   <key id="Property{::}VC4_Abs_Res_Tool{::}vc4_domain_code" locale="en_US" status="Approved">DMN</key>
+   <key id="Property{::}VC4_Abs_Res_Tool{::}vc4_drawing_no_shown_part" locale="en_US" status="Approved">Drawing No. Shown Part</key>
+   <key id="Property{::}VC4_Abs_Res_Tool{::}vc4_productcode" locale="en_US" status="Approved">PRD</key>
+   <key id="Property{::}VC4_ECM_DocRevision{::}vc4_direction" locale="en_US" status="Approved">Direction</key>
+   <key id="Property{::}VC4_ECM_DocRevision{::}vc4_document_no_cmpd" locale="en_US" status="Approved">ECM Document Number</key>
+   <key id="Property{::}VC4_ECM_DocRevision{::}vc4_subsystem" locale="en_US" status="Approved">Subsystem</key>
+   <key id="Property{::}VC4_ECM_DocRevision{::}vc4_supplier" locale="en_US" status="Approved">Supplier</key>
+   <key id="Property{::}VC4_ECM_DocRevision{::}vc4_system" locale="en_US" status="Approved">System</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_classification" locale="en_US" status="Approved">Classification (VC)</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_dal" locale="en_US" status="Approved">DAL</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_mass_calculated" locale="en_US" status="Approved">Calculated Mass [kg]</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_mass_estimated" locale="en_US" status="Approved">Estimated Mass [kg]</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_mass_measured" locale="en_US" status="Approved">Measured Mass [kg]</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_serial_number_profile" locale="en_US" status="Approved">Serial Number Profile</key>
+   <key id="Property{::}VC4_ElectricPartRevision{::}vc4_weight_unit" locale="en_US" status="Approved">Weight Unit</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_classification" locale="en_US" status="Approved">Classification (VC)</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_dal" locale="en_US" status="Approved">DAL</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_general_tolerance" locale="en_US" status="Approved">General Tolerance</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_manufacturing_method" locale="en_US" status="Approved">Manufacturing Method</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_mass_calculated" locale="en_US" status="Approved">Calculated Mass [kg]</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_mass_estimated" locale="en_US" status="Approved">Estimated Mass [kg]</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_mass_measured" locale="en_US" status="Approved">Measured Mass [kg]</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_material" locale="en_US" status="Approved">Material</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_participant_cve" locale="en_US" status="Approved">CVE Sign-off Participant</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_participant_reviewers" locale="en_US" status="Approved">Reviewers Sign-off Participant</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_serial_number_profile" locale="en_US" status="Approved">Serial Number Profile</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_surface_protection" locale="en_US" status="Approved">Surface Protection</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_surface_roughness" locale="en_US" status="Approved">Surface Roughness</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_validation_status" locale="en_US" status="Approved">Validation Status</key>
+   <key id="Property{::}VC4_HardwarePartRevision{::}vc4_weight_unit" locale="en_US" status="Approved">Weight Unit</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_sas_name" locale="en_US" status="Approved">SAS Name</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_sas_version" locale="en_US" status="Approved">SAS Version</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_sci_name" locale="en_US" status="Approved">SCI Name</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_sci_version" locale="en_US" status="Approved">SCI Version</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_url_git" locale="en_US" status="Approved">Git URL</key>
+   <key id="Property{::}VC4_SoftwarePartRevision{::}vc4_validation_status" locale="en_US" status="Approved">Validation Status</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_addressed_to" locale="en_US" status="Approved">Addressed to</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_direction" locale="en_US" status="Approved">Direction</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_document_no_cmpd" locale="en_US" status="Approved">TCM Document Number</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_program_project" locale="en_US" status="Approved">Program/ Project</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_subsystem" locale="en_US" status="Approved">Subsystem</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_supplier" locale="en_US" status="Approved">Supplier</key>
+   <key id="Property{::}VC4_TCM_DocRevision{::}vc4_system" locale="en_US" status="Approved">System</key>
+   <key id="Property{::}VC4_Volo_ProductRevision{::}vc4_productcode" locale="en_US" status="Approved">Product Code (PRD)</key>
+   <key id="Property{::}VC4_Volo_Product{::}vc4_productcode" locale="en_US" status="Approved">Product Code (PRD)</key>
+
+   <key id="LOVValueDescription{::}VC4_CM_Change_Class{::}Class III" locale="en_US" status="Approved">(change with no further substantiation, Record Change Only)</key>
+   <key id="LOVValue{::}VC4_CM_Additional_Ext_Attrs{::}High effort" locale="en_US" status="Approved">High effort</key>
+   <key id="LOVValue{::}VC4_CM_Additional_Ext_Attrs{::}Low effort" locale="en_US" status="Approved">Low effort</key>
+   <key id="LOVValue{::}VC4_CM_Change_Class{::}Class III" locale="en_US" status="Approved">Class III</key>
+   <key id="LOVValue{::}VC4_CM_Change_Class{::}Class II" locale="en_US" status="Approved">Class II</key>
+   <key id="LOVValue{::}VC4_CM_Change_Class{::}Class I" locale="en_US" status="Approved">Class I</key>
+   <key id="LOVValue{::}VC4_CM_Change_Type_Category{::}1" locale="en_US" status="Approved">1</key>
+   <key id="LOVValue{::}VC4_CM_Change_Type_Category{::}2" locale="en_US" status="Approved">2</key>
+   <key id="LOVValue{::}VC4_CM_Change_Type_Category{::}3" locale="en_US" status="Approved">3</key>
+   <key id="LOVValue{::}VC4_CM_Change_Type_Category{::}4" locale="en_US" status="Approved">4</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Cost" locale="en_US" status="Approved">Cost</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Design" locale="en_US" status="Approved">Design</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Issue" locale="en_US" status="Approved">Issue</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Other" locale="en_US" status="Approved">Other</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Safety" locale="en_US" status="Approved">Safety</key>
+   <key id="LOVValue{::}VC4_CM_Effort_Of_ECR{::}Weight" locale="en_US" status="Approved">Weight</key>
+   <key id="LOVValue{::}VC4_CM_Effort{::}High" locale="en_US" status="Approved">High</key>
+   <key id="LOVValue{::}VC4_CM_Effort{::}Low" locale="en_US" status="Approved">Low</key>
+   <key id="LOVValue{::}VC4_CM_Effort{::}Medium" locale="en_US" status="Approved">Medium</key>
+   <key id="LOVValue{::}VC4_CM_FormFitFunction{::}Fit" locale="en_US" status="Approved">Fit</key>
+   <key id="LOVValue{::}VC4_CM_FormFitFunction{::}Form" locale="en_US" status="Approved">Form</key>
+   <key id="LOVValue{::}VC4_CM_FormFitFunction{::}Function" locale="en_US" status="Approved">Function</key>
+   <key id="LOVValue{::}VC4_CM_Implementation_Priority{::}Emergency" locale="en_US" status="Approved">Emergency</key>
+   <key id="LOVValue{::}VC4_CM_Implementation_Priority{::}High" locale="en_US" status="Approved">High</key>
+   <key id="LOVValue{::}VC4_CM_Implementation_Priority{::}Low" locale="en_US" status="Approved">Low</key>
+   <key id="LOVValue{::}VC4_CM_Implementation_Priority{::}Medium" locale="en_US" status="Approved">Medium</key>
+
+   <key id="ReleaseStatus{::}VC4_Approved" locale="en_US" status="Approved">Approved</key>
+   <key id="ReleaseStatus{::}VC4_Canceled" locale="en_US" status="Approved">Canceled</key>
+   <key id="ReleaseStatus{::}VC4_Closed" locale="en_US" status="Approved">Closed</key>
+   <key id="ReleaseStatus{::}VC4_In_Work" locale="en_US" status="Approved">In Work</key>
+   <key id="ReleaseStatus{::}VC4_Obsolete" locale="en_US" status="Approved">Obsolete</key>
+   <key id="ReleaseStatus{::}VC4_Prototype_Released" locale="en_US" status="Approved">Prototype Released</key>
+   <key id="ReleaseStatus{::}VC4_Received" locale="en_US" status="Approved">Received</key>
+   <key id="ReleaseStatus{::}VC4_Rejected" locale="en_US" status="Approved">Rejected</key>
+   <key id="ReleaseStatus{::}VC4_Released" locale="en_US" status="Approved">Released</key>
+   <key id="ReleaseStatus{::}VC4_Sent" locale="en_US" status="Approved">Sent</key>
+   <key id="ReleaseStatus{::}VC4_Serial_Released" locale="en_US" status="Approved">Serial Released</key>
+   <key id="ReleaseStatus{::}VC4_Superseded" locale="en_US" status="Approved">Superseded</key>
+   <key id="ReleaseStatus{::}VC4_Under_Review" locale="en_US" status="Approved">Under Review</key>
+
+   <key id="Note{::}INST_LENGTH" locale="en_US" status="Approved">INST_LENGTH</key>
+   <key id="Note{::}INST_CUT_LENGTH" locale="en_US" status="Approved">INST_CUT_LENGTH</key>
+   <key id="Note{::}INST_HARNESS" locale="en_US" status="Approved">INST_HARNESS</key>
+   <key id="Note{::}INST_MCLAB" locale="en_US" status="Approved">INST_MCLAB</key>
+   <key id="Note{::}INST_CIRLABEL" locale="en_US" status="Approved">INST_CIRLABEL</key>
+   <key id="Note{::}INST_FROM_DEVICE" locale="en_US" status="Approved">INST_FROM_DEVICE</key>
+   <key id="Note{::}INST_FROM_PIN" locale="en_US" status="Approved">INST_FROM_PIN</key>
+   <key id="Note{::}INST_TO_DEVICE" locale="en_US" status="Approved">INST_TO_DEVICE</key>
+   <key id="Note{::}INST_TO_PIN" locale="en_US" status="Approved">INST_TO_PIN</key>
+   <key id="Property{::}BOMLine{::}INST_LENGTH" locale="en_US" status="Approved">LENGTH</key>
+   <key id="Property{::}BOMLine{::}INST_CUT_LENGTH" locale="en_US" status="Approved">CUT_LENGTH</key>
+   <key id="Property{::}BOMLine{::}INST_HARNESS" locale="en_US" status="Approved">HARNESS</key>
+   <key id="Property{::}BOMLine{::}INST_MCLAB" locale="en_US" status="Approved">MCLAB</key>
+   <key id="Property{::}BOMLine{::}INST_CIRLABEL" locale="en_US" status="Approved">CIRLABEL</key>
+   <key id="Property{::}BOMLine{::}INST_FROM_DEVICE" locale="en_US" status="Approved">FROM DEVICE</key>
+   <key id="Property{::}BOMLine{::}INST_FROM_PIN" locale="en_US" status="Approved">FROM PIN</key>
+   <key id="Property{::}BOMLine{::}INST_TO_DEVICE" locale="en_US" status="Approved">TO DEVICE</key>
+   <key id="Property{::}BOMLine{::}INST_TO_PIN" locale="en_US" status="Approved">TO PIN</key>
+   <key id="Property{::}MEViewLine{::}INST_LENGTH" locale="en_US" status="Approved">LENGTH</key>
+   <key id="Property{::}MEViewLine{::}INST_CUT_LENGTH" locale="en_US" status="Approved">CUT_LENGTH</key>
+   <key id="Property{::}MEViewLine{::}INST_HARNESS" locale="en_US" status="Approved">HARNESS</key>
+   <key id="Property{::}MEViewLine{::}INST_MCLAB" locale="en_US" status="Approved">MCLAB</key>
+   <key id="Property{::}MEViewLine{::}INST_CIRLABEL" locale="en_US" status="Approved">CIRLABEL</key>
+   <key id="Property{::}MEViewLine{::}INST_FROM_DEVICE" locale="en_US" status="Approved">FROM DEVICE</key>
+   <key id="Property{::}MEViewLine{::}INST_FROM_PIN" locale="en_US" status="Approved">FROM PIN</key>
+   <key id="Property{::}MEViewLine{::}INST_TO_DEVICE" locale="en_US" status="Approved">TO DEVICE</key>
+   <key id="Property{::}MEViewLine{::}INST_TO_PIN" locale="en_US" status="Approved">TO PIN</key>
+   
+   <key id="BusinessObject{::}SchemList" locale="en_US" status="Approved">SchemList</key>
+
+   <key id="ConditionDescription{::}VC4_TDRDisplayForGroupsVolocopterDBAOnly" locale="en_US" status="Approved">If user is neither member of group dba, nor belonging to subgroups of Volocopter group, the each of the expressions return true. True AND true will result in true and therefore hide the correspnding object for creation.</key>
+
+   <key id="ConditionDescription{::}VC4_WF_Hide_WF" locale="en_US" status="Approved">If this condition is attached to a WF, the template will not be displayed in the New Process Dialog for any user. This condition is meant to be attached to OOTB WFs which are not relevant for the business.</key>
+
+   <key id="BusinessObject{::}VC4_CNMasterS" locale="en_US" status="Approved">CN Master Storage</key>
+   <key id="BusinessObject{::}VC4_CNMaster" locale="en_US" status="Approved">CN Master</key>
+   <key id="BusinessObject{::}VC4_CNRevMasterS" locale="en_US" status="Approved">CN Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_CNRevisionMaster" locale="en_US" status="Approved">CN Revision Master</key>
+   <key id="BusinessObject{::}VC4_CNRevision" locale="en_US" status="Approved">Change Notice Revision</key>
+   <key id="BusinessObject{::}VC4_CN" locale="en_US" status="Approved">Change Notice</key>
+   <key id="BusinessObject{::}VC4_CRMasterS" locale="en_US" status="Approved">CR Master Storage</key>
+   <key id="BusinessObject{::}VC4_CRMaster" locale="en_US" status="Approved">CR Master</key>
+   <key id="BusinessObject{::}VC4_CRRevMasterS" locale="en_US" status="Approved">CR Revision Master Storage</key>
+   <key id="BusinessObject{::}VC4_CRRevisionMaster" locale="en_US" status="Approved">CR Revision Master</key>
+   <key id="BusinessObject{::}VC4_CRRevision" locale="en_US" status="Approved">Change Request Revision</key>
+   <key id="BusinessObject{::}VC4_CR" locale="en_US" status="Approved">Change Request</key>
+   <key id="BusinessObject{::}VC4_DistributionList" locale="en_US" status="Approved">Distribution List</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_DistListParticipantCmpd" locale="en_US" status="Approved">Distribution List</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_change_category" locale="en_US" status="Approved">Change Category</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_change_class" locale="en_US" status="Approved">Change Class</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_change_type" locale="en_US" status="Approved">Change Type</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_cnfrm_affcts_frm_ecr_on" locale="en_US" status="Approved">Confirm Affects from ECR(s) on</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_effty_point_of_embdimnt" locale="en_US" status="Approved">Effectivity: Point of Embodiment</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_effty_retrofit" locale="en_US" status="Approved">Effectivity: Retrofit</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_effty_rework" locale="en_US" status="Approved">Effectivity: Rework</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_effty_scrap" locale="en_US" status="Approved">Effectivity: Scrap</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_effty_useup_exstng_stck" locale="en_US" status="Approved">Effectivity: Use up Existing Stock</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_link_to_pr" locale="en_US" status="Approved">Link to Problem Report</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_ooa_agree_chng_clssfctn" locale="en_US" status="Approved">Confirm Office of Airworthiness Agreement of Change Classification</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_ooa_compl_and_attch_caf" locale="en_US" status="Approved">Office of Airworthiness Classification of Alteration Form (CAF) is Completed and Attached</key>
+   <key id="Property{::}VC4_CNRevision{::}vc4_pr_number" locale="en_US" status="Approved">Problem Report(s) No.</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_actions_retrofit" locale="en_US" status="Approved">Actions: Retrofit</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_actions_rework" locale="en_US" status="Approved">Actions: Rework</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_actions_scrap" locale="en_US" status="Approved">Actions: Scrap</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_actions_use_up_existing" locale="en_US" status="Approved">Actions: Use up Existing</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_additional_ext_attrs" locale="en_US" status="Approved">Additional External Attributes</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_airworthiness" locale="en_US" status="Approved">Airworthiness</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_certification" locale="en_US" status="Approved">Certification</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_change_category" locale="en_US" status="Approved">Change Category</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_change_class" locale="en_US" status="Approved">Change Class</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_change_item_affected" locale="en_US" status="Approved">Change Item Affected</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_change_of_classifctn" locale="en_US" status="Approved">Change of Classification (Minor to Major)</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_change_type" locale="en_US" status="Approved">Change Type</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_configuration_item" locale="en_US" status="Approved">Configuration Item</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_corrective_action" locale="en_US" status="Approved">Corrective Action</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_cost_non_recurring_cost" locale="en_US" status="Approved">Cost: Non Recurring Cost</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_cost_recurring_cost" locale="en_US" status="Approved">Cost: Recurring Cost</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_cost_reduction" locale="en_US" status="Approved">Cost Reduction</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_cr_title" locale="en_US" status="Approved">Title of Change Request</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_draft_proposed_solution" locale="en_US" status="Approved">Draft Proposed Solution</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effect_of_ecr" locale="en_US" status="Approved">Effect of ECR</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effect_on_tchn_publctns" locale="en_US" status="Approved">Effect on Technical Publications</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effect_on_test" locale="en_US" status="Approved">Effect on Test</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effect_on_weight" locale="en_US" status="Approved">Effect on Weight</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effectivity" locale="en_US" status="Approved">Effectivity (serial Nos., Production Batches, etc.)</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effort" locale="en_US" status="Approved">Effort</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effty_point_of_embdimnt" locale="en_US" status="Approved">Effectivity: Point of Embodiment</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effty_rework" locale="en_US" status="Approved">Effectivity: Rework</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effty_scrap" locale="en_US" status="Approved">Effectivity: Scrap</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_effty_useup_exstng_stck" locale="en_US" status="Approved">Effectivity: Use up Existing Stock</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_external_reference" locale="en_US" status="Approved">External Reference</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_implementation" locale="en_US" status="Approved">Implementation</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_in_production" locale="en_US" status="Approved">In Production</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_intfc_cntrl_docs_effctd" locale="en_US" status="Approved">Interface Control Documents Effected</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_is_primary_change" locale="en_US" status="Approved">Is Primary Change</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_legal_action" locale="en_US" status="Approved">Legal Action</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_link_to_pr" locale="en_US" status="Approved">Link to Problem Report</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_need_date" locale="en_US" status="Approved">Need Date</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_new_product_definition" locale="en_US" status="Approved">New Product Definition</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_obsolescence" locale="en_US" status="Approved">Obsolescence</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_ooa_clsf_of_alt_form_at" locale="en_US" status="Approved">Office of Airworthiness Classification of Alteration Form is Attached</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_outl_desc_of_req_f_chng" locale="en_US" status="Approved">Outline Description of Requirement for Change</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_part_chars_intrchngblty" locale="en_US" status="Approved">Part characteristics: Interchangeability</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_part_charstics_fit" locale="en_US" status="Approved">Part characteristics: Fit</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_part_charstics_form" locale="en_US" status="Approved">Part characteristics: Form</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_part_charstics_function" locale="en_US" status="Approved">Part characteristics: Function</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_point_of_embodiment" locale="en_US" status="Approved">Point of Embodiment (Next Production Batch etc.)</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_pr_number" locale="en_US" status="Approved">Problem Report(s) No.</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_product_improvement" locale="en_US" status="Approved">Product Improvement</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_production_improvement" locale="en_US" status="Approved">Production Improvement</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_requirements_affected" locale="en_US" status="Approved">Requirements Effected</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_resource_reqrd_to_impl" locale="en_US" status="Approved">Resource Required to Implement</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_retrofit_required" locale="en_US" status="Approved">Retrofit Required</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_safety" locale="en_US" status="Approved">Safety</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_srvc_mntnnc_improvement" locale="en_US" status="Approved">Service &amp; Maintenance Improvement</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_supplier_effct_on_splrs" locale="en_US" status="Approved">Supplier: Effect on Suppliers</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_supplier_stopnotice_req" locale="en_US" status="Approved">Supplier: Stop Notice Required</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_tech_pubs" locale="en_US" status="Approved">Tech Pubs</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_time_effect_on_schedule" locale="en_US" status="Approved">Time: Effect on Schedule</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_time_time_to_complete" locale="en_US" status="Approved">Time: Time to Complete</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_warranty_affected" locale="en_US" status="Approved">Warranty Affected</key>
+   <key id="Property{::}VC4_CRRevision{::}vc4_weight_reduction" locale="en_US" status="Approved">Weight Reduction</key>
+</Add>
+</TcBusinessDataLocalization>

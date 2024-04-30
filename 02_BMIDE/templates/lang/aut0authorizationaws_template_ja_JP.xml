@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="ja_JP" status="Approved">ライセンス</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="ja_JP" status="Approved">ライセンス</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="ja_JP" status="Approved">ライセンスコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、Teamcenterバージョンが、11.2.3およびそれ未満であるときに表示されます。 それは、選択したオブジェクトのタイプが、Workspaceオブジェクト、データセットまたはフォームである場合にのみ表示されます。 それは、選択したオブジェクトのタイプが、EPMTaskまたはサインオフの場合には、表示されません。 それは、ログインユーザが、dbaグループのメンバであるかまたはITAR AdminまたはIP Adminロールである場合に、表示されます。</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="ja_JP" status="Approved">ライセンスコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、Teamcenterバージョンが、11.3およびそれ以上であるときに表示されます。 それは、選択したオブジェクトのタイプが、Workspaceオブジェクト、データセットまたはフォームである場合にのみ表示されます。 それは、選択したオブジェクトのタイプが、EPMTaskまたはサインオフの場合には、表示されません。 それは、ログインユーザが、dbaグループのメンバであるかまたはITAR AdminまたはIP Adminロールである場合に、表示されます。</key>
+</Add>
+</TcBusinessDataLocalization>

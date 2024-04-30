@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="Vendor Management" enableOpsDataDeploy="false" guid="7EB052BF7B4039A2BB8C9F98009DD22D" isDescriptionMandatory="true" name="vendormanagement" optional="true" prefixes="Vm0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+</TcBusinessDataIncludes>
