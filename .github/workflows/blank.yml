@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: QA
+          ref: DEV_MAIN
       - name: Reset QA branch
         run: |
           git fetch origin DEV_MAIN:DEV_MAIN
