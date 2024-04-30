@@ -15,7 +15,6 @@ All Rights Reserved.
     <page title="Folder Information" titleKey="tc_xrt_FolderInformation">
          <section titleKey="tc_xrt_properties">
             <property name="object_name" renderingHint="textfield" column="32" />
-            <property name="object_desc" />
         </section>
     </page>
 
