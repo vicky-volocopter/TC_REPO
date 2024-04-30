@@ -1,0 +1,14 @@
+  - name: Branch Merge
+  # You may pin to the exact commit or the version.
+  # uses: everlytic/branch-merge@c4a244dc23143f824ae6c022a10732566cb8e973
+  uses: everlytic/branch-merge@1.1.5
+  with:
+    # Token used to authenticate with GitHub when performing the merge command.
+    github_token: # default is ${{ github.token }}
+    # Branch name or Ref that you wish to merge into the target_branch.
+    source_ref: # default is ${{ github.ref }}
+    # Branch you are merging the source ref into.
+    target_branch: QA
+    # Template to generate the commit message, see README.md for more info
+    commit_message_template: # optional, default is Merged {source_ref} into {target_branch}.
+          
