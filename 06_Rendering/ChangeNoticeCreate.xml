@@ -6,7 +6,6 @@
             <property name="item_id" renderingHint="textfield" />
             <property name="revision:item_revision_id" renderingHint="textfield" /> 
             <property name="object_name" renderingHint="textfield" />
-            <property name="object_desc" />
             <customPanel java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel" js="displayCMCustomePanel"/> 
          </section>
    </page>
