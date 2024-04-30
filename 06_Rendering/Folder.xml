@@ -16,7 +16,6 @@ All Rights Reserved.
     
     <page title="General" titleKey="tc_xrt_General">
         <column>
-            <property name="object_name" />
             <property name="object_desc" />
             <property name="object_type" />
             <separator/>
