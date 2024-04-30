@@ -15,8 +15,6 @@ Valid values are types internal names.
 All subtypes associated to a provided type will also be displayed.</preference_description>
 			<context name="Teamcenter">
 				<value>CompanyLocation</value>
-				<value>DC_Topic</value>
-				<value>DC_Publication</value>
 				<value>Civ0InfoCode</value>
 			</context>
 		</preference>
