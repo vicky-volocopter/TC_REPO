@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Fri Jul 02 08:35:25 AM 2021" TcVersion="tc12000.0.0">
+    <Add>
+   <Functionality description="Component for the template - cla0classification" displayName="Classification Interface" enabledForVerificationRules="false" name="Cla0classification"/>
+</Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

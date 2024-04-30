@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="es_ES" status="Approved">Exportación de NX</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="es_ES" status="Approved">Exportación de NX</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="es_ES" status="Approved">Tiene metadatos de la representación alterna</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="es_ES" status="Approved">Tiene cualquier referencia entre piezas</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="es_ES" status="Approved">Tiene un enlace roto</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="es_ES" status="Approved">Tiene un componente</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="es_ES" status="Approved">Tiene restricciones</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="es_ES" status="Approved">Tiene plano</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="es_ES" status="Approved">Tiene una sustitución de la geometría</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="es_ES" status="Approved">Tiene una expresión entre piezas</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="es_ES" status="Approved">Tiene ordenamientos</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="es_ES" status="Approved">Tiene un componente no maestro</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="es_ES" status="Approved">Tiene componentes descentrados</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="es_ES" status="Approved">Tiene una lista de piezas</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="es_ES" status="Approved">Tiene un enlace WAVE dependiente de la posición</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="es_ES" status="Approved">Tiene un enlace WAVE independiente de la posición</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="es_ES" status="Approved">Tiene una sustitución de la posición</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="es_ES" status="Approved">Tiene una interfaz del producto</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="es_ES" status="Approved">Tiene un componente de referencia</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="es_ES" status="Approved">Tiene componentes reestructurados</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="es_ES" status="Approved">Tiene un componente suprimido</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="es_ES" status="Approved">Tiene una característica definida por el usuario</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="es_ES" status="Approved">Propiedades de NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="es_ES" status="Approved">Versión de NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="es_ES" status="Approved">Propiedad de la pieza de NX</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="es_ES" status="Approved">Fecha de creación de UGMASTER</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="es_ES" status="Approved">Exportar a NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="es_ES" status="Approved">Agregar</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="es_ES" status="Approved">Abrir en NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="es_ES" status="Approved">Abrir en el explorador de relaciones de NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="es_ES" status="Approved">Abrir en los enlaces Requisitos de NX</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="es_ES" status="Approved">Fijar como la carpeta predeterminada de NX</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="es_ES" status="Approved">Abrir en NX</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="es_ES" status="Approved">Esto determina si se deberá visualizar el comando Exportar a NX en el objeto seleccionado.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="es_ES" status="Approved">Verifica si el objeto seleccionado es válido en la operación "Agregar" en NX.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="es_ES" status="Approved">Verifica si se soporta el objeto seleccionado en la operación "Fijar la carpeta predeterminada" en NX.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="es_ES" status="Approved">Verifica si el tipo dado es válido en la operación "Abrir en NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="es_ES" status="Approved">Verifica si el objeto seleccionado es válido en la operación "Abrir en el explorador de relaciones de NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="es_ES" status="Approved">Verifica si el objeto seleccionado es válido en la operación "Abrir en enlaces de requisitos de NX".</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="es_ES" status="Approved">Comando Celda alojada en NX Open</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="es_ES" status="Approved">Se utiliza esta condición para determinar si las instancias del objeto de negocio Conjunto de datos son del tipo definido en la preferencia AWC_NX_OpenSupportedTypes.</key>
+</Add>
+</TcBusinessDataLocalization>

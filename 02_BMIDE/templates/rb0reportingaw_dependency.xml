@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="Reporting" enableOpsDataDeploy="false" guid="841B43626F01810EE89A04FF22C744D4" isDescriptionMandatory="true" name="rb0reportingaw" optional="true" prefixes="Rb0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+</TcBusinessDataIncludes>

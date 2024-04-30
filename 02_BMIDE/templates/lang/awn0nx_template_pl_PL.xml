@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="pl_PL" status="Approved">Eksport NX</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="pl_PL" status="Approved">Eksport NX</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="pl_PL" status="Approved">Ma metadane Altrep</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="pl_PL" status="Approved">Ma odwołania Interpart</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="pl_PL" status="Approved">Ma przerwane połączenie</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="pl_PL" status="Approved">Ma dowolny komponent</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="pl_PL" status="Approved">Ma ograniczenia</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="pl_PL" status="Approved">Ma rysunek</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="pl_PL" status="Approved">Ma zastąpienie geometrii</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="pl_PL" status="Approved">Ma wyrażenia Interpart</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="pl_PL" status="Approved">Ma układy</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="pl_PL" status="Approved">Ma komponent podrzędny</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="pl_PL" status="Approved">Ma nie-środkowe komponenty</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="pl_PL" status="Approved">Ma listę części</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="pl_PL" status="Approved">Ma łącze Wave zależne od położenia</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="pl_PL" status="Approved">Ma łącze Wave niezależne od położenia</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="pl_PL" status="Approved">Ma zastąpienie położenia</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="pl_PL" status="Approved">Ma interfejs produktu</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="pl_PL" status="Approved">Ma komponent odwołania</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="pl_PL" status="Approved">Ma komponenty restrukturyzowane</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="pl_PL" status="Approved">Ma zablokowany komponent</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="pl_PL" status="Approved">Ma element zdefiniowany przez użytkownika</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="pl_PL" status="Approved">Właściwości NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="pl_PL" status="Approved">Wydanie NX</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="pl_PL" status="Approved">Właściwość części NX</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="pl_PL" status="Approved">Data utworzenia UGMASTER</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="pl_PL" status="Approved">Eksportuj do systemu NX</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="pl_PL" status="Approved">Dodaj</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="pl_PL" status="Approved">Otwórz w NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="pl_PL" status="Approved">Otwórz w Przeglądarce relacji NX</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="pl_PL" status="Approved">Otwórz w powiązaniach wymagań</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="pl_PL" status="Approved">Ustaw folder domyślny NX</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="pl_PL" status="Approved">Otwórz w NX</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="pl_PL" status="Approved">Ta opcja określa, czy polecenie Eksportuj do systemu NX ma być wyświetlana dla wybranego elementu.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="pl_PL" status="Approved">Sprawdza, czy wybrany element jest prawidłowy dla operacji "Dodaj" w oprogramowaniu NX.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="pl_PL" status="Approved">Sprawdza, czy wybrany element jest obsługiwany w operacji "Ustaw folder domyślny" w oprogramowaniu NX.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="pl_PL" status="Approved">Sprawdza, czy dany typ jest prawidłowy dla operacji "Otwórz w NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="pl_PL" status="Approved">Sprawdza, czy dany element jest prawidłowy dla operacji "Otwórz w Przeglądarce relacji NX".</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="pl_PL" status="Approved">Sprawdza, czy dany element jest prawidłowy dla operacji "Otwórz w powiązaniach wymagań oprogramowania NX".</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="pl_PL" status="Approved">Polecenie Otwórz komórkę hostowaną NX</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="pl_PL" status="Approved">Ten warunek jest używany do określania, czy wystąpienia elementu biznesowego zestawu danych nie są typu, który zdefiniowano w preferencji AWC_NX_OpenSupportedTypes.</key>
+</Add>
+</TcBusinessDataLocalization>

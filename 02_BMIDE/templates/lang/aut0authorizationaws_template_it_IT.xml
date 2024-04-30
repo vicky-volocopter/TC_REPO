@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="it_IT" status="Approved">Licenze</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="it_IT" status="Approved">Licenze</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="it_IT" status="Approved">Condizione di visibilità comando lato server per il comando Licenze, che deve essere visibile per versioni di Teamcenter &lt;=11.2.3, solo se l'oggetto selezionato è di tipo WorkspaceObject, Set di dati o Form. Non deve essere visibile se l'oggetto selezionato è di tipo EPMTask o Signoff. Deve essere visibile se l'utente connesso è un componente del gruppo dba o veste il ruolo di Amministratore ITAR o IP.</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="it_IT" status="Approved">Condizione di visibilità comando lato server per il comando Licenze, che deve essere visibile per versioni di Teamcenter &gt;=11.3, solo se l'oggetto selezionato è di tipo WorkspaceObject, Set di dati o Form. Non deve essere visibile se l'oggetto selezionato è di tipo EPMTask o Signoff. Deve essere visibile se l'utente connesso è un componente del gruppo dba o veste il ruolo di Amministratore ITAR o IP.</key>
+</Add>
+</TcBusinessDataLocalization>

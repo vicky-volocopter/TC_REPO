@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="zh_TW" status="Approved">授權</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="zh_TW" status="Approved">授權</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="zh_TW" status="Approved">「授權」指令的伺服器端指令可見性條件。此指令應對 11.2.3 及更早版本的 Teamcenter 可見。僅當選定物件屬於工作區物件、資料集或表單類型時，此指令才可見。當選定物件屬於 EPMTask 或簽發類型時，此指令不應可見。當登入使用者是 dba 群組成員或是 ITAR 管理員/IP 管理員角色時，此指令應可見。</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="zh_TW" status="Approved">「授權」指令的伺服器端指令可見性條件。此指令應對 11.3 及更新版本的 Teamcenter 可見。僅當選定物件屬於工作區物件、資料集或表單類型時，此指令才可見。當選定物件屬於 EPMTask 或簽發類型時，此指令不應可見。當登入使用者是 dba 群組成員或是 ITAR 管理員/IP 管理員角色時，此指令應可見。</key>
+</Add>
+</TcBusinessDataLocalization>

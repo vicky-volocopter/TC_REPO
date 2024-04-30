@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ko_KR" status="Approved">NX 내보내기</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ko_KR" status="Approved">NX 내보내기</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="ko_KR" status="Approved">Altrep 메타데이터 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="ko_KR" status="Approved">모든 파트 간 참조 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="ko_KR" status="Approved">끊어진 링크 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="ko_KR" status="Approved">모든 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="ko_KR" status="Approved">구속조건 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="ko_KR" status="Approved">도면 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="ko_KR" status="Approved">지오메트리 재정의 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="ko_KR" status="Approved">파트 간 수식 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="ko_KR" status="Approved">정렬 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="ko_KR" status="Approved">비 마스터 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="ko_KR" status="Approved">오프 센터 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="ko_KR" status="Approved">파트 리스트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="ko_KR" status="Approved">위치에 종속적인 WAVE 링크 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="ko_KR" status="Approved">위치에 독립적인 WAVE 링크 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="ko_KR" status="Approved">위치 재정의 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="ko_KR" status="Approved">제품 인터페이스 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="ko_KR" status="Approved">참조 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="ko_KR" status="Approved">재구조화된 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="ko_KR" status="Approved">억제된 컴포넌트 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="ko_KR" status="Approved">사용자 정의 기능 소유</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="ko_KR" status="Approved">NX 속성</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="ko_KR" status="Approved">NX 릴리스</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="ko_KR" status="Approved">NX 파트 속성</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="ko_KR" status="Approved">UGMASTER 생성일</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="ko_KR" status="Approved">NX로 내보내기</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="ko_KR" status="Approved">추가</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="ko_KR" status="Approved">NX에서 열기</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="ko_KR" status="Approved">NX 관계 브라우저에서 열기</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="ko_KR" status="Approved">NX 요구 사항 링크에서 열기</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="ko_KR" status="Approved">NX 기본 폴더 설정</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="ko_KR" status="Approved">NX에서 열기</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="ko_KR" status="Approved">선택한 개체에 대해 NX로 내보내기 명령을 표시해야 하는지 여부를 결정합니다.</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="ko_KR" status="Approved">선택한 개체가 NX 내의 "추가" 오퍼레이션에 대해 유효한지 확인하십시오.</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="ko_KR" status="Approved">선택한 개체가 NX에서 "기본 폴더 설정" 오퍼레이션에 대해 지원되는지 확인하십시오.</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="ko_KR" status="Approved">주어진 유형이 "NX에서 열기" 오퍼레이션에 대해 유효한지 확인하십시오.</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="ko_KR" status="Approved">선택한 개체가 "NX 관계 브라우저에서 열기" 오퍼레이션에 대해 유효한지 확인하십시오.</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="ko_KR" status="Approved">선택한 개체가 "NX 요구 사항 링크" 오퍼레이션에 대해 유효한지 확인하십시오.</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="ko_KR" status="Approved">NX Open 호스팅 셀 명령</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="ko_KR" status="Approved">이 조건은 데이터 집합 비즈니스 개체의 인스턴스가 환경설정 AWC_NX_OpenSupportedTypes에 정의된 유형이 아닌지를 결정하는 데 사용됩니다.</key>
+</Add>
+</TcBusinessDataLocalization>

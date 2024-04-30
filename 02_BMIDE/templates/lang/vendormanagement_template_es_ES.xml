@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Tue Jul 10 03:29:56 PM 2018">
+    <Add>
+   <key id="BusinessObject{::}BaseQuoteStorage" locale="es_ES" status="Approved">Almacenamiento de la cotización base</key>
+   <key id="BusinessObject{::}BaseQuote" locale="es_ES" status="Approved">Cotización base</key>
+   <key id="BusinessObject{::}BidPackage Master" locale="es_ES" status="Approved">Maestro de paquetes de la oferta</key>
+   <key id="BusinessObject{::}BidPackageContent" locale="es_ES" status="Approved">Contenido del paquete de la oferta</key>
+   <key id="BusinessObject{::}BidPackageLineItem" locale="es_ES" status="Approved">Ítem en la línea del paquete de la oferta</key>
+   <key id="BusinessObject{::}BidPackageMaster" locale="es_ES" status="Approved">Maestro de paquetes de la oferta</key>
+   <key id="BusinessObject{::}BidPackageRevision Master" locale="es_ES" status="Approved">Maestro de revisiones de paquete de la oferta</key>
+   <key id="BusinessObject{::}BidPackageRevision" locale="es_ES" status="Approved">Revisión del paquete de la oferta</key>
+   <key id="BusinessObject{::}BidPackageVerMaster" locale="es_ES" status="Approved">Maestro de versiones del paquete de la oferta</key>
+   <key id="BusinessObject{::}BidPackage" locale="es_ES" status="Approved">Paquete de la oferta</key>
+   <key id="BusinessObject{::}CommercialPart Master" locale="es_ES" status="Approved">Maestro de piezas comerciales</key>
+   <key id="BusinessObject{::}CommercialPart Revision Master" locale="es_ES" status="Approved">Maestro de revisiones de pieza comercial</key>
+   <key id="BusinessObject{::}CommercialPart Revision" locale="es_ES" status="Approved">Revisión de la pieza comercial</key>
+   <key id="BusinessObject{::}CommercialPartMaster" locale="es_ES" status="Approved">Maestro de piezas comerciales</key>
+   <key id="BusinessObject{::}CommercialPartVerMaster" locale="es_ES" status="Approved">Maestro de versiones de la pieza comercial</key>
+   <key id="BusinessObject{::}CommercialPart" locale="es_ES" status="Approved">Pieza comercial</key>
+   <key id="BusinessObject{::}DistributorInfo" locale="es_ES" status="Approved">Información sobre el distribuidor</key>
+   <key id="BusinessObject{::}DistributorStorage" locale="es_ES" status="Approved">Almacenamiento para distribuidor</key>
+   <key id="BusinessObject{::}LineItemConfigContext" locale="es_ES" status="Approved">Contexto de configuración del nuevo ítem de línea</key>
+   <key id="BusinessObject{::}ManufacturerInfo" locale="es_ES" status="Approved">Información sobre el fabricante</key>
+   <key id="BusinessObject{::}ManufacturerPart Master" locale="es_ES" status="Approved">Maestro de piezas de proveedor externo</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision Master" locale="es_ES" status="Approved">Maestro de revisiones de pieza del proveedor externo</key>
+   <key id="BusinessObject{::}ManufacturerPart Revision" locale="es_ES" status="Approved">Revisión de la pieza del proveedor externo</key>
+   <key id="BusinessObject{::}ManufacturerPartMaster" locale="es_ES" status="Approved">Maestro de piezas de fabricante</key>
+   <key id="BusinessObject{::}ManufacturerPartVerMaster" locale="es_ES" status="Approved">Maestro de versiones de la pieza del fabricante</key>
+   <key id="BusinessObject{::}ManufacturerPart" locale="es_ES" status="Approved">Pieza de proveedor externo</key>
+   <key id="BusinessObject{::}ManufacturerStorage" locale="es_ES" status="Approved">Almacenamiento para fabricante</key>
+   <key id="BusinessObject{::}ProvidedFrom" locale="es_ES" status="Approved">Proporcionado de ubicaciones</key>
+   <key id="BusinessObject{::}QuoteStorage" locale="es_ES" status="Approved">Almacenamiento de la cotización</key>
+   <key id="BusinessObject{::}Quote" locale="es_ES" status="Approved">Cotización</key>
+   <key id="BusinessObject{::}SupplierInfo" locale="es_ES" status="Approved">Información sobre el proveedor</key>
+   <key id="BusinessObject{::}SupplierStorage" locale="es_ES" status="Approved">Almacenamiento para proveedor</key>
+   <key id="BusinessObject{::}TC_Quality_Document" locale="es_ES" status="Approved">Documentos de calidad</key>
+   <key id="BusinessObject{::}TC_part_quote_rel" locale="es_ES" status="Approved">Cotizaciones</key>
+   <key id="BusinessObject{::}TC_vendor_id_context_rel" locale="es_ES" status="Approved">Contexto de Id del proveedor externo</key>
+   <key id="BusinessObject{::}TC_vendor_part_rel" locale="es_ES" status="Approved">Proveedores externos de piezas</key>
+   <key id="BusinessObject{::}VMRepresents" locale="es_ES" status="Approved">Representación de proveedor externo</key>
+   <key id="BusinessObject{::}Vendor Master" locale="es_ES" status="Approved">Maestro de proveedores externos</key>
+   <key id="BusinessObject{::}VendorIdentifier" locale="es_ES" status="Approved">Identificador de proveedor externo</key>
+   <key id="BusinessObject{::}VendorMaster" locale="es_ES" status="Approved">Maestro de proveedores externos</key>
+   <key id="BusinessObject{::}VendorRevision Master" locale="es_ES" status="Approved">Maestro de revisiones de proveedor externo</key>
+   <key id="BusinessObject{::}VendorRevision" locale="es_ES" status="Approved">Revisión del proveedor externo</key>
+   <key id="BusinessObject{::}VendorRole" locale="es_ES" status="Approved">Rol del proveedor externo</key>
+   <key id="BusinessObject{::}VendorVerMaster" locale="es_ES" status="Approved">Maestro de versiones de proveedor externo</key>
+   <key id="BusinessObject{::}Vendor" locale="es_ES" status="Approved">Proveedor externo</key>
+   <key id="Property{::}BaseQuoteStorage{::}vendor" locale="es_ES" status="Approved">Proveedor externo</key>
+   <key id="Property{::}BaseQuote{::}vendor" locale="es_ES" status="Approved">Proveedor externo</key>
+   <key id="Property{::}BidPackageContent{::}line_item" locale="es_ES" status="Approved">Ítem en la línea del paquete de la oferta</key>
+   <key id="Property{::}BidPackageLineItem{::}configuration_context" locale="es_ES" status="Approved">Contexto de configuración</key>
+   <key id="Property{::}BidPackageLineItem{::}cust_line_item_attrs" locale="es_ES" status="Approved">Personalizar los atributos del ítem de línea</key>
+   <key id="Property{::}BidPackageLineItem{::}object_name" locale="es_ES" status="Approved">Nombre</key>
+   <key id="Property{::}BidPackageLineItem{::}part" locale="es_ES" status="Approved">Pieza</key>
+   <key id="Property{::}BidPackageLineItem{::}quantity" locale="es_ES" status="Approved">Cantidad</key>
+   <key id="Property{::}BidPackageRevision{::}bid_package_content" locale="es_ES" status="Approved">Contenido del paquete de la oferta</key>
+   <key id="Property{::}BidPackageRevision{::}lineitems" locale="es_ES" status="Approved">Ítems de línea</key>
+   <key id="Property{::}BidPackageRevision{::}req_purpose" locale="es_ES" status="Approved">Propósito solicitado</key>
+   <key id="Property{::}BidPackageRevision{::}reqd_date" locale="es_ES" status="Approved">Fecha solicitada</key>
+   <key id="Property{::}BidPackage{::}bid_package_type" locale="es_ES" status="Approved">Tipo de paquete de la oferta</key>
+   <key id="Property{::}CommercialPart Master{::}is_designrequired" locale="es_ES" status="Approved">Diseño obligatorio</key>
+   <key id="Property{::}CommercialPart Revision Master{::}source" locale="es_ES" status="Approved">Fabricar o comprar</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorpartrelations" locale="es_ES" status="Approved">Relaciones entre las piezas del proveedor externo</key>
+   <key id="Property{::}CommercialPart Revision{::}vendorparts" locale="es_ES" status="Approved">Piezas de proveedor externo</key>
+   <key id="Property{::}CommercialPart Revision{::}vendors" locale="es_ES" status="Approved">Proveedores externos</key>
+   <key id="Property{::}CommercialPart{::}vendorparts" locale="es_ES" status="Approved">Piezas de proveedor externo</key>
+   <key id="Property{::}CommercialPart{::}vendors" locale="es_ES" status="Approved">Proveedores externos</key>
+   <key id="Property{::}CompanyLocation{::}vm0DUNSNumber" locale="es_ES" status="Approved">Número DUNS</key>
+   <key id="Property{::}DistributorInfo{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}DistributorStorage{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}LineItemConfigContext{::}view_type" locale="es_ES" status="Approved">Tipo de vista</key>
+   <key id="Property{::}ManufacturerInfo{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart Master{::}is_designrequired" locale="es_ES" status="Approved">Diseño obligatorio</key>
+   <key id="Property{::}ManufacturerPart Master{::}vendor_part_num" locale="es_ES" status="Approved">Número de la pieza del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart Revision Master{::}source" locale="es_ES" status="Approved">Fabricar o comprar</key>
+   <key id="Property{::}ManufacturerPart Revision{::}vendor_part_num" locale="es_ES" status="Approved">Número de la pieza del proveedor externo</key>
+   <key id="Property{::}ManufacturerPartMaster{::}vendor_part_num" locale="es_ES" status="Approved">Número de la pieza del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}commercialparts" locale="es_ES" status="Approved">Piezas comerciales</key>
+   <key id="Property{::}ManufacturerPart{::}object_name" locale="es_ES" status="Approved">Nombre de la pieza del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_id" locale="es_ES" status="Approved">Id del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_locations" locale="es_ES" status="Approved">Ubicaciones del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_name" locale="es_ES" status="Approved">Nombre del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vendor_part_num" locale="es_ES" status="Approved">Número de la pieza del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vendors" locale="es_ES" status="Approved">Proveedores externos</key>
+   <key id="Property{::}ManufacturerPart{::}vm0company_location" locale="es_ES" status="Approved">Ubicación de la empresa</key>
+   <key id="Property{::}ManufacturerPart{::}vm0location" locale="es_ES" status="Approved">Ubicación del proveedor externo</key>
+   <key id="Property{::}ManufacturerPart{::}vm0vendor_ref" locale="es_ES" status="Approved">Proveedor externo</key>
+   <key id="Property{::}ManufacturerStorage{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}QuoteStorage{::}currency" locale="es_ES" status="Approved">Moneda</key>
+   <key id="Property{::}QuoteStorage{::}quoted_quantity" locale="es_ES" status="Approved">Cantidad</key>
+   <key id="Property{::}QuoteStorage{::}tooling_cost" locale="es_ES" status="Approved">Coste del utillaje</key>
+   <key id="Property{::}QuoteStorage{::}unit_price" locale="es_ES" status="Approved">Precio unitario </key>
+   <key id="Property{::}Quote{::}currency" locale="es_ES" status="Approved">Moneda</key>
+   <key id="Property{::}Quote{::}quoted_quantity" locale="es_ES" status="Approved">Cantidad</key>
+   <key id="Property{::}Quote{::}tooling_cost" locale="es_ES" status="Approved">Coste del utillaje</key>
+   <key id="Property{::}Quote{::}unit_price" locale="es_ES" status="Approved">Precio unitario </key>
+   <key id="Property{::}SupplierInfo{::}certification_status" locale="es_ES" status="Approved">Estatus de la certificación</key>
+   <key id="Property{::}SupplierInfo{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}SupplierStorage{::}certification_status" locale="es_ES" status="Approved">Estatus de la certificación</key>
+   <key id="Property{::}SupplierStorage{::}vendor_status" locale="es_ES" status="Approved">Estatus del proveedor externo</key>
+   <key id="Property{::}VMRepresents{::}preferred_status" locale="es_ES" status="Approved">Estatus preferente</key>
+   <key id="Property{::}VendorIdentifier{::}part" locale="es_ES" status="Approved">Pieza</key>
+   <key id="Property{::}VendorIdentifier{::}preferred_status" locale="es_ES" status="Approved">Estatus preferente</key>
+   <key id="Property{::}VendorRevision{::}comments" locale="es_ES" status="Approved">Comentarios:</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_info" locale="es_ES" status="Approved">Información sobre el rol del proveedor externo</key>
+   <key id="Property{::}VendorRevision{::}vendor_role_list" locale="es_ES" status="Approved">Roles del proveedor externo</key>
+   <key id="Property{::}VendorRole{::}description" locale="es_ES" status="Approved">Descripción</key>
+   <key id="Property{::}VendorRole{::}vendor_role_info" locale="es_ES" status="Approved">Información sobre el rol del proveedor externo</key>
+   <key id="Property{::}VendorRole{::}vendor_role_name" locale="es_ES" status="Approved">Nombre del rol del proveedor externo</key>
+   <key id="Property{::}Vendor{::}commercialparts" locale="es_ES" status="Approved">Piezas comerciales</key>
+   <key id="Property{::}Vendor{::}contact_name" locale="es_ES" status="Approved">Contacto</key>
+   <key id="Property{::}Vendor{::}email_addr" locale="es_ES" status="Approved">Correo electrónico</key>
+   <key id="Property{::}Vendor{::}supplier_addr" locale="es_ES" status="Approved">Dirección</key>
+   <key id="Property{::}Vendor{::}supplier_phone" locale="es_ES" status="Approved">Teléfono</key>
+   <key id="Property{::}Vendor{::}vendor_group" locale="es_ES" status="Approved">Grupo</key>
+   <key id="Property{::}Vendor{::}vendorparts" locale="es_ES" status="Approved">Piezas de proveedor externo</key>
+   <key id="Property{::}Vendor{::}web_site" locale="es_ES" status="Approved">Sitio Web</key>
+
+   <key id="ConditionDescription{::}showAllVendorParts" locale="es_ES" status="Approved">Indica que se visualizarán todas las representaciones de una pieza del proveedor externo en el gestor de estructuras.Se utiliza esta condición como una opción de la regla de selección de la pieza del proveedor externo y se utiliza para filtrar la lista de piezas visualizadas del proveedor externo.</key>
+   <key id="ConditionDescription{::}showPreferredVendorPartsOnly" locale="es_ES" status="Approved">Indica que se visualizarán solamente las representaciones de una pieza del proveedor externo preferente en el gestor de estructuras. Se utiliza esta condición como una opción de la regla de selección del proveedor externo y se utiliza para filtrar la lista de piezas visualizadas del proveedor externo.</key>
+
+   <key id="LOVValueDescription{::}PreferredStatus{::}Backup" locale="es_ES" status="Approved">De reserva</key>
+   <key id="LOVValueDescription{::}PreferredStatus{::}Preferred" locale="es_ES" status="Approved">Preferente</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Distributor" locale="es_ES" status="Approved">Rol del distribuidor</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Manufacturer" locale="es_ES" status="Approved">Rol del fabricante</key>
+   <key id="LOVValueDescription{::}VendorRoles{::}Supplier" locale="es_ES" status="Approved">Rol del proveedor</key>
+   <key id="LOVValue{::}PreferredStatus{::}Backup" locale="es_ES" status="Approved">De reserva</key>
+   <key id="LOVValue{::}PreferredStatus{::}Preferred" locale="es_ES" status="Approved">Preferente</key>
+   <key id="LOVValue{::}VendorRoles{::}Distributor" locale="es_ES" status="Approved">Distribuidor</key>
+   <key id="LOVValue{::}VendorRoles{::}Manufacturer" locale="es_ES" status="Approved">Fabricante</key>
+   <key id="LOVValue{::}VendorRoles{::}Supplier" locale="es_ES" status="Approved">Proveedor</key>
+
+   <key id="Property{::}BOMLine{::}bl_item_TC_vendor_part_rel" locale="es_ES" status="Approved">Relación de la pieza del proveedor externo</key>
+   <key id="Property{::}BOMLine{::}bl_item_VMRepresents" locale="es_ES" status="Approved">Representación de proveedor externo</key>
+   <key id="Property{::}BOMLine{::}bl_rev_vendor_parts" locale="es_ES" status="Approved">Piezas de proveedor externo</key>
+   <key id="Property{::}MEViewLine{::}bl_item_TC_vendor_part_rel" locale="es_ES" status="Approved">Relación de la pieza del proveedor externo</key>
+   <key id="Property{::}MEViewLine{::}bl_item_VMRepresents" locale="es_ES" status="Approved">Representación de proveedor externo</key>
+
+   <key id="BusinessObject{::}Vm0ExchangeLine" locale="es_ES" status="Approved">Línea de intercambio</key>
+   <key id="BusinessObject{::}Vm0SupplierResponseObject" locale="es_ES" status="Approved">Respuesta del proveedor</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMasterS" locale="es_ES" status="Approved">Almacenamiento del maestro de intercambios de proveedores externos</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeMaster" locale="es_ES" status="Approved">Maestro de intercambios de proveedores externos</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevMasterS" locale="es_ES" status="Approved">Almacenamiento del maestro de revisiones de intercambio del proveedor externo</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevisionMaster" locale="es_ES" status="Approved">Maestro de revisiones de intercambio del proveedor externo</key>
+   <key id="BusinessObject{::}Vm0VendorXChangeRevision" locale="es_ES" status="Approved">Revisión del intercambio del proveedor externo</key>
+   <key id="BusinessObject{::}Vm0VendorXChange" locale="es_ES" status="Approved">Intercambio del proveedor externo</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0ExchangeObjectRef" locale="es_ES" status="Approved">Objeto de intercambio</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0LastRecievedDate" locale="es_ES" status="Approved">Fecha de recepción última</key>
+   <key id="Property{::}Vm0ExchangeLine{::}vm0SentObjectRef" locale="es_ES" status="Approved">Objeto enviado</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReceivedObjectRefs" locale="es_ES" status="Approved">Objetos recibidos</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ResponseDate" locale="es_ES" status="Approved">Fecha de la respuesta</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewComments" locale="es_ES" status="Approved">Revisar comentarios</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0ReviewStatus" locale="es_ES" status="Approved">Estatus de la revisión</key>
+   <key id="Property{::}Vm0SupplierResponseObject{::}vm0SRMExchange" locale="es_ES" status="Approved">Objeto de intercambio</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0CloseDate" locale="es_ES" status="Approved">Fecha de cierre</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ExchangeLines" locale="es_ES" status="Approved">Líneas de intercambio</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0PostDate" locale="es_ES" status="Approved">Fecha diferida</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0ResponseLines" locale="es_ES" status="Approved">Líneas de respuesta</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0StatusReason" locale="es_ES" status="Approved">Motivo del estatus</key>
+   <key id="Property{::}Vm0VendorXChangeRevision{::}vm0Status" locale="es_ES" status="Approved">Estatus</key>
+</Add>
+</TcBusinessDataLocalization>

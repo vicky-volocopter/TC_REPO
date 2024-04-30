@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes ActiveRelease="tc12000.2.0" currentTemplateVersion="12.0_5" displayName="Foundation" enableOpsDataDeploy="false" guid="8C061DD51E13E0CB9DC4687B1A3348BE" isDescriptionMandatory="true" name="foundation" optional="false" prefixes="Fnd0" teamcenterTemplate="true"/>

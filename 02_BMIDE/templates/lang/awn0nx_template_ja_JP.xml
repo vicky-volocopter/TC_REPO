@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:10 AM 2021">
+    <Add>
+   <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ja_JP" status="Approved">NXエクスポート</key>
+   <key id="LOVValue{::}Fnd0SourceApplicationType{::}NX_EXPORT" locale="ja_JP" status="Approved">NXエクスポート</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAltrepMetadata" locale="ja_JP" status="Approved">Altrepメタデータの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasAnyIntpartReferences" locale="ja_JP" status="Approved">パート間参照の有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasBrokenLinks" locale="ja_JP" status="Approved">切断したリンクを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasComponents" locale="ja_JP" status="Approved">任意のコンポーネントを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasConstraints" locale="ja_JP" status="Approved">拘束の有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasDrawing" locale="ja_JP" status="Approved">図面を含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasGeometryOverrides" locale="ja_JP" status="Approved">ジオメトリオーバライドを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasInterpartExpression" locale="ja_JP" status="Approved">パート間式の有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasMultipleArrangements" locale="ja_JP" status="Approved">アレンジメントを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasNonmasterComponent" locale="ja_JP" status="Approved">非マスタコンポーネントを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasOffcenterComponent" locale="ja_JP" status="Approved">オフセンタコンポーネントの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPartsList" locale="ja_JP" status="Approved">パートリストの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosDepWaveLink" locale="ja_JP" status="Approved">位置従属WAVEリンクを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPosIndepWaveLink" locale="ja_JP" status="Approved">位置独立WAVEリンクを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasPositionOverrides" locale="ja_JP" status="Approved">位置オーバライドを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasProductInterface" locale="ja_JP" status="Approved">製品インタフェースの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRefComponents" locale="ja_JP" status="Approved">参照コンポーネントを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasRestructuredComps" locale="ja_JP" status="Approved">再構築済みコンポーネントの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0HasSupressedComponents" locale="ja_JP" status="Approved">抑制コンポーネントを含む</key>
+   <key id="Property{::}ItemRevision{::}awn0HasUDF" locale="ja_JP" status="Approved">ユーザ定義フィーチャの有無</key>
+   <key id="Property{::}ItemRevision{::}awn0nxProperties" locale="ja_JP" status="Approved">NXプロパティ</key>
+   <key id="Property{::}ItemRevision{::}awn0nxRelease" locale="ja_JP" status="Approved">NXリリース</key>
+   <key id="Property{::}ItemRevision{::}awn0nxUGPartProperty" locale="ja_JP" status="Approved">NXパートプロパティ</key>
+   <key id="Property{::}ItemRevision{::}awn0ugmasterCreationDate" locale="ja_JP" status="Approved">UGMASTER作成日</key>
+
+   <key id="CommandDisplayName{::}Awn0ExportToNX" locale="ja_JP" status="Approved">NXへエクスポート</key>
+   <key id="CommandDisplayName{::}Awn0NXAddComponentHosted" locale="ja_JP" status="Approved">追加</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHosted" locale="ja_JP" status="Approved">NXで開く</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRelationBrowser" locale="ja_JP" status="Approved">NXリレーションブラウザで開く</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenRequirementLinksHosted" locale="ja_JP" status="Approved">要件リンクで開く</key>
+   <key id="CommandDisplayName{::}Awn0NXSetDefaultFolderHosted" locale="ja_JP" status="Approved">NXデフォルトフォルダを設定</key>
+   <key id="CommandDisplayName{::}Awn0OpenNxTcXml" locale="ja_JP" status="Approved">NXで開く</key>
+   <key id="ConditionDescription{::}Awn0ExportToNXCmdCond" locale="ja_JP" status="Approved">これはNXへのエクスポートコマンドを選択したオブジェクトに対して表示するかを決定します。</key>
+   <key id="ConditionDescription{::}Awn0NXAddComponentHostedSupported" locale="ja_JP" status="Approved">選択したオブジェクトがNXにおける「追加」オペレーションに対して有効かをチェックします。</key>
+   <key id="ConditionDescription{::}Awn0NXSetDefaultFolderSupported" locale="ja_JP" status="Approved">選択したオブジェクトが、NXにおける「デフォルトフォルダをセット」オペレーションに対してサポートされているかをチェックします。</key>
+   <key id="ConditionDescription{::}Awn0OpenInNxSupported" locale="ja_JP" status="Approved">指定したタイプが「NXで開く」オペレーションに対して有効かをチェックします。</key>
+   <key id="ConditionDescription{::}Awn0OpenRelationBrowser" locale="ja_JP" status="Approved">選択したオブジェクトが「NXリレーションブラウザで開く」オペレーションに対して有効かをチェックします。</key>
+   <key id="ConditionDescription{::}Awn0OpenRequirementLinks" locale="ja_JP" status="Approved">選択したオブジェクトが「NX要件リンクで開く」オペレーションに対して有効かをチェックします。</key>
+   <key id="CommandDisplayName{::}Awn0NXOpenHostedCellCommand" locale="ja_JP" status="Approved">NX Openホストセルコマンド</key>
+   <key id="ConditionDescription{::}Awn0ViewFileCmdCond" locale="ja_JP" status="Approved">この条件は、データセットビジネスオブジェクトのインスタンスがプリファレンスAWC_NX_OpenSupportedTypes内に定義されているタイプでないかを決定するのに使用されます。</key>
+</Add>
+</TcBusinessDataLocalization>

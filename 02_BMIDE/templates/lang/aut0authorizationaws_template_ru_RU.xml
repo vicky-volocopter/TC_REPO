@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:56:53 AM 2021">
+    <Add>
+   <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="ru_RU" status="Approved">Лицензии</key>
+   <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="ru_RU" status="Approved">Лицензии</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Лицензии" на стороне сервера. Эта команда должна быть видимой в версии Teamcenter &lt;=11.2.3 и только когда тип выбранного объекта: WorkspaceObject, набор данных или форма. Данная команда не должна быть видимой, если тип выбранного объекта: EPMTask или Signoff. Команда должна быть видимой, если пользователь, выполнивший вход, является участником группы dba с ролью администратора ITAR или IP.</key>
+   <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Лицензии" на стороне сервера. Эта команда должна быть видимой в версии Teamcenter &gt;=11.3 и только когда тип выбранного объекта: WorkspaceObject, набор данных или форма. Данная команда не должна быть видимой, если тип выбранного объекта: EPMTask или Signoff. Команда должна быть видимой, если пользователь, выполнивший вход, является участником группы dba с ролью администратора ITAR или IP.</key>
+</Add>
+</TcBusinessDataLocalization>

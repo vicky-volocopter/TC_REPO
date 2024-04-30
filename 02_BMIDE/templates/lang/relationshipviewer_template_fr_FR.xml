@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Thu Jun 03 01:57:39 AM 2021">
+    <Add>
+   <key id="BusinessObject{::}Rv1NetworkView" locale="fr_FR" status="Approved">Règle de génération de graphe</key>
+   <key id="BusinessObject{::}Rv1XML" locale="fr_FR" status="Approved">Fichier de configuration de relations</key>
+   <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="fr_FR" status="Approved">Collection de commandes de l'Explorateur de relations</key>
+   <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}rv_relations" locale="fr_FR" status="Approved">Relations de l'Explorateur de relations</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_required_parameters" locale="fr_FR" status="Approved">Paramètres de règle</key>
+   <key id="Property{::}Rv1NetworkView{::}rv1_supported_inquiry" locale="fr_FR" status="Approved">Inquiry</key>
+
+   <key id="CommandDisplayName{::}Rv1BalloonLayout" locale="fr_FR" status="Approved">Bulle</key>
+   <key id="CommandDisplayName{::}Rv1BottomToTopLayout" locale="fr_FR" status="Approved">Bas en haut</key>
+   <key id="CommandDisplayName{::}Rv1BringForward" locale="fr_FR" status="Approved">Mettre en avant</key>
+   <key id="CommandDisplayName{::}Rv1BringToFront" locale="fr_FR" status="Approved">Placer au premier plan</key>
+   <key id="CommandDisplayName{::}Rv1CircularLayout" locale="fr_FR" status="Approved">Circulaire</key>
+   <key id="CommandDisplayName{::}Rv1ConvertToParent" locale="fr_FR" status="Approved">Convertir en parent</key>
+   <key id="CommandDisplayName{::}Rv1CreateGroup" locale="fr_FR" status="Approved">Créer le parent pour les sélectionnés</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental1Layout" locale="fr_FR" status="Approved">Incrémental personnalisé 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomIncremental2Layout" locale="fr_FR" status="Approved">Incrémental personnalisé 2</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal1Layout" locale="fr_FR" status="Approved">Orthographique personnalisé 1</key>
+   <key id="CommandDisplayName{::}Rv1CustomOrthogonal2Layout" locale="fr_FR" status="Approved">Ortho-Gauche</key>
+   <key id="CommandDisplayName{::}Rv1DeleteGraphItems" locale="fr_FR" status="Approved">Supprimer les éléments graphiques sélectionnés</key>
+   <key id="CommandDisplayName{::}Rv1ExitEdit" locale="fr_FR" status="Approved">Fin création</key>
+   <key id="CommandDisplayName{::}Rv1ExpandAll" locale="fr_FR" status="Approved">Développer les relations de 1 niveau</key>
+   <key id="CommandDisplayName{::}Rv1ExpandDown" locale="fr_FR" status="Approved">Développer</key>
+   <key id="CommandDisplayName{::}Rv1ExpandGroup" locale="fr_FR" status="Approved">Développer</key>
+   <key id="CommandDisplayName{::}Rv1ExpandSelected" locale="fr_FR" status="Approved">Développer les relations de 1 niveau</key>
+   <key id="CommandDisplayName{::}Rv1ExpandToParent" locale="fr_FR" status="Approved">Développer</key>
+   <key id="CommandDisplayName{::}Rv1ExpandUp" locale="fr_FR" status="Approved">Développer</key>
+   <key id="CommandDisplayName{::}Rv1HideAllChildren" locale="fr_FR" status="Approved">Cacher tous les enfants</key>
+   <key id="CommandDisplayName{::}Rv1HideAllIncomingRelations" locale="fr_FR" status="Approved">Cacher toutes les relations entrantes</key>
+   <key id="CommandDisplayName{::}Rv1HideAllOutgoingRelations" locale="fr_FR" status="Approved">Cacher toutes les relations sortantes</key>
+   <key id="CommandDisplayName{::}Rv1IncrementalLayout" locale="fr_FR" status="Approved">Incrémental</key>
+   <key id="CommandDisplayName{::}Rv1LeftToRightLayout" locale="fr_FR" status="Approved">Gauche à droite</key>
+   <key id="CommandDisplayName{::}Rv1OrganicLayout" locale="fr_FR" status="Approved">Organique</key>
+   <key id="CommandDisplayName{::}Rv1OrthogonalLayout" locale="fr_FR" status="Approved">Orthographique</key>
+   <key id="CommandDisplayName{::}Rv1RBHideIncoming" locale="fr_FR" status="Approved">Cacher entrant</key>
+   <key id="CommandDisplayName{::}Rv1RBHideOutgoing" locale="fr_FR" status="Approved">Cacher sortant</key>
+   <key id="CommandDisplayName{::}Rv1RBNodeAnimation" locale="fr_FR" status="Approved">Cacher l'animation de noeud</key>
+   <key id="CommandDisplayName{::}Rv1RBShowIncoming" locale="fr_FR" status="Approved">Afficher entrant</key>
+   <key id="CommandDisplayName{::}Rv1RBShowOutgoing" locale="fr_FR" status="Approved">Afficher sortant</key>
+   <key id="CommandDisplayName{::}Rv1RelationsLegend" locale="fr_FR" status="Approved">Contrôles des relations</key>
+   <key id="CommandDisplayName{::}Rv1RightToLeftLayout" locale="fr_FR" status="Approved">Droite à gauche</key>
+   <key id="CommandDisplayName{::}Rv1SendBackward" locale="fr_FR" status="Approved">Envoyer vers l'arrière</key>
+   <key id="CommandDisplayName{::}Rv1SendToBack" locale="fr_FR" status="Approved">Placer à l'arrière-plan</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllChildren" locale="fr_FR" status="Approved">Afficher tous les enfants</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllIncomingRelations" locale="fr_FR" status="Approved">Afficher les  relations entrantes</key>
+   <key id="CommandDisplayName{::}Rv1ShowAllOutgoingRelations" locale="fr_FR" status="Approved">Afficher les  relations entrantes</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming1" locale="fr_FR" status="Approved">Afficher entrant</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming2" locale="fr_FR" status="Approved">2 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming3" locale="fr_FR" status="Approved">3 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming4" locale="fr_FR" status="Approved">4 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowIncoming5" locale="fr_FR" status="Approved">5 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowObjectRelations" locale="fr_FR" status="Approved">Relations</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing1" locale="fr_FR" status="Approved">Afficher sortant</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing2" locale="fr_FR" status="Approved">2 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing3" locale="fr_FR" status="Approved">3 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing4" locale="fr_FR" status="Approved">4 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1ShowOutgoing5" locale="fr_FR" status="Approved">5 niveaux</key>
+   <key id="CommandDisplayName{::}Rv1StartEdit" locale="fr_FR" status="Approved">Début création</key>
+   <key id="CommandDisplayName{::}Rv1TableLayout" locale="fr_FR" status="Approved">Table de haut en bas</key>
+   <key id="CommandDisplayName{::}Rv1ToggleChildren" locale="fr_FR" status="Approved">Développer</key>
+   <key id="CommandDisplayName{::}Rv1TopToBottomLayout" locale="fr_FR" status="Approved">Haut en bas</key>
+   <key id="CommandDisplayName{::}Rv1TreeLayout" locale="fr_FR" status="Approved">Arborescence</key>
+</Add>
+</TcBusinessDataLocalization>

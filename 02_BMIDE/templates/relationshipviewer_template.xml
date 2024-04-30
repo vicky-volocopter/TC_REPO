@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Thu Jun 03 01:57:39 AM 2021" TcVersion="tc12000.0.0">
+    <Add>
+   <Library createRelease="tc9000.1.2" description="relationship viewer for TC object." isThirdParty="false" name="Rv1SoaRelationshipViewer" namespace="Rv1::Soa::RelationshipViewer" serviceLibrary="true">
+     <DependentOn name="Rv1relationshipviewer"/>
+   </Library>
+   <ServiceInterface createRelease="tc9000.1.2" dependencies="" description="network engine" libraryName="Rv1SoaRelationshipViewer" name="NetworkEngine" namespace="Rv1::Soa::RelationshipViewer" serviceLibraryRef=""/>
+   <Struct createRelease="tc9000.1.2" description="Input struct for createRelations operation." isPublished="true" name="CreateRelationInput" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Unique client identifier, optional." name="clientId">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The relation type to create between the two input Business Objects. For example: FND_TraceLink, PSConnection, Content. You can get all the supported relation type decriptions by service opertion NetworkEngine .getView2()." name="relationType">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The primary object to create relation from." name="primaryObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="The secondary object to create relation to." name="secondaryObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="The (string, string) map contains properties for relation creation." name="props">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::StringPropertyMap"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Output struct for createRelations operation." isPublished="true" name="CreateRelationsResponse" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Identifier that helps the client to track the relation(s) created." name="clientId">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The list of new created network edges which representing the relation between Business Objects." name="edges">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Edge"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The (string,Node) map contains the uid of input node and output node to be updated. This is especially useful for BOM struction creation, as the input is uid of ItemRevision, while the output is a BomLine node, so client can update network if necessary." name="nodeUpdates">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NodeUpdateMap"/>
+     </StructElement>
+     <StructElement description="Service data including partial errors." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The structure of edge." isPublished="true" name="Edge" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Left node id" name="leftId">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Right node id." name="rightId">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The logical type of the edge. It is localized." name="relationType">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Underlining Teamcenter object." name="metaObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="The start port object associated with the meta object." name="startPortObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="The end port object associated with the meta object." name="endPortObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="A map of property name and property value pairs  (string/string)." name="props">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::StringPropertyMap"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Structure of network graph data." isPublished="true" name="Graph" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Graph name of the network." name="viewName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="A list of graph root IDs. If data source is Teamcenter, it is the UID list of Teamcenter business objects." name="rootIds">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The cursor point to query service that going to be called. For initial query, set service cursor to 0." name="serviceCursor">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="A list of Node structures." name="nodes">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Node"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="A list of Edge structures." name="edges">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Edge"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="A (string,string) map of inquery and answer pairs." name="analysisResult">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphInquiryMap"/>
+     </StructElement>
+     <StructElement description="The flag indicates whether it's a partial graph." name="isPartial">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Structure for representing information of a filter item, including filter name, RGB values to color the legend of the filter at client side. It is used in structure GraphGroup." isPublished="true" name="GraphFilter" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="name of the filter" name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The color used for legend of this filter at client side" name="color">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::RGBValue"/>
+     </StructElement>
+     <StructElement description="The list of types belong to this category." name="types">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Type"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The graph group is a group name with a list of filters. A filter take effect either on node or edge, it filts out graph that fall into its type. It is used in structure GraphViewDescription." isPublished="true" name="GraphGroup" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Backend name of the group. Currently, there are two available groups, relations and objects." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The list of graph group filter names. For example: the relations graph group may have Attach, Tracability, Structure, Folder, Connectivity as filters. The objects graph group may have Requirement, Functional, Logical, Physical, Dataset, Plant as filters." name="filters">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphFilter"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The supported inquiry of graph." isPublished="true" name="GraphInquiry" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Backend name of the inquiry. A inquery is a short query clause that can be used to retrieve information from network graph." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Description of the inquiry. Not localized." name="description">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="tc9000.1.2" description="the inquiry/answer map" isPublished="true" name="GraphInquiryMap" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::string"/>
+     </DataTypeRefParam>
+   </Typedef>
+   <Struct createRelease="tc9000.1.2" description="The info of graph parameter" isPublished="true" name="GraphParameterInfo" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Backend name of the parameter." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The regular expression that used to validate the parameter value." name="valueMask">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The value type of the parameter. Currently supported types: int, double, string." name="type">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Default value of the parameter" name="defaultValue">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="the description of the parameter. Not localized." name="description">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="tc9000.1.2" description="Network graph parameter map" isPublished="true" name="GraphParamMap" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </DataTypeRefParam>
+   </Typedef>
+   <Struct createRelease="tc9000.1.2" description="graph style definition" isPublished="true" name="GraphStyleDefResponse" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="XML string contains graph style definition." name="styleXMLStr">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Service data contains the list of created or modified objects and also the partial errors is used to report any partial failures." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Graph type response." isPublished="true" name="GraphTypeListResponse" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="A list of  role based avaliable graph views. Different role may get different view list." name="views">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphViewDescription"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="Service data contains the partial errors which used to report any partial failures." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="The description of a graph view" isPublished="true" name="GraphViewDescription" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Name of the graph view. It is also the identifier of graph view." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="the default layout of the view" name="defaultLayout">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="the default expansion direction of the view" name="defaultExpandDirection">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Flag to indicate whether the view is visible on graph control panel." name="visible">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="Flag to indicate whether the graph view is in diagram mode by default." name="diagramMode">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="The list of graph view parameters." name="parameters">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParameterInfo"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The list of supported graph view inquiries. For example: numOfNodes, numOfEdges." name="inquiries">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphInquiry"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The list of graph view groups." name="groups">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphGroup"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="network response" isPublished="true" name="NetworkResponse" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Graph data of the network." name="graph">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Graph"/>
+     </StructElement>
+     <StructElement description="Service data contains the list of Teamcenter business objects and also the partial errors is used to report any partial failures." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="node of the graph" isPublished="true" name="Node" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Node id. A unique immutable identifier of the node. It is business object UID for Teamcenter data source." name="id">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Name of node" name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Underlying Teamcenter object. For example: BomLine, Item, ItemRevision, Function etc. Can be null. For external data source, it can be RuntimeObject." name="metaObject">
+       <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+     </StructElement>
+     <StructElement description="A map of property name and property value pairs (string/string). For example, [in_degree, 2], [out_degree, 4]." name="props">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::StringPropertyMap"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="tc9000.1.2" description="The map with the key of input node uid to output node." isPublished="true" name="NodeUpdateMap" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Node"/>
+     </DataTypeRefParam>
+   </Typedef>
+   <MetaEnum createRelease="tc9000.1.2" description="The query mode enumeration." isPublished="true" name="QueryModeEnum" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <MetaEnumLiteral description="Only calculate node degree without return graph." name="DegreeOnly"/>
+     <MetaEnumLiteral description="Only expand graph without calculate node degree." name="ExpandOnly"/>
+     <MetaEnumLiteral description="Expand graph and calculate node degree together." name="ExpandAndDegree"/>
+   </MetaEnum>
+   <Struct createRelease="tc9000.1.2" description="The input structure containing parameters for query network." isPublished="true" name="QueryNetworkInputs" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="A list of object IDs that input as network root nodes. If data source is Teamcenter, it is the UID list of Teamcenter business objects." name="rootIds">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="The name of graph view that will be used for network expansion. Call getViews() service method to get available view names." name="viewName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The query mode that applied to this query operation." name="queryMode">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::QueryModeEnum"/>
+     </StructElement>
+     <StructElement description="The cursor of the start service index in service list. It's set to 0 for initial call. If client get a partial graph by queryNetwork2 operation, it can be set great than 0 to get remaining part of graph." name="serviceCursor">
+       <DataTypeRefParam dataType="int"/>
+     </StructElement>
+     <StructElement description="A map of graph parameter name and parameter value list (string / list of string), such as expansion level, expansion direction. Parameters are inputs leveraged by the graph generation logic. Call getViews() service method to get available graph parameters supported by the specified view." name="graphParamMap">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParamMap"/>
+     </StructElement>
+     <StructElement description="A list of inquiries.. Inqueries identify calculations that are performed using the graph contents as inputs. The full supported inquires can be got by calling getView() method. Currently supported inquires: numOfNodes, numOfEdges." name="inquiries">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.2" description="Structure for representing color using RGB values, used in structure GraphFilter." isPublished="true" name="RGBValue" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="The red component of color." name="redValue">
+       <DataTypeRefParam dataType="double"/>
+     </StructElement>
+     <StructElement description="The green component of color." name="greenValue">
+       <DataTypeRefParam dataType="double"/>
+     </StructElement>
+     <StructElement description="The blue component of color." name="blueValue">
+       <DataTypeRefParam dataType="double"/>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="tc9000.1.2" description="The map contains key and value for string property." isPublished="true" name="StringPropertyMap" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::string"/>
+     </DataTypeRefParam>
+   </Typedef>
+   <Struct createRelease="tc9000.1.2" description="The graph element type structure, used in structure GraphFilter." isPublished="true" name="Type" namespace="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="The internal type name." name="internalName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The display name of type." name="displayName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.3" description="Structure for representing information of a filter item, including filter name, RGB values to color the legend of the filter at client side. It is used in structure GraphGroup." isPublished="true" name="GraphFilter" namespace="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="name of the filter" name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="display name of the filter" name="displayName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The color used for legend of this filter at client side" name="color">
+       <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::RGBValue"/>
+     </StructElement>
+     <StructElement description="The list of types belong to this category." name="types">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::Type"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.3" description="The graph group is a group name with a list of filters. A filter take effect either on node or edge, it filts out graph that fall into its type. It is used in structure GraphViewDescription." isPublished="true" name="GraphGroup" namespace="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Backend name of the group. Currently, there are two available groups, relations and objects." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="The list of graph group filter names. For example: the relations graph group may have Attach, Tracability, Structure, Folder, Connectivity as filters. The objects graph group may have Requirement, Functional, Logical, Physical, Dataset, Plant as filters." name="filters">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphFilter"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.3" description="Graph type response." isPublished="true" name="GraphTypeListResponse" namespace="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="A list of  role based avaliable graph views. Different role may get different view list." name="views">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphViewDescription"/>
+       </DataTypeRefParam>
+     </StructElement>
+     <StructElement description="Service data contains the partial errors which used to report any partial failures." name="serviceData">
+       <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+     </StructElement>
+   </Struct>
+   <Struct createRelease="tc9000.1.3" description="The description of a graph view" isPublished="true" name="GraphViewDescription" namespace="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <StructElement description="Name of the graph view. It is also the identifier of graph view." name="name">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Display name of the graph view. It is also the identifier of graph view." name="displayName">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="the default layout of the view. The possible values are: IncrementalHierarchic, Top-to-Bottom, Left-to-Right, Bottom-to-Top, Right-to-Left." name="defaultLayout">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="the default expansion direction of the view. The possibile values are: forward, backward, all." name="defaultExpandDirection">
+       <DataTypeRefParam dataType="std::string"/>
+     </StructElement>
+     <StructElement description="Flag to indicate whether the view is visible on graph control panel." name="visible">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="Flag to indicate whether the graph view is in diagram mode by default." name="diagramMode">
+       <DataTypeRefParam dataType="bool"/>
+     </StructElement>
+     <StructElement description="The list of graph view groups." name="groups">
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphGroup"/>
+       </DataTypeRefParam>
+     </StructElement>
+   </Struct>
+   <Typedef createRelease="Awp04.3.0" description="Get views Input parameter map" isPublished="true" name="GetViewsParamMap" namespace="Rv1::Soa::RelationshipViewer::_2019_12::NetworkEngine" scope="Rv1::Soa::RelationshipViewer::NetworkEngine">
+     <DataTypeRefParam dataType="std::map">
+       <DataTypeRefParam dataType="std::string"/>
+       <DataTypeRefParam dataType="std::vector">
+          <DataTypeRefParam dataType="std::string"/>
+       </DataTypeRefParam>
+     </DataTypeRefParam>
+   </Typedef>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="The operation will create the specified relation between the input objects (primary and secondary objects) for each input structure." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationsResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::createRelations#const,std::vector&lt;Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationInput&gt;,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::createRelations" returnConst="false" returnDescription="The response contains a list of created network edges which are encapsulation of the created relation. Any failure will be returned with the input clientId mapped to the error message in the ServiceData list of partial errors.&lt;br /&gt;&#10;116001 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specified relation can not be created between the selected two business objects.&lt;br /&gt;116002 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Primary or secondary object is not specified.&lt;br /&gt;116003 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specified relation type is not supported in Teamcenter." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationsResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="A list of CreateRelationInput structure." freeOutputMemory="false" inputOutput="Input" name="inputs">
+       <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+          <DataTypeRefParam dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationInput" qualifier=""/>
+       </OperationParameterDataTypeRef>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="Provides a style definition which can be used for client to render graph data. For example, it returns style definition of node shape and color,edge type and color." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphStyleDefResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getGraphStyleDef" name="Rv1::Soa::RelationshipViewer::NetworkEngine::getGraphStyleDef" returnConst="false" returnDescription="Graph style definition in XML string. The caller of this method need parse XML to get style definition." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphStyleDefResponse" qualifier=""/>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="The RelationShipViewer library provides graph (nodes connected via edges) views of data elements. Each graph has a defined view type. The view type is a container for the rules that determine what should be included in a graph and how it should be represented. The choice of graph view is determined based on business need. &lt;br /&gt;&lt;br /&gt;This API provides a list of the available graph view types. A graph view is a set of configuration that can be used for network expansion. For example: view name, graph parameters, inquires, graph presentation rules. The view list is role based, different role may get different view list." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews" name="Rv1::Soa::RelationshipViewer::NetworkEngine::getViews" returnConst="false" returnDescription="The list of supported views" returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse" qualifier=""/>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This operation provides a list of the available graph view types identified by the input key. A graph view is a set of configuration that can be used for network expansion. For example: view name, graph parameters, inquires, graph presentation rules. The view list is role based, different role may get different view list.&lt;br /&gt;&lt;br /&gt;The RelationShipViewer library provides graph (nodes connected via edges) views of data elements. Each graph has a defined view type. The view type is a container for the rules that determine what should be included in a graph and how it should be represented. The choice of graph view is determined based on business need." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews2#const,std::string,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::getViews2" returnConst="false" returnDescription="The list of supported views identified by input key. If no view match the input key, a empty view list will be returned." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The key to identify a list of views. Each graph view have a key field, but not the identifier." freeOutputMemory="false" inputOutput="Input" name="key">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This API produces a graph of data corresponding to the input parameters. For Teamcenter data source, the graph nodes are Teamcenter business objects, the relation between the returns objects and the input root objects may be Teamcenter Relation class (GRM) relationships, TraceLink and its sub types, Where used, where referenced, BOM relation and Tag reference." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork#const,std::vector&lt;std::string&gt;,&amp;$const,std::string,&amp;$const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParamMap,&amp;$const,std::vector&lt;std::string&gt;,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork" returnConst="false" returnDescription="Return network data of the input root object, answers to the inqures and soa service data. If data source is TC, the nodes of graph is Teamcenter business objects list, they are filled in serviceData as plain objects." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="A list of object IDs that input as network root nodes. If data source is Teamcenter, it is the UID list of Teamcenter business objects." freeOutputMemory="false" inputOutput="Input" name="rootIds">
+       <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+          <DataTypeRefParam dataType="std::string" qualifier=""/>
+       </OperationParameterDataTypeRef>
+     </OperationParameter>
+     <OperationParameter const="true" defaultValue="" description="The name of graph view that will be used for network expansion. Call getViews() service method to get available view names." freeOutputMemory="false" inputOutput="Input" name="viewName">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+     <OperationParameter const="true" defaultValue="" description="A (string, list(string)) map of graph parameter name and parameter values, such as expansion level, expansion direction. Parameters are inputs leveraged by the graph generation logic. Call getViews() service method to get available graph parameters supported by the specified view." freeOutputMemory="false" inputOutput="Input" name="graphParamMap">
+       <OperationParameterDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParamMap" qualifier="&amp;"/>
+     </OperationParameter>
+     <OperationParameter const="true" defaultValue="" description="A list of inquiries. Inquiries identify calculations that are performed using the graph contents as inputs. The full supported inquires can be got by calling getView() method. Currently supported inquires: numOfNodes, numOfEdges." freeOutputMemory="false" inputOutput="Input" name="inquiries">
+       <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+          <DataTypeRefParam dataType="std::string" qualifier=""/>
+       </OperationParameterDataTypeRef>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.2" description="This operation produces a graph of data corresponding to the input parameters. The graph nodes are Teamcenter business objects, the relation between the returned objects and the input root objects may be Teamcenter Relation class (GRM) relationships, TraceLink and its sub types, Where used, where referenced, BOM relation and Tag reference.&#10;You can query relations supported in Teamcenter for the input root Business Objects, such as GRM (General Relationship Management) relation, BOM structure, Connectility, etc." id="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork2#const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::QueryNetworkInputs,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork2" returnConst="false" returnDescription="Return network data of the input root object and answers to the inqures . The nodes of the graph are returned as plain objects in the ServiceData . &lt;br /&gt;&#10;116011(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Not all input root Ids can identify valid business objects.&lt;br /&gt;116012(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Configuration data doesn't exist for the specified graph view.&lt;br /&gt;116013(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Query service index out of range.&lt;br /&gt;116014(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Expansion direction isn't supported." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="Input parameter for querying network." freeOutputMemory="false" inputOutput="Input" name="input">
+       <OperationParameterDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::QueryNetworkInputs" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="tc9000.1.3" description="This operation provides a list of the available graph view types identified by the input key. A graph view is a set of configuration that can be used for network expansion. For example: localized view name and category types which classify a list of supported Teamcenter Business Object types, legend color of each category types. The view list is role based, different role may get different view list." id="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews3#const,std::string,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::getViews3" returnConst="false" returnDescription="The list of supported views identified by input key. If no view match the input key, a empty view list will be returned. Partial Errors are returned when: &#10;#142003 (error)   The view configuration does not exist. &#10;#142004 (error)   The view configuration file could not be parsed." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="The key to identify a list of views. Each graph view have a key field, but not the identifier." freeOutputMemory="false" inputOutput="Input" name="key">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationTemplate accessControl="false" const="false" createRelease="Awp04.3.0" description="This operation provides a list of the available graph view types identified by the input key and the object type. A graph view is a set of configuration that can be used for network expansion. For example: localized view name and category types which classify a list of supported Teamcenter Business Object types, legend color of each category types. The view list is role based, different role may get different view list." id="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews4#const,Rv1::Soa::RelationshipViewer::_2019_12::NetworkEngine::GetViewsParamMap,&amp;" name="Rv1::Soa::RelationshipViewer::NetworkEngine::getViews4" returnConst="false" returnDescription="The list of supported views identified by input key and object type. If no view match the input key and object type, a empty view list will be returned. Partial Errors are returned when: &lt;br /&gt;#142003 (error)   The view configuration does not exist. &lt;br /&gt;#142004 (error)   The view configuration file could not be parsed." returnFreeMemory="false" static="false">
+     <OperationReturnDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse" qualifier=""/>
+     <OperationParameter const="true" defaultValue="" description="A map of parameter name and parameter value list (string / list of string), such as key and object type to identify the list of views supported." freeOutputMemory="false" inputOutput="Input" name="getViewsInput">
+       <OperationParameterDataTypeRef dataType="Rv1::Soa::RelationshipViewer::_2019_12::NetworkEngine::GetViewsParamMap" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <OperationInputType artifactName="Rv1NetworkViewCreI" description="CreateInput object for &quot;Rv1NetworkView&quot; business object" isAbstract="false" parentTypeName="DatasetCreI" typeClassName="Rv1NetworkViewCreI" typeName="Rv1NetworkViewCreI"/>
+   <OperationInputType artifactName="Rv1NetworkViewSvAI" description="SaveAsInput object for &quot;Rv1NetworkView&quot; business object" isAbstract="false" parentTypeName="DatasetSvAI" typeClassName="Rv1NetworkViewSvAI" typeName="Rv1NetworkViewSvAI"/>
+   <OperationInputType artifactName="Rv1XMLCreI" description="CreateInput object for &quot;Rv1XML&quot; business object" isAbstract="false" parentTypeName="DatasetCreI" typeClassName="Rv1XMLCreI" typeName="Rv1XMLCreI"/>
+   <OperationInputType artifactName="Rv1XMLSvAI" description="SaveAsInput object for &quot;Rv1XML&quot; business object" isAbstract="false" parentTypeName="DatasetSvAI" typeClassName="Rv1XMLSvAI" typeName="Rv1XMLSvAI"/>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="tc9000.1.2" dependencies="" description="The operation will create the specified relation between the input objects (primary and secondary objects) for each input structure." exceptionCondition="" id="createRelations#const,std::vector&lt;Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationInput&gt;,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="createRelations" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationsResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::createRelations#const,std::vector&lt;Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::CreateRelationInput&gt;,&amp;" returnDescription="The response contains a list of created network edges which are encapsulation of the created relation. Any failure will be returned with the input clientId mapped to the error message in the ServiceData list of partial errors.&lt;br /&gt;&#10;116001 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specified relation can not be created between the selected two business objects.&lt;br /&gt;116002 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Primary or secondary object is not specified.&lt;br /&gt;116003 (error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specified relation type is not supported in Teamcenter." useCase="You can create relations that can be represented as edges in network graph. Such as GRM (General Relation Management) relation, BOM structure and PS Connection.">
+     <ParameterInfo description="A list of CreateRelationInput structure." parameterName="inputs"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="Provides a style definition which can be used for client to render graph data. For example, it returns style definition of node shape and color,edge type and color." exceptionCondition="" id="getGraphStyleDef#" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getGraphStyleDef" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphStyleDefResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getGraphStyleDef" returnDescription="Graph style definition in XML string. The caller of this method need parse XML to get style definition." useCase=""/>
+   <Operation canOverride="false" component="Fnd0DiagramManagement" createRelease="tc9000.1.2" dependencies="" description="The RelationShipViewer library provides graph (nodes connected via edges) views of data elements. Each graph has a defined view type. The view type is a container for the rules that determine what should be included in a graph and how it should be represented. The choice of graph view is determined based on business need. &lt;br /&gt;&lt;br /&gt;This API provides a list of the available graph view types. A graph view is a set of configuration that can be used for network expansion. For example: view name, graph parameters, inquires, graph presentation rules. The view list is role based, different role may get different view list." exceptionCondition="" id="getViews#" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getViews" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews" returnDescription="The list of supported views" useCase="">
+     <DeprecationInfo deprecatedDescription="Use getViews3 instead" deprecatedRelease="tc10000.1.2"/>
+   </Operation>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="tc9000.1.2" dependencies="" description="This operation provides a list of the available graph view types identified by the input key. A graph view is a set of configuration that can be used for network expansion. For example: view name, graph parameters, inquires, graph presentation rules. The view list is role based, different role may get different view list.&lt;br /&gt;&lt;br /&gt;The RelationShipViewer library provides graph (nodes connected via edges) views of data elements. Each graph has a defined view type. The view type is a container for the rules that determine what should be included in a graph and how it should be represented. The choice of graph view is determined based on business need." exceptionCondition="" id="getViews2#const,std::string,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getViews2" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews2#const,std::string,&amp;" returnDescription="The list of supported views identified by input key. If no view match the input key, a empty view list will be returned." useCase="">
+     <DeprecationInfo deprecatedDescription="Use getViews3 instead" deprecatedRelease="tc10000.1.2"/>
+     <ParameterInfo description="The key to identify a list of views. Each graph view have a key field, but not the identifier." parameterName="key"/>
+   </Operation>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="tc9000.1.3" dependencies="" description="This operation provides a list of the available graph view types identified by the input key. A graph view is a set of configuration that can be used for network expansion. For example: localized view name and category types which classify a list of supported Teamcenter Business Object types, legend color of each category types. The view list is role based, different role may get different view list." exceptionCondition="" id="getViews3#const,std::string,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getViews3" opTemplate="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews3#const,std::string,&amp;" returnDescription="The list of supported views identified by input key. If no view match the input key, a empty view list will be returned. Partial Errors are returned when: &#10;#142003 (error)   The view configuration does not exist. &#10;#142004 (error)   The view configuration file could not be parsed." useCase="">
+     <DeprecationInfo deprecatedDescription="Use getViews4 instead" deprecatedRelease="Awp04.3.0"/>
+     <ParameterInfo description="The key to identify a list of views. Each graph view have a key field, but not the identifier." parameterName="key"/>
+   </Operation>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="Awp04.3.0" dependencies="" description="This operation provides a list of the available graph view types identified by the input key and the object type. A graph view is a set of configuration that can be used for network expansion. For example: localized view name and category types which classify a list of supported Teamcenter Business Object types, legend color of each category types. The view list is role based, different role may get different view list." exceptionCondition="" id="getViews4#const,Rv1::Soa::RelationshipViewer::_2019_12::NetworkEngine::GetViewsParamMap,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getViews4" opTemplate="Rv1::Soa::RelationshipViewer::_2014_11::NetworkEngine::GraphTypeListResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::getViews4#const,Rv1::Soa::RelationshipViewer::_2019_12::NetworkEngine::GetViewsParamMap,&amp;" returnDescription="The list of supported views identified by input key and object type. If no view match the input key and object type, a empty view list will be returned. Partial Errors are returned when: &lt;br /&gt;#142003 (error)   The view configuration does not exist. &lt;br /&gt;#142004 (error)   The view configuration file could not be parsed." useCase="">
+     <ParameterInfo description="A map of parameter name and parameter value list (string / list of string), such as key and object type to identify the list of views supported." parameterName="getViewsInput"/>
+   </Operation>
+   <Operation canOverride="false" component="" createRelease="tc9000.1.2" dependencies="" description="This API produces a graph of data corresponding to the input parameters. For Teamcenter data source, the graph nodes are Teamcenter business objects, the relation between the returns objects and the input root objects may be Teamcenter Relation class (GRM) relationships, TraceLink and its sub types, Where used, where referenced, BOM relation and Tag reference." exceptionCondition="" id="queryNetwork#const,std::vector&lt;std::string&gt;,&amp;$const,std::string,&amp;$const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParamMap,&amp;$const,std::vector&lt;std::string&gt;,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="queryNetwork" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork#const,std::vector&lt;std::string&gt;,&amp;$const,std::string,&amp;$const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::GraphParamMap,&amp;$const,std::vector&lt;std::string&gt;,&amp;" returnDescription="Return network data of the input root object, answers to the inqures and soa service data. If data source is TC, the nodes of graph is Teamcenter business objects list, they are filled in serviceData as plain objects." useCase="">
+     <ParameterInfo description="A list of object IDs that input as network root nodes. If data source is Teamcenter, it is the UID list of Teamcenter business objects." parameterName="rootIds"/>
+     <ParameterInfo description="The name of graph view that will be used for network expansion. Call getViews() service method to get available view names." parameterName="viewName"/>
+     <ParameterInfo description="A (string, list(string)) map of graph parameter name and parameter values, such as expansion level, expansion direction. Parameters are inputs leveraged by the graph generation logic. Call getViews() service method to get available graph parameters supported by the specified view." parameterName="graphParamMap"/>
+     <ParameterInfo description="A list of inquiries. Inquiries identify calculations that are performed using the graph contents as inputs. The full supported inquires can be got by calling getView() method. Currently supported inquires: numOfNodes, numOfEdges." parameterName="inquiries"/>
+   </Operation>
+   <Operation canOverride="false" component="Awp0AWS" createRelease="tc9000.1.2" dependencies="" description="This operation produces a graph of data corresponding to the input parameters. The graph nodes are Teamcenter business objects, the relation between the returned objects and the input root objects may be Teamcenter Relation class (GRM) relationships, TraceLink and its sub types, Where used, where referenced, BOM relation and Tag reference.&#10;You can query relations supported in Teamcenter for the input root Business Objects, such as GRM (General Relationship Management) relation, BOM structure, Connectility, etc." exceptionCondition="" id="queryNetwork2#const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::QueryNetworkInputs,&amp;" interface="Rv1::Soa::RelationshipViewer::NetworkEngine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="queryNetwork2" opTemplate="Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::NetworkResponse#Rv1::Soa::RelationshipViewer::NetworkEngine::queryNetwork2#const,Rv1::Soa::RelationshipViewer::_2012_10::NetworkEngine::QueryNetworkInputs,&amp;" returnDescription="Return network data of the input root object and answers to the inqures . The nodes of the graph are returned as plain objects in the ServiceData . &lt;br /&gt;&#10;116011(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Not all input root Ids can identify valid business objects.&lt;br /&gt;116012(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Configuration data doesn't exist for the specified graph view.&lt;br /&gt;116013(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Query service index out of range.&lt;br /&gt;116014(error):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Expansion direction isn't supported." useCase="">
+     <ParameterInfo description="Input parameter for querying network." parameterName="input"/>
+   </Operation>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Rv1NetworkView" value="Rv1NetworkViewCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Rv1XML" value="Rv1XMLCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Rv1NetworkView" value="Rv1NetworkViewSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Rv1XML" value="Rv1XMLSvAI"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="rv1_required_parameters" typeName="Rv1NetworkView" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" propertyName="rv1_supported_inquiry" typeName="Rv1NetworkView" value="Write"/>
+
+   <TcClass className="Rv1NetworkView" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Dataset">
+     <TcAttribute arrayLength="20" attributeName="rv1_required_parameters" attributeType="POM_string" description="Allows for the administrator to supply mandatory values that may be required for CLIPS rules expansion. Not currently used in out of the box configurations. This value may be NULL." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="1024" noBackpointer="false"/>
+     <TcAttribute arrayLength="20" attributeName="rv1_supported_inquiry" attributeType="POM_string" description="Allows for the administrator to supply additional information to the Active Workspace relations browser view when these CLIPS rules are applied. Not currently used in out of the box configurations. This value may be NULL." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="1024" noBackpointer="false"/>
+   </TcClass>
+   <TcDataset artifactName="Rv1NetworkView" description="Dataset type for supporting storage of CLIPS rules. These rules are used by the Active Workspace relations browser to identify group relations. Rv1NetworkView object is used exclusively by Active Workspace Relations Browser application." isAbstract="false" parentTypeName="Dataset" typeClassName="Rv1NetworkView" typeName="Rv1NetworkView">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="Rv1_CLIPSFile">
+       <TcDatasetReferenceInfo format="TEXT" template="*.clp"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcDataset artifactName="Rv1XML" description="Dataset type for supporting the storage of relations legends view configuration file. Rv1XML object is used exclusively by Active Workspace Graphing Component." isAbstract="false" parentTypeName="Dataset" typeClassName="Dataset" typeName="Rv1XML">
+     <TcDSViewTool name="xmlEditor"/>
+     <TcDSEditTool name="xmlEditor"/>
+     <TcDatasetReference name="Rv1XMLFile">
+       <TcDatasetReferenceInfo format="TEXT" template="*.xml"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction action="Open" tool="xmlEditor">
+       <TcToolActionReference export="false" referenceName="Rv1XMLFile"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+
+   <Library createRelease="tc9000.1.2" description="Relationship Viewer library" isThirdParty="false" name="Rv1relationshipviewer" namespace="" serviceLibrary="false">
+     <DependentOn name="metaframework"/>
+     <DependentOn name="tccore"/>
+     <DependentOn name="tc"/>
+     <DependentOn name="cxpom"/>
+     <DependentOn name="ae"/>
+     <DependentOn name="bom"/>
+     <DependentOn name="tie"/>
+   </Library>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+
+   <Command commandId="Rv1BalloonLayout" description="Balloon layout" displayName="Balloon" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Balloon"/>
+   <Command commandId="Rv1BottomToTopLayout" description="Bottom-to-Top layout" displayName="Bottom-to-Top" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Bottom-to-Top"/>
+   <Command commandId="Rv1BringForward" description="Bring selected nodes or boundaries forward" displayName="Bring Forward" icon="Rv1ArrangeGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Bring Forward"/>
+   <Command commandId="Rv1BringToFront" description="Bring selected nodes or boundaries to front" displayName="Bring to Front" icon="Rv1ArrangeGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Bring to Front"/>
+   <Command commandId="Rv1CircularLayout" description="Circular layout" displayName="Circular" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Circular"/>
+   <Command commandId="Rv1ConvertToParent" description="convert to parent" displayName="Convert To Parent" icon="Rv1ConvertToParent" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Convert To Parent"/>
+   <Command commandId="Rv1CreateGroup" description="create group command" displayName="Create Parent For Selected" icon="Rv1CreateGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Create Parent For Selected"/>
+   <Command commandId="Rv1CustomIncremental1Layout" description="Custom Incremental 1 layout" displayName="Custom Incremental 1" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Custom Incremental 1"/>
+   <Command commandId="Rv1CustomIncremental2Layout" description="Custom Incremental 2 layout" displayName="Custom Incremental 2" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Custom Incremental 2"/>
+   <Command commandId="Rv1CustomOrthogonal1Layout" description="Custom Orthogonal 1 layout" displayName="Custom Orthographic 1" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Custom Orthographic 1"/>
+   <Command commandId="Rv1CustomOrthogonal2Layout" description="Custom Orthogonal 2 layout" displayName="Left-Ortho" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Left-Ortho"/>
+   <Command commandId="Rv1DeleteGraphItems" description="delete graph items command" displayName="Delete selected graph items" icon="Rv1Trash" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Delete selected graph items"/>
+   <Command commandId="Rv1ExitEdit" description="Relation Viewer Exit Edit command" displayName="End Authoring" icon="Rv1ExitEdit" mnemonic="" requiresUserInput="true" selectionModel="Single" tooltip="End Authoring"/>
+   <Command commandId="Rv1ExpandAll" description="Relation Viewer Expand All command" displayName="Expand Relations 1 Level" icon="Rv1ExpandAllOrSelected" mnemonic="" requiresUserInput="true" selectionModel="Single" tooltip="Expand Relations 1 Level"/>
+   <Command commandId="Rv1ExpandDown" description="expand down command" displayName="Expand" icon="Rv1DownArrow" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Expand"/>
+   <Command commandId="Rv1ExpandGroup" description="expand group command" displayName="Expand" icon="Rv1DownArrow" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Expand"/>
+   <Command commandId="Rv1ExpandSelected" description="Relation Viewer Expand Selected" displayName="Expand Relations 1 Level" icon="Rv1ExpandAllOrSelected" mnemonic="" requiresUserInput="true" selectionModel="Single" tooltip="Expand Relations 1 Level"/>
+   <Command commandId="Rv1ExpandToParent" description="expand to parent command" displayName="Expand" icon="Rv1DownArrow" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Expand"/>
+   <Command commandId="Rv1ExpandUp" description="expand up command" displayName="Expand" icon="Rv1DownArrow" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Expand"/>
+   <Command commandId="Rv1HideAllChildren" description="Hide All Children" displayName="Hide All Children" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1HideAllIncomingRelations" description="Hide All Incoming Relations" displayName="Hide All Incoming Relations" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1HideAllOutgoingRelations" description="Hide All Outgoing Relations" displayName="Hide All Outgoing Relations" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1IncrementalLayout" description="The incremental layout currently is using table layout(top-to-down) with left justified configuration" displayName="Incremental" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Incremental"/>
+   <Command commandId="Rv1LeftToRightLayout" description="Left to Right layout" displayName="Left-to-Right" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Left-to-Right"/>
+   <Command commandId="Rv1OrganicLayout" description="Organic layout" displayName="Organic" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Organic"/>
+   <Command commandId="Rv1OrthogonalLayout" description="Orthogonal layout" displayName="Orthographic" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Orthographic"/>
+   <Command commandId="Rv1RBHideIncoming" description="Hide Incoming" displayName="Hide Incoming" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1RBHideOutgoing" description="Hide Outgoing" displayName="Hide Outgoing" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1RBNodeAnimation" description="Hide a node using fade animation." displayName="Hide Node Animation" icon="" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip=""/>
+   <Command commandId="Rv1RBShowIncoming" description="Show Incoming" displayName="Show Incoming" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1RBShowOutgoing" description="Show Outgoing" displayName="Show Outgoing" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1RelationsLegend" description="display the relations legend" displayName="Relation Controls" icon="Rv1RelationControlPanel" mnemonic="" requiresUserInput="true" selectionModel="Multiple" tooltip="Relation Controls"/>
+   <Command commandId="Rv1RightToLeftLayout" description="Right to Left layout" displayName="Right-to-Left" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Right-to-Left"/>
+   <Command commandId="Rv1SendBackward" description="Send selected nodes or boundaries backward" displayName="Send Backward" icon="Rv1ArrangeGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Send Backward"/>
+   <Command commandId="Rv1SendToBack" description="Send selected nodes or boundaries to back" displayName="Send to Back" icon="Rv1ArrangeGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Send to Back"/>
+   <Command commandId="Rv1ShowAllChildren" description="Show All Children" displayName="Show All Children" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowAllIncomingRelations" description="Show All Incoming Relations" displayName="Show All Incoming Relations" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowAllOutgoingRelations" description="Show All Outgoing Relations" displayName="Show All Outgoing Relations" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowIncoming1" description="Show multiple incoming relationships" displayName="Show Incoming" icon="Rv1Incoming" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowIncoming2" description="Show multiple incoming relationships" displayName="2 Levels" icon="Rv1Incoming" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowIncoming3" description="Show multiple incoming relationships" displayName="3 Levels" icon="Rv1Incoming" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowIncoming4" description="Show multiple incoming relationships" displayName="4 Levels" icon="Rv1Incoming" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowIncoming5" description="Show multiple incoming relationships" displayName="5 Levels" icon="Rv1Incoming" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowObjectRelations" description="ShowObjectRelations Command" displayName="Relations" icon="Rv1RelatedObjectsView" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Relations"/>
+   <Command commandId="Rv1ShowOutgoing1" description="Show multiple outgoing relationships" displayName="Show Outgoing" icon="Rv1Outgoing" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowOutgoing2" description="Show multiple outgoing relationships" displayName="2 Levels" icon="Rv1Outgoing" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowOutgoing3" description="Show multiple outgoing relationships" displayName="3 Levels" icon="Rv1Outgoing" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowOutgoing4" description="Show multiple outgoing relationships" displayName="4 Levels" icon="Rv1Outgoing" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1ShowOutgoing5" description="Show multiple outgoing relationships" displayName="5 Levels" icon="Rv1Outgoing" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+   <Command commandId="Rv1StartEdit" description="Relation Viewer Start Edit command" displayName="Start Authoring" icon="Rv1StartEdit" mnemonic="" requiresUserInput="true" selectionModel="Single" tooltip="Start Authoring"/>
+   <Command commandId="Rv1TableLayout" description="table layout" displayName="Table Top-to-Bottom" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Table Top-to-Bottom"/>
+   <Command commandId="Rv1ToggleChildren" description="toggle children command" displayName="Expand" icon="Rv1Child" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Expand"/>
+   <Command commandId="Rv1TopToBottomLayout" description="Top to Bottom layout" displayName="Top-to-Bottom" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Top-to-Bottom"/>
+   <Command commandId="Rv1TreeLayout" description="Tree layout" displayName="Tree" icon="Rv1LayoutGroup" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Tree"/>
+   <CommandCollection commandCollectionId="Rv1ArrangeGroup" description="It's a group of arrange command" displayName="Arrange" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1LayoutCommandGroup" description="Layout command group" displayName="LayoutCommandGroup" mnemonic="" renderingHint="aw_commandGroup"/>
+   <CommandCollection commandCollectionId="Rv1RBNodeIncomingContextMenuGroup" description="Relations Browser Incoming Context Menu Group" displayName="RB Node Incoming Context Menu" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1RBNodeOutgoingContextMenuGroup" description="Relations Browser Outgoing Context Menu Group" displayName="RB Node Outgoing Context Menu" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1ShowIncoming" description="Show multiple incoming relationships" displayName="Show Incoming Relationships" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1ShowOutgoing" description="Show multiple outgoing relationships" displayName="Show Outgoing Relationships" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1TileContextMenuGroup" description="Tile Context Menu" displayName="Tile Context Menu" mnemonic="" renderingHint=""/>
+   <CommandCollection commandCollectionId="Rv1XRT_relations" description="XRT relations" displayName="XRT_relations" mnemonic="" renderingHint="aw_commandGroup"/>
+   <ClientScope clientName="AWClient" description="XRT Relations" displayName="XRTRelations" hostingClientName="" name="Rv1XRTRelations"/>
+   <CommandAttach anchorId="Rv1ShowObjectRelations" childCommandId="Rv1RelationsLegend" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="true" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Awp0NewWorkflowProcess" childCommandId="Rv1ShowObjectRelations" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="true" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1SendToBack" childCommandId="Rv1BringForward" commandCollectionId="Rv1ArrangeGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1BringToFront" commandCollectionId="Rv1ArrangeGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1BringForward" childCommandId="Rv1SendBackward" commandCollectionId="Rv1ArrangeGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1BringToFront" childCommandId="Rv1SendToBack" commandCollectionId="Rv1ArrangeGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1BottomToTopLayout" childCommandId="Rv1BalloonLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1IncrementalLayout" childCommandId="Rv1BottomToTopLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1LeftToRightLayout" childCommandId="Rv1IncrementalLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1OrganicLayout" childCommandId="Rv1LeftToRightLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1RightToLeftLayout" childCommandId="Rv1OrganicLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1TopToBottomLayout" childCommandId="Rv1RightToLeftLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1TopToBottomLayout" commandCollectionId="Rv1LayoutCommandGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1RBHideIncoming" commandCollectionId="Rv1RBNodeIncomingContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1RBHideIncoming" childCommandId="Rv1RBShowIncoming" commandCollectionId="Rv1RBNodeIncomingContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1RBHideOutgoing" commandCollectionId="Rv1RBNodeOutgoingContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1RBHideOutgoing" childCommandId="Rv1RBShowOutgoing" commandCollectionId="Rv1RBNodeOutgoingContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1ShowIncoming1" commandCollectionId="Rv1ShowIncoming" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowIncoming1" childCommandId="Rv1ShowIncoming2" commandCollectionId="Rv1ShowIncoming" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowIncoming2" childCommandId="Rv1ShowIncoming3" commandCollectionId="Rv1ShowIncoming" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowIncoming3" childCommandId="Rv1ShowIncoming4" commandCollectionId="Rv1ShowIncoming" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowIncoming4" childCommandId="Rv1ShowIncoming5" commandCollectionId="Rv1ShowIncoming" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1ShowOutgoing1" commandCollectionId="Rv1ShowOutgoing" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowOutgoing1" childCommandId="Rv1ShowOutgoing2" commandCollectionId="Rv1ShowOutgoing" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowOutgoing2" childCommandId="Rv1ShowOutgoing3" commandCollectionId="Rv1ShowOutgoing" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowOutgoing3" childCommandId="Rv1ShowOutgoing4" commandCollectionId="Rv1ShowOutgoing" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowOutgoing4" childCommandId="Rv1ShowOutgoing5" commandCollectionId="Rv1ShowOutgoing" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowAllOutgoingRelations" childCommandId="Rv1HideAllChildren" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1HideAllChildren" childCommandId="Rv1HideAllIncomingRelations" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1HideAllIncomingRelations" childCommandId="Rv1HideAllOutgoingRelations" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1ShowAllChildren" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowAllChildren" childCommandId="Rv1ShowAllIncomingRelations" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowAllIncomingRelations" childCommandId="Rv1ShowAllOutgoingRelations" commandCollectionId="Rv1TileContextMenuGroup" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="" childCommandId="Rv1ArrangeGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1CreateGroup" childCommandId="Rv1ConvertToParent" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1DeleteGraphItems" childCommandId="Rv1CreateGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1LayoutCommandGroup" childCommandId="Rv1DeleteGraphItems" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1StartEdit" childCommandId="Rv1ExitEdit" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ExitEdit" childCommandId="Rv1ExpandAll" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ExpandAll" childCommandId="Rv1ExpandSelected" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ArrangeGroup" childCommandId="Rv1LayoutCommandGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1TileContextMenuGroup" childCommandId="Rv1RBNodeAnimation" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ExpandSelected" childCommandId="Rv1RBNodeIncomingContextMenuGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1RBNodeIncomingContextMenuGroup" childCommandId="Rv1RBNodeOutgoingContextMenuGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1ShowOutgoing" childCommandId="Rv1ShowIncoming" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1RBNodeOutgoingContextMenuGroup" childCommandId="Rv1ShowOutgoing" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandAttach anchorId="Rv1ConvertToParent" childCommandId="Rv1StartEdit" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+   <CommandAttach anchorId="Rv1ShowIncoming" childCommandId="Rv1TileContextMenuGroup" commandCollectionId="Rv1XRT_relations" isAnchorCommandCollection="true" isBeforeAnchor="false" isChildCommandCollection="true"/>
+   <CommandCollectionAttach clientScopeId="Rv1XRTRelations" commandCollectionId="Rv1XRT_relations" type="rv_relations"/>
+   <Icon description="Arrange command icon" name="Rv1ArrangeGroup"/>
+   <Icon description="Child" name="Rv1Child"/>
+   <Icon description="Convert to parent" name="Rv1ConvertToParent"/>
+   <Icon description="Create group" name="Rv1CreateGroup"/>
+   <Icon description="Down arrow" name="Rv1DownArrow"/>
+   <Icon description="Command Icon for Relation Viewer Exit Edit command" name="Rv1ExitEdit"/>
+   <Icon description="Expand all or selected" name="Rv1ExpandAllOrSelected"/>
+   <Icon description="Show incoming relationships" name="Rv1Incoming"/>
+   <Icon description="Layout group" name="Rv1LayoutGroup"/>
+   <Icon description="Show outgoing relationships" name="Rv1Outgoing"/>
+   <Icon description="Related Objects View" name="Rv1RelatedObjectsView"/>
+   <Icon description="Relation control panel" name="Rv1RelationControlPanel"/>
+   <Icon description="Command Icon for Relation Viewer Start Edit command" name="Rv1StartEdit"/>
+   <Icon description="Trash" name="Rv1Trash"/>
+</Add>
+    <Change>
+   <TcLOV description="Relation type" lovType="ListOfValuesString" name="Fnd0UiConfigCollectionRelType" usage="Exhaustive">
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Navigation command collection" value="aw_navigation"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Display command collection" value="aw_display"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace One step command collection" value="aw_oneStep"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Tools and Info command collection" value="aw_toolsAndInfo"/>
+     <TcLOVValue conditionName="isTrue" description="Active workspace Footer command collection" value="aw_footer"/>
+     <TcLOVValue conditionName="isTrue" description="Active workspace View tools command collection" value="aw_viewtools"/>
+     <TcLOVValue conditionName="isTrue" description="Relation viewer command collection" value="rv_relations"/>
+     <TcLOVValue conditionName="isTrue" description="Active workspace Global toolbar" value="aw_globalToolbar"/>
+     <TcLOVValue conditionName="isTrue" description="Active workspace XRT commands" value="aw_xrt"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Cell commands" value="aw_cell"/>
+     <TcLOVValue conditionName="isTrue" description="UI Config relation type for Context menu commands." value="aw_contextMenu"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace miscellaneous commands" value="aw_others"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Profile Commands" value="aw_profile"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Object Set Commands" value="aw_objectSet"/>
+     <TcLOVValue conditionName="isTrue" description="Active Workspace Table Commands" value="aw_table"/>
+   </TcLOV>
+</Change>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="12.0_5" displayName="Relationship Viewer" enableOpsDataDeploy="false" guid="75316003BA5162EFA94C6C205E068586" isDescriptionMandatory="true" name="relationshipviewer" optional="true" prefixes="Rv1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+</TcBusinessDataIncludes>
