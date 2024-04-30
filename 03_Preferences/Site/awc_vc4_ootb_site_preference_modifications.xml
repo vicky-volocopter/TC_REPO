@@ -5,6 +5,7 @@
     <preference name="AWV02DViewerRenderOption" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
       <preference_description>Determines which rendering technology should be used in Active Workspace 2D viewer.
 The valid values are:
+        Test modification
 CSR: Client Side Rendering technology will be used while displaying 2D tab in Active Workspace.
 SSR: Server Side Rendering technology will be used while displaying 2D tab in Active Workspace. This is default value.</preference_description>
       <context name="Teamcenter">
