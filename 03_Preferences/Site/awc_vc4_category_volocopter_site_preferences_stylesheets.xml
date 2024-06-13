@@ -8,12 +8,6 @@
 				<value>AWC_VC4HardwarePart</value>
 			</context>
 		</preference>
-		<preference name="AWC_VC4_HardwarePartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
-			<preference_description>Registering info summary for HP revision.</preference_description>
-			<context name="Teamcenter">
-				<value>AWC_VC4HardwarePartRevInfoSummary</value>
-			</context>
-		</preference>
 		<preference name="AWC_VC4_HardwarePartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
 			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
 			<context name="Teamcenter">
