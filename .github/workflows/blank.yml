@@ -10,11 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: DEV_MAIN
       - name: Reset QA branch
         run: |
-          git fetch origin DEV_MAIN:DEV_MAIN
-          git reset --hard DEV_MAIN
+          git fetch origin DEV_MAIN:TC_QA
+          git reset --hard TC_QA
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
