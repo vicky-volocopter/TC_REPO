@@ -6,7 +6,7 @@
 			<preference_description>Activates the visibility of the &quot;Audit Log&quot; tab in Active Workspace.
 By default, this is &quot;true&quot; for members of the &quot;dba&quot; group.</preference_description>
 			<context name="Teamcenter">
-				<value>true</value>
+				<value>false</value>
 			</context>
 		</preference>
 		<preference name="AWC_DefaultCreateTypes" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
